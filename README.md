@@ -8,3 +8,11 @@ Any other code used by this game is licensed under The MIT License. Any other fi
 
 - The MIT License: http://opensource.org/licenses/MIT
 - CC BY-NC-ND 3.0 License: https://creativecommons.org/licenses/by-nc-nd/3.0/legalcode
+
+##Staff
+The following is a list of the staff members of the team developing Ganbatte:
+
+- ExcaliburZero - Coder
+- Sabre-Hecate - Writer
+- juanitaylor - Artist
+- ChocoTacoKitty - Artist
