@@ -1,5 +1,5 @@
 # Ganbatte
-A dating sim game.
+A visual novel, dating sim game that follows the story of Haruki's summer in Maura after he graduates high school. It was created usung the visual novel engine Ren'Py. It is compatable with Windows, Mac, and Linux.
 
 ## Licensing
 Any files for this game created by the Ren'Py program are liscensed as defined at: http://www.renpy.org/wiki/renpy/License
