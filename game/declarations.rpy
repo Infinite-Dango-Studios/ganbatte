@@ -28,6 +28,10 @@ label run_declarations:
     define haruki = Character('Haruki', color="#00FF7F")
     define kosuke = Character('Kosuke', color="#40E0D0")
     define misaki = Character('Misaki', color="#EE82EE", callback=heart_misaki)
+    define riku = Character('Riku', color="#5F9EA0")
+    define sora = Character('Sora', color="#5F9EA0")
+    define megumi = Character('Megumi', color="#5F9EA0")
+    define yuta = Character('Yuta', color="#5F9EA0")
     define msKasai = Character('Ms. Kasai', color="#5F9EA0")
     define mrKasai = Character('Mr. Kasai', color="#5F9EA0")
     
