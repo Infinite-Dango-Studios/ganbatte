@@ -6,3 +6,4 @@
 /game/saves/*
 /game/bytecode.rpyb
 *.rpyc
+*.rpy.bak
