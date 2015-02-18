@@ -56,11 +56,105 @@ label start:
 
     menu:
         "W-where’s this coming from?":
-            call introWhere
+            jump introWhere
         "NO! NEVER! WHY WOULD YOU EVEN...?":
-            call introNo
+            jump introNo
         "T-this is all very sudden...but...I’d be willing to try...":
-            call introWilling
+            jump introWilling
+
+    return
+
+#Scene where Haruki answers "W-where’s this coming from?"
+label introWhere:
+
+    #Character points
+    $ kosuke_points += 1
+    $ misaki_points += 1
+
+    kosuke "Geez, you’re turning pretty red!"
+
+    "I feel a blush beginning to burn on my cheeks, and I know that he is telling the truth."
+
+    haruki "W-well, I, um, I mean!"
+
+    kosuke "Wow, you’re really flustered...You’re worse than me with girls!"
+
+    misaki "Says the man who almost wet himself the last time he talked to a cute girl. My brother the charming lady’s man!"
+
+    "Misaki’s laughing now, but Kosuke looks like he wants to evaporate like a water droplet on hot pavement."
+
+    haruki "You still do that?"
+
+    #show kosuke embarrassed
+
+    kosuke "N-no!"
+
+    #show misaki smirk
+
+    misaki "Yes he does~! I have to take all the female customers at the café."
+
+    jump kasaiHouse
+
+    return
+
+#Scene where Haruki answers "NO! NEVER! WHY WOULD YOU EVEN...?"
+label introNo:
+
+    #Character points
+    $ misaki_points -= 1
+
+    #show misaki angry
+
+    misaki "NO? NEVER? WHAT THE HELL!?!"
+
+    haruki "N-no...! I didn’t mean it like that, I meant..."
+
+    #sound slap
+
+    misaki "That was really rude, Haruki-kun."
+
+    kosuke "Wow sis, you’re pretty offended...."
+
+    haruki "I’m so sorry!"
+
+    "I bow, although she still seems upset."
+
+    misaki "Whatever."
+
+    jump kasaiHouse
+
+    return
+
+#Scene where Haruki answers "T-this is all very sudden...but...I’d be willing to try..."
+label introWilling:
+
+    #Character points
+    $ misaki_points += 1
+
+    #show kosuke surprised
+
+    kosuke "WHAT!?!!"
+
+    #show misaki embarrassed
+
+    misaki "I-IDIOT!"
+
+    "And then, she said quieter"
+
+    misaki "Did you really mean it?"
+
+    haruki "Well, I, uh, I mean..."
+
+    "I fumble for words, unsure what I should say. Luckily, Kosuke intervenes."
+
+    kosuke "It was a joke! But I guess it wasn’t very funny..."
+
+    jump kasaiHouse
+
+    return
+
+#Scene where Haruki goes to the Kasai house
+label kasaiHouse:
 
     "A long moment of silence fell between the three of us before Kosuke speaks up again."
 
@@ -397,96 +491,14 @@ label start:
 
     menu:
         "I think it would be fun to hang out with you, Misaki-chan!":
-            call misakaRoom
+            jump misakaRoom
         "I think I’d like to play more video games with Kosuke-kun!":
-            call kosukeRoom
+            jump kosukeRoom
         "Actually, I’m kinda tired. And tomorrow’s going to be busy. I’m just going to go to bed.":
-            call harukiRoom
+            jump harukiRoom
 
     return
 
-#Scene where Haruki answers "W-where’s this coming from?"
-label introWhere:
-
-    #Character points
-    $ kosuke_points += 1
-    $ misaki_points += 1
-
-    kosuke "Geez, you’re turning pretty red!"
-
-    "I feel a blush beginning to burn on my cheeks, and I know that he is telling the truth."
-
-    haruki "W-well, I, um, I mean!"
-
-    kosuke "Wow, you’re really flustered...You’re worse than me with girls!"
-
-    misaki "Says the man who almost wet himself the last time he talked to a cute girl. My brother the charming lady’s man!"
-
-    "Misaki’s laughing now, but Kosuke looks like he wants to evaporate like a water droplet on hot pavement."
-
-    haruki "You still do that?"
-
-    #show kosuke embarrassed
-
-    kosuke "N-no!"
-
-    #show misaki smirk
-
-    misaki "Yes he does~! I have to take all the female customers at the café."
-
-    return
-
-#Scene where Haruki answers "NO! NEVER! WHY WOULD YOU EVEN...?"
-label introNo:
-
-    #Character points
-    $ misaki_points -= 1
-
-    #show misaki angry
-
-    misaki "NO? NEVER? WHAT THE HELL!?!"
-
-    haruki "N-no...! I didn’t mean it like that, I meant..."
-
-    #sound slap
-
-    misaki "That was really rude, Haruki-kun."
-
-    kosuke "Wow sis, you’re pretty offended...."
-
-    haruki "I’m so sorry!"
-
-    "I bow, although she still seems upset."
-
-    misaki "Whatever."
-
-    return
-
-#Scene where Haruki answers "T-this is all very sudden...but...I’d be willing to try..."
-label introWilling:
-
-    #Character points
-    $ misaki_points += 1
-
-    #show kosuke surprised
-
-    kosuke "WHAT!?!!"
-
-    #show misaki embarrassed
-
-    misaki "I-IDIOT!"
-
-    "And then, she said quieter"
-
-    misaki "Did you really mean it?"
-
-    haruki "Well, I, uh, I mean..."
-
-    "I fumble for words, unsure what I should say. Luckily, Kosuke intervenes."
-
-    kosuke "It was a joke! But I guess it wasn’t very funny..."
-
-    return
 
 #Scene where Haruki answers "I think it would be fun to hang out with you, Misaki-chan!"
 label misakaRoom:
@@ -709,6 +721,8 @@ label misakaRoom:
 
     "In my room, I place my newly acquired books on the bedside table. I yawn, and decide that it is too late to start the series tonight. Turning off the light, I climb into bed and fall asleep."
 
+    jump dayTwo
+
     return
 
 #Scene where Haruki answers "I think I’d like to play more video games with Kosuke-kun!"
@@ -906,6 +920,8 @@ label kosukeRoom:
 
     "I yawn yet again. Turning off the light, I fall asleep the second my head hits the pillow."
 
+    jump dayTwo
+
     return
 
 #Scene where Haruki answers "Actually, I’m kinda tired. And tomorrow’s going to be busy. I’m just going to go to bed."
@@ -1016,5 +1032,15 @@ label harukiRoom:
 
     window hide
     nvl clear
+
+    jump dayTwo
+
+    return
+
+label dayTwo:
+
+    #screen darkness
+
+    kosuke "Haruki-kun~!!!!"
 
     return
