@@ -8,6 +8,22 @@ label run_declarations:
     # Character heart meters
     init python:
         heart_pos = Position(xpos=0.1375, ypos=0.795)
+
+        # Kosuke
+        kosuke_points = 0
+    
+        def heart_kosuke(event, interact=True, **kwargs):
+            if not interact:
+                return
+
+            #Display heart image dependant on the character's heart level
+            # Only show Kosuke's heart meter if it is high enough
+            if event == "begin":
+                if kosuke_points < 2:
+                    #Do nothing
+                    return
+                elif kosuke_points < 3:
+                    renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
     
         # Misaki
         misaki_points = 0
@@ -27,7 +43,7 @@ label run_declarations:
     
     # Character declarations
     define haruki = Character('Haruki', color="#00FF7F")
-    define kosuke = Character('Kosuke', color="#40E0D0")
+    define kosuke = Character('Kosuke', color="#40E0D0", callback=heart_kosuke)
     define misaki = Character('Misaki', color="#EE82EE", callback=heart_misaki)
     define riku = Character('Riku', color="#5F9EA0")
     define sora = Character('Sora', color="#5F9EA0")
