@@ -408,6 +408,10 @@ label start:
 #Scene where Haruki answers "W-where’s this coming from?"
 label introWhere:
 
+    #Character points
+    $ kosuke_points += 1
+    $ misaki_points += 1
+
     kosuke "Geez, you’re turning pretty red!"
 
     "I feel a blush beginning to burn on my cheeks, and I know that he is telling the truth."
@@ -435,6 +439,9 @@ label introWhere:
 #Scene where Haruki answers "NO! NEVER! WHY WOULD YOU EVEN...?"
 label introNo:
 
+    #Character points
+    $ misaki_points -= 1
+
     #show misaki angry
 
     misaki "NO? NEVER? WHAT THE HELL!?!"
@@ -458,6 +465,9 @@ label introNo:
 #Scene where Haruki answers "T-this is all very sudden...but...I’d be willing to try..."
 label introWilling:
 
+    #Character points
+    $ misaki_points += 1
+
     #show kosuke surprised
 
     kosuke "WHAT!?!!"
@@ -467,8 +477,6 @@ label introWilling:
     misaki "I-IDIOT!"
 
     "And then, she said quieter"
-
-    $ misaki_points += 1
 
     misaki "Did you really mean it?"
 
@@ -482,6 +490,9 @@ label introWilling:
 
 #Scene where Haruki answers "I think it would be fun to hang out with you, Misaki-chan!"
 label misakaRoom:
+
+    #Character points
+    $ misaki_points += 1
 
     #show kosuke normal
     #show misaki normal
@@ -676,8 +687,6 @@ label misakaRoom:
 
     "She smiles slightly, and exits the room with a polite nod."
 
-    $ misaki_points += 1
-
     #show misaki embarrassed
 
     misaki "HOW DID YOU LET IT GET SO LATE, IDIOT?"
@@ -704,6 +713,9 @@ label misakaRoom:
 
 #Scene where Haruki answers "I think I’d like to play more video games with Kosuke-kun!"
 label kosukeRoom:
+
+    #Character points
+    $ kosuke_points += 1
 
     #show misaki angry
 
@@ -828,11 +840,181 @@ label kosukeRoom:
 
     "We play DDR for hours, until we are both out of breath and sweating through our clothes. Kosuke makes me play Suki Melo over twenty times in a row until I finally sang along. By the end, we are both dancing around and acting like pop stars, screaming lyrics in falsetto at the top of our lungs. When Kosuke finally turns off the console, I collapse on his floor."
 
+    #show kosuke tired
+
+    kosuke "Wow...we sure played for a long time..."
+
+    #sound yawn
+
+    haruki "Yeah…I’m out of breath and pretty tired…"
+
+    "I glance over at Kosuke’s digital clock. It reads 12:30 AM. How did it get so late!?!"
+
+    kosuke "Wow…Haru-chan, is that the time!?! We should really go to bed, we have to get up early for work tomorrow…"
+
+    "I stand up, yawning."
+
+    haruki "Thanks again for helping me get this job!"
+
+    #show kosuke happy
+
+    kosuke "Yeah, anything for you Haru-chan~! I really, really want to work with you, so it’s not like I’m not getting anything out of it!"
+
+    "He gently punches me in the arm, and I laugh. Then I yawn again. I’m so tired that I can barely stand, and I feel my center of balance shifting ever so slightly from side to side."
+
+    haruki "Goodnight, Kosuke!"
+
+    kosuke "Goodnight, Haru-chan~!"
+
+    "He pauses before adding"
+
+    kosuke "Hey, thanks for choosing me over Misaki tonight…"
+
+    "This addition surprises me. I know that he and Misaki have some sort of sibling rivalry over me, but it sounds like he would have been legitimately hurt if I had chosen Misaki over him. However, all I can manage in response is"
+
+    kosuke "Huh?"
+
+    #show kosuke embarrassed
+
+    kosuke "Oh, no, it’s nothing. Night, Haru-chan."
+
+    "He waves off my inquiry with a dismissive wave of his hand and suddenly I get the overbearing feeling that I have just missed my chance to hear something important."
+
+    #hide kosuke
+    #show hallway
+
+    "Giving a warm smile which Kosuke returns, I leave his room. I look back at Misaki’s room, hoping to say a quick goodnight to her before going to bed, but I find her room to be dark. She must be asleep already."
+
+    #show haruki's room
+
+    "Returning to my room, I find a stack of Fruits Basket manga on my bedside table. There’s a handwritten note attached to the top book in the stack and I pull it off."
+
+    window show
+
+    h "Hey, Haruki-kun, I know you haven’t read this before. Remember when we used to play fruits basket in elementary school? It was a lot of fun."
+
+    h "Sorry that I couldn’t spend time with you tonight, but I figured that you would like this."
+
+    h "See you bright and early tomorrow~!"
+
+    h "~Misaki"
+
+    window hide
+    nvl clear
+
+    "I guess Misaki left these here for me to read. I’ve been wanting to read this series, I wonder how she knew."
+
+    "I yawn yet again. Turning off the light, I fall asleep the second my head hits the pillow."
+
     return
 
 #Scene where Haruki answers "Actually, I’m kinda tired. And tomorrow’s going to be busy. I’m just going to go to bed."
 label harukiRoom:
 
+    #show misaki horrified
 
+    misaki "WHAT!?!"
+
+    #show kosuke horrified
+
+    kosuke "Are…are you serious!?!"
+
+    "They both seem pretty upset. I had planned to upset neither of them with this neutral response. I guess that kinda backfired."
+
+    haruki "Uh…yeah…I’m tired and I’m going to start working tomorrow…"
+
+    kosuke "Aww, but it’s still early…"
+
+    misaki "Yeah…you promised to hang out with us..."
+
+    kosuke "The café isn’t even hard work. You can get by on maybe two hours of sleep, three tops!"
+
+    "I feel pretty awkward now. I had hoped it would be an easy out. I guess I did not think through this very well."
+
+    haruki "Well, I mean…I was travelling all day. I’m just, tired, that’s all. I promise I’ll spend time with you guys tomorrow, it’s just that…"
+
+    "I trail off, I do not really have anything else to say to validate my choice. Now I feel a blush creeping its way onto my cheeks, and the tips of my ears feel hot."
+
+    #hide misaki
+    #hide kosuke
+
+    #show mrKasai normal
+    #show msKasai normal
+
+    msKasai "It’s perfectly fine, Haru-chan!"
+
+    mrKasai "It’s perfectly natural to get tired after extended traveling."
+
+    msKasai "You shouldn’t feel guilty for needing sleep, Haru-chan, Kosuke and Misaki can wait until tomorrow to catch up with you."
+
+    mrKasai "It’s admirable that you want to be well-rested to make a good impression on Riku-san tomorrow."
+
+    haruki "Thank you, Mr. Kasai…"
+
+    #show mrKasai happy
+
+    mrKasai "Of course. Goodnight!"
+
+    msKasai "Goodnight, Haru-chan!"
+
+    haruki "Goodnight."
+
+    #hide mrKasai
+    #hide msKasai
+
+    #show misaki upset
+    #show kosuke upset
+
+    kosuke "Sorry about making you feel bad…but we have to hang out tomorrow, OK?"
+
+    haruki "Haha, it’s a deal!"
+
+    #show misaki smirk
+
+    misaki "Not if I get to him first tomorrow!"
+
+    haruki "I’ll see you two in the morning~!"
+
+    "I smile and wave as I walk away back to my room, and they wave back and exchange a competitive glare with each other."
+
+    #hide kosuke
+    #hide misaki
+
+    #scene haruki's room
+
+    window show
+
+    h "Admittedly, I had lied about being tired."
+
+    h "I just really did not want to choose between them."
+
+    h "I look over at my bed. I don’t feel even remotely interested in sleeping just yet. The sun still paints the sky violet outside my window, it isn’t even fully dark yet."
+
+    h "I turn off my light; I need to give at least the illusion that I am sleeping."
+
+    h "Moving silently over to my desk, I grab my gaming device and my headphones. Putting the headphones on my ears I move over to my bed and get under the covers."
+
+    h "I silently laugh at myself, I am like a child staying up past their bedtime and trying to hide it from their parents."
+
+    nvl clear
+
+    h "I don’t know how much time elapses while I play video games."
+
+    h "I once again complete the story mode of Kid Icarus Uprising before playing at least an hour of Light vs. Dark wifi battles."
+
+    #show haruki's room night
+
+    h "When I finally emerge from the covers, it is pitch black out my window."
+
+    h "I take off my headphones and listen. The house is silent, everyone else must be asleep."
+
+    h "I yawn. I guess I’m starting to get tired too. I check the clock on my handheld and it reads 1:01 AM. So much for going to bed early."
+
+    h "Turning off my handheld and silently returning it to its place on my desk, I return to my bed."
+
+    h "It takes me a few minutes to fall asleep, but then I am out cold. "
+
+    window hide
+    nvl clear
 
     return
