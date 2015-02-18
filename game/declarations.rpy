@@ -1,9 +1,9 @@
 label run_declarations:
     # Declare images below this line, using the image statement.
     # eg. image eileen happy = "eileen_happy.png"
-    image heart grey = "images/heart_grey.png"
-    image heart blue = "images/heart_blue.png"
-    image heart purple = "images/heart_purple.png"
+    image heart one = "images/heart_grey.png"
+    image heart two = "images/heart_blue.png"
+    image heart three = "images/heart_purple.png"
     
     # Character heart meters
     init python:
@@ -15,14 +15,15 @@ label run_declarations:
         def heart_misaki(event, interact=True, **kwargs):
             if not interact:
                 return
-    
+
+            #Display heart image dependant on the character's heart level
             if event == "begin":
                 if misaki_points < 1:
-                    renpy.show(name="heart grey", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart one", layer="overlay", at_list=[heart_pos])
                 elif misaki_points < 2:
-                    renpy.show(name="heart blue", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart two", layer="overlay", at_list=[heart_pos])
                 elif misaki_points < 3:
-                    renpy.show(name="heart purple", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
     
     # Character declarations
     define haruki = Character('Haruki', color="#00FF7F")
