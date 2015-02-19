@@ -367,7 +367,7 @@ label kasaiHouse:
 
     haruki "Do you suppose dinner is ready yet?"
 
-    kosuke "Probably not. We didn’t take very long to unpack…Want to go to my room to play some video games while we wait?"
+    kosuke "Probably not. We didn’t take very long to unpack...Want to go to my room to play some video games while we wait?"
 
     haruki "Sure!"
 
@@ -411,7 +411,7 @@ label kasaiHouse:
 
     "I smile awkwardly. Are they fighting over me? Living here is certainly going to be interesting."
 
-    haruki "Um….I’m kinda hungry, maybe we can just have dinner? I can decide what I want to do later."
+    haruki "Um....I’m kinda hungry, maybe we can just have dinner? I can decide what I want to do later."
 
     "They seem to remember that I’m there, and they both blush."
 
@@ -436,7 +436,7 @@ label kasaiHouse:
 
     "I sit silently for a few moments, taking another bite of Chirashizushi. I realize now just how poorly planned this trip is. I guess I just decided to come to Maura to see Kosuke and Misaki. But now the question’s been asked and he’s waiting for a response. If I don’t speak up now, he could kick me out! It could ruin the entire trip. Possibly."
 
-    haruki "Um….I guess I want to meet some interesting people? And I should probably get a job."
+    haruki "Um....I guess I want to meet some interesting people? And I should probably get a job."
 
     msKasai "Do you have any ideas for employment?"
 
@@ -457,13 +457,13 @@ label kasaiHouse:
 
     kosuke "I never told you, Haruki-kun? Misaki and I work at a little café in town. The coworkers are all pretty great. You’ll love Kokona-chan, she’s super sweet. The customers are all really interesting too. Plus, our boss, Riku-san is totally cool. He’ll probably hire you without too much convincing."
 
-    haruki "Ehh, I don’t know…"
+    haruki "Ehh, I don’t know..."
 
     "It sounds like a good job, to be honest. It sounds like I’ll meet some interesting people, and I’ll be able to get the job without much of a struggle. That’s always a bonus. And yet, at the same time, I’ve never really pictured myself working at a café. It doesn’t really seem like my sort of thing."
 
     #show kosuke upset
 
-    kosuke "Aww, C’mon! It could be a lot of fun…"
+    kosuke "Aww, C’mon! It could be a lot of fun..."
 
     #show misaki smirk
 
@@ -471,7 +471,7 @@ label kasaiHouse:
 
     "I feel a deep blush erupt on my cheeks, and I try not to look Misaki directly in the eye. I see Mr. and Ms. Kasai looking back and forth between me and Misaki, and I can tell that they are reconsidering allowing us to sleep in the same house."
 
-    haruki "Haha, well…when you put it like that!"
+    haruki "Haha, well...when you put it like that!"
 
     #show kosuke beaming
 
@@ -742,7 +742,7 @@ label kosukeRoom:
 
     kosuke "Wow, Misaki-chan’s pretty crazy, right? I wasn’t kidding about those diary entries and pictures you know~!"
 
-    haruki "Err…right."
+    haruki "Err...right."
 
     #show kosuke happy
 
@@ -764,7 +764,7 @@ label kosukeRoom:
 
     kosuke "What do you want to play?"
 
-    haruki "Hmmm, not sure…"
+    haruki "Hmmm, not sure..."
 
     #show kosuke fakeserious
 
@@ -778,7 +778,7 @@ label kosukeRoom:
 
     "He looks through his game shelf, pulling out several cases and putting them back. He continues silently in this way for several minutes before finally speaking up."
 
-    kosuke "OK, HARUCHAN! I HAVE THE GAME FOR US! WE’RE GOING TO PLAY…DANCE. DANCE. REVOLUTION. X!!!!"
+    kosuke "OK, HARUCHAN! I HAVE THE GAME FOR US! WE’RE GOING TO PLAY...DANCE. DANCE. REVOLUTION. X!!!!"
 
     "He pulls the game off his shelf with a flourishing gesture, and shoves it in my face."
 
@@ -790,11 +790,11 @@ label kosukeRoom:
 
     kosuke "YOU CAN DO BETTER THAN THAT, HARUCHAN!"
 
-    haruki "I’m…trying! This song is fast, I haven’t played in forever!"
+    haruki "I’m...trying! This song is fast, I haven’t played in forever!"
 
     kosuke "Yeah, but if I totally beat you it’s not as fun as if it’s super close! Plus you aren’t even singing along!"
 
-    haruki "I’m….TRYING~!"
+    haruki "I’m....TRYING~!"
 
     #wait a few seconds
 
@@ -830,7 +830,7 @@ label kosukeRoom:
 
     kosuke "You still lost that round."
 
-    haruki "Yeah, well…IT WAS A LOT CLOSER THAT TIME!"
+    haruki "Yeah, well...IT WAS A LOT CLOSER THAT TIME!"
 
     #show kosuke smile???
 
@@ -856,11 +856,11 @@ label kosukeRoom:
 
     #sound yawn
 
-    haruki "Yeah…I’m out of breath and pretty tired…"
+    haruki "Yeah...I’m out of breath and pretty tired..."
 
     "I glance over at Kosuke’s digital clock. It reads 12:30 AM. How did it get so late!?!"
 
-    kosuke "Wow…Haru-chan, is that the time!?! We should really go to bed, we have to get up early for work tomorrow…"
+    kosuke "Wow...Haru-chan, is that the time!?! We should really go to bed, we have to get up early for work tomorrow..."
 
     "I stand up, yawning."
 
@@ -878,7 +878,7 @@ label kosukeRoom:
 
     "He pauses before adding"
 
-    kosuke "Hey, thanks for choosing me over Misaki tonight…"
+    kosuke "Hey, thanks for choosing me over Misaki tonight..."
 
     "This addition surprises me. I know that he and Misaki have some sort of sibling rivalry over me, but it sounds like he would have been legitimately hurt if I had chosen Misaki over him. However, all I can manage in response is"
 
@@ -929,21 +929,21 @@ label harukiRoom:
 
     #show kosuke horrified
 
-    kosuke "Are…are you serious!?!"
+    kosuke "Are...are you serious!?!"
 
     "They both seem pretty upset. I had planned to upset neither of them with this neutral response. I guess that kinda backfired."
 
-    haruki "Uh…yeah…I’m tired and I’m going to start working tomorrow…"
+    haruki "Uh...yeah...I’m tired and I’m going to start working tomorrow..."
 
-    kosuke "Aww, but it’s still early…"
+    kosuke "Aww, but it’s still early..."
 
-    misaki "Yeah…you promised to hang out with us..."
+    misaki "Yeah...you promised to hang out with us..."
 
     kosuke "The café isn’t even hard work. You can get by on maybe two hours of sleep, three tops!"
 
     "I feel pretty awkward now. I had hoped it would be an easy out. I guess I did not think through this very well."
 
-    haruki "Well, I mean…I was travelling all day. I’m just, tired, that’s all. I promise I’ll spend time with you guys tomorrow, it’s just that…"
+    haruki "Well, I mean...I was travelling all day. I’m just, tired, that’s all. I promise I’ll spend time with you guys tomorrow, it’s just that..."
 
     "I trail off, I do not really have anything else to say to validate my choice. Now I feel a blush creeping its way onto my cheeks, and the tips of my ears feel hot."
 
@@ -961,7 +961,7 @@ label harukiRoom:
 
     mrKasai "It’s admirable that you want to be well-rested to make a good impression on Riku-san tomorrow."
 
-    haruki "Thank you, Mr. Kasai…"
+    haruki "Thank you, Mr. Kasai..."
 
     #show mrKasai happy
 
@@ -977,7 +977,7 @@ label harukiRoom:
     #show misaki upset
     #show kosuke upset
 
-    kosuke "Sorry about making you feel bad…but we have to hang out tomorrow, OK?"
+    kosuke "Sorry about making you feel bad...but we have to hang out tomorrow, OK?"
 
     haruki "Haha, it’s a deal!"
 
