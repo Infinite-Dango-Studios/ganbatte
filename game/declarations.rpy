@@ -24,9 +24,9 @@ label run_declarations:
     image bg cafe closet = "images/backgrounds/dummy.png"
 
     #Misc images
-    image heart one = "images/heart_grey.png"
-    image heart two = "images/heart_blue.png"
-    image heart three = "images/heart_purple.png"
+    image heart one = "images/misc/heart_grey.png"
+    image heart two = "images/misc/heart_blue.png"
+    image heart three = "images/misc/heart_purple.png"
     
     # Character heart meters
     init python:
