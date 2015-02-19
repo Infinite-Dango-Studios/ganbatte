@@ -625,13 +625,13 @@ label misakaRoom:
 
     misaki "TOTALLY! We could probably get Riku-senpai and Kokona-chan from work to play! Ooh, and Sora-kun and Yuta-kun and Megumi-chan!"
 
-    "I recognize many of the names from elementary school."
+    "I don’t recognize these names, but I suppose that they are more of my future coworkers."
 
-    haruki "The same ones who went to our school? They all work there?"
+    haruki "Sora, Yuta and Megumi? Do they all work at the cafe?"
 
-    misaki "Yup! They sure do! Riku-senpai went there too, but you probably don’t remember him because he was three years ahead of us."
+    misaki "Yup! They sure do! And I’m certain that they would play fruits basket with us!"
 
-    haruki "Yeah..."
+    haruki "Yeah!"
 
     "I’ve grown tired of carrying all these books, they’re getting heavy."
 
