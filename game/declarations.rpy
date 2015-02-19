@@ -1,6 +1,29 @@
 label run_declarations:
-    # Declare images below this line, using the image statement.
-    # eg. image eileen happy = "eileen_happy.png"
+    # Images
+
+    #Character images
+
+    #Background images
+    image bg darkness = "images/backgrounds/darkness.png"
+    image bg field = "images/backgrounds/dummy.png"
+
+    image bg kasai house outside = "images/backgrounds/dummy.png"
+    image bg kasai house inside = "images/backgrounds/dummy.png"
+    image bg kasai house hallway = "images/backgrounds/dummy.png"
+    image bg kasai house hallway night = "images/backgrounds/dummy.png"
+    image bg misaki room = "images/backgrounds/dummy.png"
+    image bg misaki room night = "images/backgrounds/dummy.png"
+    image bg kosuke room = "images/backgrounds/dummy.png"
+    image bg kosuke room night = "images/backgrounds/dummy.png"
+    image bg haruki room = "images/backgrounds/dummy.png"
+    image bg haruki room night = "images/backgrounds/dummy.png"
+
+    image bg commercialCenter = "images/backgrounds/dummy.png"
+    image bg cafe outside = "images/backgrounds/dummy.png"
+    image bg cafe inside = "images/backgrounds/dummy.png"
+    image bg cafe closet = "images/backgrounds/dummy.png"
+
+    #Misc images
     image heart one = "images/heart_grey.png"
     image heart two = "images/heart_blue.png"
     image heart three = "images/heart_purple.png"

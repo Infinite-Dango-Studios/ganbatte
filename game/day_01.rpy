@@ -1,5 +1,7 @@
 label dayOne:
 
+    scene bg darkness
+
     window show
 
     h "I’ll never forget that summer."
@@ -16,7 +18,7 @@ label dayOne:
 
     h "I needed a change of pace before moving on to college and the next stage of my life, and they were happy to provide it."
 
-    #scene field
+    scene bg field
 
     h "It was sunny the day that I arrived, and the sun felt warm on my face. As the warm summer breeze enveloped me, I could already tell that this trip would be exactly what I need."
 
@@ -222,7 +224,7 @@ label kasaiHouse:
 
     h "I smile slightly and I walk with the breeze at my back, this summer is already turning out better than expected."
 
-    #scene kasai house outside
+    scene bg kasai house outside
 
     h "Kosuke and Misaki live in a cluster of houses a short walk from Maura’s main commercial center."
 
@@ -235,7 +237,7 @@ label kasaiHouse:
     window hide
     nvl clear
 
-    #show kasai house inside
+    scene bg kasai house inside
     #show kosuke normal
     #show misaki normal
 
@@ -318,7 +320,7 @@ label kasaiHouse:
     #hide kosuke
     #hide msKasai
 
-    #show hallway
+    scene bg kasai house hallway
 
     window show
 
@@ -372,7 +374,7 @@ label kasaiHouse:
     haruki "Sure!"
 
     #hide kosuke
-    #scene kasai house inside
+    scene bg kasai house inside
     #show misaki happy
 
     misaki "Dinner time, Haruki-kun~!!!!"
@@ -519,7 +521,7 @@ label misakaRoom:
 
     #hide kosuke
     #hide misaki
-    #scene misaki's room
+    scene bg misaki room
 
     h "Her room is nice, if a little messy. It’s a lot like my room, although more personalized. Her bed is covered in bright purple sheets, and a little stuffed turtle sits atop them. Pictures cover her walls, mostly of her, Kosuke and her parents. A few pictures depict me and Misaki and a few others are just me."
 
@@ -669,6 +671,8 @@ label misakaRoom:
 
     h "She takes Finny, I take Meyrin and Baldo. She gets Madam Red and Lau, I get Grell. In the end, it’s a lot of fun."
 
+    scene bg misaki room night
+
     h "Soon, it is pitch black outside her window."
 
     h "I am reading for the Undertaker when a knock on the door silences my speech."
@@ -709,11 +713,11 @@ label misakaRoom:
     #hide msKasai
     #sound door close
 
-    #scene hallway
+    scene bg kasai house hallway night
 
     "When I pass Kosuke’s room on the way back to my own, it is dark. I’d planned to say hello to him, but it appears that he is already asleep."
 
-    #scene haruki's room
+    scene bg haruki room night
 
     "In my room, I place my newly acquired books on the bedside table. I yawn, and decide that it is too late to start the series tonight. Turning off the light, I climb into bed and fall asleep."
 
@@ -760,7 +764,7 @@ label kosukeRoom:
 
     "Shaking out of my pensive daze, I follow after him. We return to his room, and he walks over to his game shelf."
 
-    #scene kosuke's room
+    scene bg kosuke room
 
     kosuke "What do you want to play?"
 
@@ -846,7 +850,7 @@ label kosukeRoom:
 
     #sound musicSounds
 
-    #scene kosuke's room night
+    scene bg kosuke room night
 
     "We play DDR for hours, until we are both out of breath and sweating through our clothes. Kosuke makes me play Suki Melo over twenty times in a row until I finally sang along. By the end, we are both dancing around and acting like pop stars, screaming lyrics in falsetto at the top of our lungs. When Kosuke finally turns off the console, I collapse on his floor."
 
@@ -895,7 +899,7 @@ label kosukeRoom:
 
     "Giving a warm smile which Kosuke returns, I leave his room. I look back at Misaki’s room, hoping to say a quick goodnight to her before going to bed, but I find her room to be dark. She must be asleep already."
 
-    #show haruki's room
+    scene bg haruki room
 
     "Returning to my room, I find a stack of Fruits Basket manga on my bedside table. There’s a handwritten note attached to the top book in the stack and I pull it off."
 
@@ -992,7 +996,7 @@ label harukiRoom:
     #hide kosuke
     #hide misaki
 
-    #scene haruki's room
+    scene bg haruki room
 
     window show
 
@@ -1014,7 +1018,7 @@ label harukiRoom:
 
     h "I once again complete the story mode of Kid Icarus Uprising before playing at least an hour of Light vs. Dark wifi battles."
 
-    #show haruki's room night
+    scene bg haruki room night
 
     h "When I finally emerge from the covers, it is pitch black out my window."
 

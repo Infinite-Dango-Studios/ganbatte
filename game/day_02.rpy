@@ -1,6 +1,6 @@
 label dayTwo:
 
-    #screen darkness
+    scene bg darkness
 
     kosuke "Haruki-kun~!!!!"
 
@@ -30,7 +30,7 @@ label dayTwo:
 
     "I am fully conscious now, and I’ve decided that this has gone far enough."
 
-    #scene haruki's room
+    scene bg haruki room
     #show kosuke uniform
     #show misaki uniform
 
@@ -92,7 +92,7 @@ label dayTwo:
 
     "I quickly open the closet and change into the first outfit I can find. It does not really matter what I wear, of course, if I get a job I’ll just have to change into the uniform anyway."
 
-    #screen kasai house inside
+    scene bg kasai house inside
 
     "Fully changed I exit my room, joining Misaki and Kosuke at the breakfast table. They are eating okayu, and another bowl of it sits in the seat between the two of them. I assume it is for me."
 
@@ -145,7 +145,7 @@ label dayTwo:
 
     "We exit the house, and Misaki and Kosuke lead me down the path towards the commercial center I had seen yesterday on the way to the Kasai house."
 
-    #scene field
+    scene bg field
 
     "As we walk, we talk more about Kosuke and Misaki’s parents."
 
@@ -263,11 +263,11 @@ label dayTwo:
 
     "By now, we’ve entered the commercial center of Maura."
 
-    #scene commercialCenter
+    scene bg commercialCenter
 
     "Another silence descends on our group as we walk down the crowded streets of Maura. Occasionally, Kosuke and Misaki glare at each other, but I decide not to comment on what they were saying. Or the fact that I heard everything they said in the morning. I figure that it’s for the best if neither knows that I know."
 
-    #scene cafe outside
+    scene bg cafe outside
 
     #show kosuke uniform happy
 
@@ -306,7 +306,7 @@ label dayTwo:
     #hide kosuke
     #sound bellRing
 
-    #scene cafe inside
+    scene bg cafe inside
 
     window show
 
@@ -456,7 +456,7 @@ label dayTwo:
 
     "Kosuke laughs, and links arms with me. He leads me back behind the counter and into the kitchens. From there we enter a small supply closet with extra male and female uniforms."
 
-    #scene ganbatte closet
+    scene bg cafe closet
 
     "Kosuke pulls one of the female uniforms off the shelf."
 
@@ -553,7 +553,7 @@ label normalUniform:
 
     "I back away from the mirror, and I leave the closet. Kosuke is waiting for me."
 
-    #scene ganbatte inside
+    scene bg cafe inside
 
     #show kosuke uniform smirk
 
