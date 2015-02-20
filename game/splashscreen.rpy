@@ -1,10 +1,14 @@
 #Scene/animation that is shown when the game is started
 label splashscreen:
 
+    #Title text
+    $ middle = Position(xpos=0.5, xanchor=0.5, ypos = 0.5, yanchor=0.5)
+    image title text = Text("Ganbatte", size=40)
+
     scene bg darkness
     with Pause(0.8)
 
-    show text "Ganbatte" with dissolve
+    show title text at middle with dissolve
     with Pause(3)
 
     hide text with dissolve
