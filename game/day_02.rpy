@@ -320,7 +320,7 @@ label dayTwo:
 
     h "All around me is a cacophony of voices, happy voices and excited voices and cheerful voices. There are no sad voices or angry voices. No screaming or shouting or crying."
 
-    h "his place is wonderful. This place is home."
+    h "This place is wonderful. This place is home."
 
     nvl clear
 
