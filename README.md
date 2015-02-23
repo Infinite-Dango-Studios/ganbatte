@@ -16,3 +16,4 @@ The following is a list of the staff members of the team developing Ganbatte:
 - Sabre-Hecate - Writer
 - juanitaylor - Artist
 - ChocoTacoKitty - Artist
+- boxesofflowers - Artist
