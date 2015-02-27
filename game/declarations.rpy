@@ -1,9 +1,50 @@
 label run_declarations:
     # Images
 
-    #Character images
+    # Character images
 
-    #Background images
+    #Kosuke
+    image kosuke angry = "images/characters/dummy.png"
+    image kosuke beaming = "images/characters/dummy.png"
+    image kosuke confused = "images/characters/dummy.png"
+    image kosuke embarrassed = "images/characters/dummy.png"
+    image kosuke excited = "images/characters/dummy.png"
+    image kosuke fakeserious = "images/characters/dummy.png"
+    image kosuke happy = "images/characters/dummy.png"
+    image kosuke horrified = "images/characters/dummy.png"
+    image kosuke innocent = "images/characters/dummy.png"
+    image kosuke normal = "images/characters/dummy.png"
+    image kosuke smirk = "images/characters/dummy.png"
+    image kosuke smug = "images/characters/dummy.png"
+    image kosuke surprised = "images/characters/dummy.png"
+    image kosuke tired = "images/characters/dummy.png"
+    image kosuke victory = "images/characters/dummy.png"
+    image kosuke victoryEyesClosed = "images/characters/dummy.png"
+    image kosuke upset = "images/characters/dummy.png"
+
+    #Misaki
+    image misaki angry = "images/characters/dummy.png"
+    image misaki annoyed = "images/characters/dummy.png"
+    image misaki embarrassed = "images/characters/dummy.png"
+    image misaki excited = "images/characters/dummy.png"
+    image misaki evil = "images/characters/dummy.png"
+    image misaki happy = "images/characters/dummy.png"
+    image misaki horrified = "images/characters/dummy.png"
+    image misaki normal = "images/characters/dummy.png"
+    image misaki smirk = "images/characters/dummy.png"
+    image misaki upset = "images/characters/dummy.png"
+
+    #Ms. Kasai
+    image msKasai happy = "images/characters/dummy.png"
+    image msKasai horrified = "images/characters/dummy.png"
+    image msKasai normal = "images/characters/dummy.png"
+
+    #Mr. Kasai
+    image mrKasai happy = "images/characters/dummy.png"
+    image mrKasai horrified = "images/characters/dummy.png"
+    image mrKasai normal = "images/characters/dummy.png"
+
+    # Background images
     image bg darkness = "images/backgrounds/darkness.png"
     image bg field = "images/backgrounds/dummy.png"
 
@@ -23,7 +64,7 @@ label run_declarations:
     image bg cafe inside = "images/backgrounds/dummy.png"
     image bg cafe closet = "images/backgrounds/dummy.png"
 
-    #Misc images
+    # Misc images
     image heart one = "images/misc/heart_grey.png"
     image heart two = "images/misc/heart_blue.png"
     image heart three = "images/misc/heart_purple.png"
