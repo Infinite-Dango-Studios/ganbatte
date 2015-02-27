@@ -31,8 +31,8 @@ label dayTwo:
     "I am fully conscious now, and I’ve decided that this has gone far enough."
 
     scene bg haruki room
-    #show kosuke uniform
-    #show misaki uniform
+    show kosuke uniform normal
+    show misaki uniform normal
 
     "I gasp, nearly hitting my head on Kosuke and Misaki, both of whom are leaning over my face. They appear not to have realized I have awoken as both are currently pushing and shoving each other in an attempt to be closer to me."
 
@@ -40,22 +40,22 @@ label dayTwo:
 
     "They both immediately stop fighting and look embarrassed."
 
-    #show kosuke uniform embarrassed
-    #show misaki uniform embarrassed
+    show kosuke uniform embarrassed
+    show misaki uniform embarrassed
 
     misaki "G-good morning, Haruki-kun! I came here to wake you up so I would be the first face you saw when you woke up!"
 
     "She mutters something else, but I can only make out the word “future”."
 
-    #show kosuke uniform smirk
+    show kosuke uniform smirk
 
     kosuke "Actually, I was the one who came here to get you. She just tagged along."
 
-    #show misaki uniform angry
+    show misaki uniform angry
 
     misaki "Not true!"
 
-    #show kosuke uniform angry
+    show kosuke uniform angry
 
     kosuke "Yes it is!!!"
 
@@ -67,7 +67,7 @@ label dayTwo:
 
     kosuke "Yup. So you should probably get changed. We’ll leave so you can do that."
 
-    #show kosuke uniform smirk
+    show kosuke uniform smirk
 
     kosuke "Unless Misaki wants to stay and watch."
 
@@ -81,14 +81,14 @@ label dayTwo:
 
     #sound slap
 
-    #show kosuke uniform hurt
+    show kosuke uniform hurt
 
     kosuke "Ow, geez, can’t take a joke, can you sis?"
 
     "I laugh awkwardly, and the two leave shutting the door behind them."
 
-    #hide kosuke
-    #hide misaki
+    hide kosuke
+    hide misaki
 
     "I quickly open the closet and change into the first outfit I can find. It does not really matter what I wear, of course, if I get a job I’ll just have to change into the uniform anyway."
 
@@ -98,7 +98,7 @@ label dayTwo:
 
     "The three of us eat quickly, eager to get to the café. When we are finished eating, we clean off our dishes and head towards the door."
 
-    #show mrKasai normal
+    show mrKasai normal
 
     "Mr. Kasai hands us each a bag of onigiri on our way out the door."
 
@@ -106,11 +106,11 @@ label dayTwo:
 
     haruki "Thank you, Kasai-san!"
 
-    #show mrKasai happy
+    show mrKasai happy
 
     mrKasai "Good luck at work today, tell us how it goes when we get home!"
 
-    #show kosuke uniform normal
+    show kosuke uniform normal
 
     kosuke "We might be home later than usual, I kinda want to show Haruki-kun around Maura."
 
@@ -120,14 +120,14 @@ label dayTwo:
 
     kosuke "It’s our pleasure! You’re practically our favorite child!"
 
-    #show kosuke uniform shocked
+    show kosuke uniform shocked
 
     kosuke "Dad!?!?"
 
     mrKasai "I’m only joking...mostly."
 
-    #show mrKasai happy
-    #show kosuke uniform happy
+    show mrKasai happy
+    show kosuke uniform happy
 
     "He laughs and tousles Kosuke’s hair. Now all four of us are laughing."
 
@@ -137,9 +137,9 @@ label dayTwo:
 
     kosuke "Bye dad!"
 
-    #hide mrKasai
+    hide mrKasai
 
-    #show misaki uniform normal
+    show misaki uniform normal
 
     misaki "Bye~!"
 
@@ -161,11 +161,11 @@ label dayTwo:
 
     haruki "Wow, you must be pretty proud of her!"
 
-    #show kosuke uniform beaming
+    show kosuke uniform beaming
 
     kosuke "I am! It’s my hope that one day..."
 
-    #show kosuke uniform upset
+    show kosuke uniform upset
 
     kosuke "She’ll develop a cure for Kokona-chan."
 
@@ -175,7 +175,7 @@ label dayTwo:
 
     kosuke "Oh it’s um...well...she’s...uh..."
 
-    #show misaki uniform upset
+    show misaki uniform upset
 
     misaki "We really don’t like talking about it."
 
@@ -204,60 +204,56 @@ label dayTwo:
 
     haruki "So, what about your dad, does he work at all?"
 
-    #show misaki uniform normal
-    #show kosuke uniform confused
+    show misaki uniform normal
+    show kosuke uniform confused
 
     kosuke "Huh?"
 
     "They seem distracted and surprised that I have resumed the conversation."
 
-    #show kosuke uniform normal
+    show kosuke uniform normal
 
     kosuke "Dad? No, not really. He’s never really been the office type. He’s pretty much just a homemaker but he has an online specialty bento business. He’s really good at making themed bento."
 
     haruki "Wow, really?"
 
-    #show misaki uniform proud
+    show misaki uniform proud
 
     misaki "Yeah! And he’s teaching me! Someday I’ll have to make you a themed bento of your favorite anime!"
 
-    #show kosuke uniform jealous
+    show kosuke uniform jealous
 
     kosuke "Hey! I wanted to be the one to make Haruki-kun a special bento!"
 
     "They are arguing over me again. Can they even make it ten minutes in my presence without doing so?"
 
-    #show misaki uniform angry
+    show misaki uniform angry
 
     misaki "NO! Only I can make Haruki-kun special bento!"
 
-    #show kosuke uniform smirk
+    show kosuke uniform smirk
 
     kosuke "Yeah, because you’re so in love with him and you want to be his special little—"
 
     #sound slap
 
-    #show misaki uniform enraged
-
     misaki "I am not in love with Haruki-kun, you idiot. And you act the same way around him, so maybe you’re the one who’s in love with Haruki-kun!"
 
-    #show kosuke uniform embarrassed
+    show kosuke uniform embarrassed
 
     kosuke "Shut up, that’s ridiculous. We’re just best friends, that’s all!"
 
-    #show misaki uniform smirk
+    show misaki uniform smirk
 
     misaki "Then why were you going to kiss him this morning?"
 
-    #show kosuke uniform angry
+    show kosuke uniform angry
 
     kosuke "Why were YOU going to!?!"
 
-    #show misaki uniform angry
+    show misaki uniform angry
 
     misaki "Don’t mention that in front of Haruki-kun, you idiot!"
-
-    #show kosuke uniform enraged
 
     kosuke "You brought it up!!!"
 
@@ -269,16 +265,16 @@ label dayTwo:
 
     scene bg cafe outside
 
-    #show kosuke uniform happy
+    show kosuke uniform happy
 
     kosuke "We’re here, Haruki-kun~!"
 
-    #show misaki uniform happy
+    show misaki uniform happy
 
     misaki "Isn’t it adorable?"
 
-    #hide misaki
-    #hide kosuke
+    hide misaki
+    hide kosuke
 
     window show
 
@@ -293,17 +289,17 @@ label dayTwo:
     window hide
     nvl clear
 
-    #scene carHorn
+    #sound carHorn
 
     "A car horn sounds, reminding me that I am taking this scene in from the middle of the street. I quickly dodge the car and run to join Kosuke and Misaki on the sidewalk outside Ganbatte."
 
-    #show kosuke uniform happy
+    show kosuke uniform happy
 
     kosuke "Ready to go inside? Prepare to enter paradise!"
 
     "At first, I think he is exaggerating. People call subpar places “paradise” all the time. Paradise is subjective. But then...we enter the door."
 
-    #hide kosuke
+    hide kosuke
     #sound bellRing
 
     scene bg cafe inside
@@ -337,11 +333,11 @@ label dayTwo:
     window hide
     nvl clear
 
-    #show misaki uniform happy
+    show misaki uniform happy
 
     misaki "Pretty sweet, huh?"
 
-    #show kosuke uniform happy
+    show kosuke uniform happy
 
     kosuke "You ok, Haruki-kun? You look like you’re going to have a heart attack!"
 
@@ -353,10 +349,10 @@ label dayTwo:
 
     "One of the workers turns around, somehow managing to cringe and smile at the same time."
 
-    #hide misaki
-    #hide kosuke
+    hide misaki
+    hide kosuke
 
-    #show riku normal
+    show riku normal
 
     "He appears to be in his early twenties, probably twenty one or twenty two, with messy hair and some stubble. He’s wearing the same uniform as Kosuke, but his has a little gold nametag on it that reads “manager”."
 
@@ -366,43 +362,43 @@ label dayTwo:
 
     riku "Hey, who’s that with you? New customer?"
 
-    #show kosuke uniform normal
+    show kosuke uniform normal
 
     kosuke "Riku-san, meet Haruki Nishihara!"
 
-    #show riku wondering
+    show riku wondering
 
     riku "Haruki Nishihara? That boy that you and Misaki wouldn’t stop talking about all week?"
 
     "Somehow I am not even remotely surprised that they have been talking about me all week."
 
-    #show kosuke uniform happy
+    show kosuke uniform happy
 
     kosuke "Yeah, that’s the one! I want you to give him a job!"
 
-    #show riku surprised
+    show riku surprised
 
     riku "A job!?! You show up here late and you want me to hire your friend?"
 
-    #show kosuke uniform puppyEyes
+    show kosuke uniform puppyEyes
 
     kosuke "C’mon, Riku-san! He’s just as hard a worker as me and Misaki!"
 
-    #show riku smug
+    show riku smug
 
     riku "Is that supposed to be a good thing?"
 
-    #show kosuke uniform upset
+    show kosuke uniform upset
 
     kosuke "Riku-san? How can you say that? Plus, just look at his face!"
 
     "Kosuke wraps his arm around me to pull me in and uses his free hand to grab my face, squishing my cheeks as he moves it around."
 
-    #show kosuke uniform happy
+    show kosuke uniform happy
 
     kosuke "He’s pretty cute, right? Sales would probably skyrocket!"
 
-    #show riku happy
+    show riku happy
 
     riku "OK, OK, you’ve made enough of a scene, he’s hired. We’ve been short one ever since Hiro quit anyway."
 
@@ -426,17 +422,17 @@ label dayTwo:
 
     "He laughs, and I look to Kosuke."
 
-    #show kosuke uniform smirk
+    show kosuke uniform smirk
 
     kosuke "Riku-san’s got a lot of big plans. They’re all pretty delusional!"
 
-    #show riku fakeAnnoyed
+    show riku fakeAnnoyed
 
     riku "Hey! What kind of treatment of your boss is that!?"
 
     "Kosuke shrugs and Riku shakes his head, turning his attention back to me."
 
-    #show riku smirk
+    show riku smirk
 
     riku "Don’t turn into a third one of them, ok?"
 
@@ -444,15 +440,15 @@ label dayTwo:
 
     riku "Fine by me! Anyway, there’s a few spare uniforms in the back. Kosuke! Why don’t you show Haruki where the extra uniforms are? Then we can give him some training and introduce him to the other workers!"
 
-    #show kosuke uniform salute
+    show kosuke uniform salute
 
     kosuke "Yes, sir, Riku-sama, sir!"
 
-    #show riku annoyed
+    show riku annoyed
 
     riku "Unnecessary."
 
-    #hide riku
+    hide riku
 
     "Kosuke laughs, and links arms with me. He leads me back behind the counter and into the kitchens. From there we enter a small supply closet with extra male and female uniforms."
 
@@ -460,7 +456,7 @@ label dayTwo:
 
     "Kosuke pulls one of the female uniforms off the shelf."
 
-    #show kosuke uniform smirk
+    show kosuke uniform smirk
 
     kosuke "Here, Haru-chan, this one’s for you!"
 
@@ -483,7 +479,7 @@ label uniformNo:
 
     haruki "Enough messing around."
 
-    #show kosuke uniform upset
+    show kosuke uniform upset
 
     kosuke "Wow, Haru-chan, it was just a joke."
 
@@ -518,7 +514,7 @@ label uniformYes:
 
     kosuke "Maybe you will!"
 
-    #show kosuke uniform normal
+    show kosuke uniform normal
 
     jump normalUniform
 
@@ -533,13 +529,13 @@ label normalUniform:
 
     haruki "Thanks!"
 
-    #show kosuke uniform happy
+    show kosuke uniform happy
 
     kosuke "Don’t mention it Haru-chan~! Just change into that and meet me back by the front counter!"
 
     "He does a little salute, and leaves the closet."
 
-    #hide kosuke
+    hide kosuke
 
     "As soon as he’s gone I quickly strip off my casual clothes and replace them with the uniform. I examine myself in the mirror."
 
@@ -555,7 +551,7 @@ label normalUniform:
 
     scene bg cafe inside
 
-    #show kosuke uniform smirk
+    show kosuke uniform smirk
 
     kosuke "Did I hear you talking to yourself, Haru-chan?"
 
@@ -563,7 +559,7 @@ label normalUniform:
 
     haruki "N-no!"
 
-    #show kosuke uniform happy
+    show kosuke uniform happy
 
     kosuke "Ehh, it’s fine, no need to get flustered! You look really good in that uniform!"
 
@@ -571,9 +567,9 @@ label normalUniform:
 
     "Kosuke smiles and I smile back. He takes me back through the kitchens and out to the main counter, where Riku has gathered all the workers."
 
-    #hide kosuke
+    hide kosuke
 
-    #show riku happy
+    show riku happy
 
     riku "Hey, Haruki! Wow, you look pretty nice."
 
@@ -581,7 +577,7 @@ label normalUniform:
 
     "I wonder if it’s true, or if they’re all just being polite."
 
-    #show riku normal
+    show riku normal
 
     riku "So, these are your coworkers."
 
@@ -589,55 +585,55 @@ label normalUniform:
 
     riku "Alright, from left to right, why don’t you guys introduce yourselves to Haruki Nishihara?"
 
-    #show megumi uniform excited
+    show megumi uniform excited
 
     megumi "Hi! Megumi Ikehara, that’s my name! You can call me Gumi-chan if you want, that’s my stage name! I’m an actress~! I starred in my school’s production of Les Misérables, I was Eponine. I can do some of my lines from that if you’d like...! Um... ♫ On my ownnn~"
 
     "She starts to sing, and Riku’s face falls. She has a nice voice, but I have a feeling that Riku has to deal with this on a daily basis."
 
-    #show riku defeated
+    show riku defeated
 
     riku "Thank you, Megumi, but we unfortunately have to get to the others. We do have customers..."
 
-    #show megumi uniform realization
+    show megumi uniform realization
 
     megumi "Right! Sorry, Riku~!"
 
-    #hide megumi
+    hide megumi
 
-    #show yuta uniform normal
+    show yuta uniform normal
 
     yuta "Hello. I am Yuta Arakawa. I publish a new installment of my horror dojinshi every month...have you heard of them?"
 
     haruki "It’s possible, what are they about?"
 
-    #show yuta uniform sadisticExcitement
+    show yuta uniform sadisticExcitement
 
     yuta "Well, my longest running and current one is about several covens of witches."
 
     yuta "Each one is supported by a demon like Amanojaku or Kumo Yokai and they must perform bloody sacrifices to their demons in which they must tear open the victim and pull off their skin to be made into a robe for the head of the coven to wear for the remainder of the ceremony and then they pull out their organs to be made into—"
 
-    #show riku ill
+    show riku ill
 
     riku "Yuta...the customers..."
 
     "At the counter, several customers are exchanging uncomfortable glances."
 
-    #show yuta uniform realization
+    show yuta uniform realization
 
     yuta "Ohhh, right. I’m not supposed to go into the gory details in front of the customers anymore..."
 
     "Yuta seems ashamed and he steps silently back into line."
 
-    #hide yuta
+    hide yuta
 
-    #show sora uniform excited
+    show sora uniform excited
 
     sora "Hiya~! Sora Takayama, future billionaire! I mean, I’m working here obviously, but just you wait, OK? I’ve got a lot of ideas, I just need the money to put them together!"
 
     haruki "Wow, really? Like what?"
 
-    #show sora uniform mischievous
+    show sora uniform mischievous
 
     sora "No, No, No, Nishihara-kun. When future billionaires tell their plans to random people they’ve just met, they go from future billionaire to future could-have-been-a-billionaire!"
 

@@ -1,7 +1,11 @@
 label run_declarations:
+    ####################################
     # Images
+    ####################################
 
+    ###################
     # Character images
+    ###################
 
     #Kosuke
     image kosuke angry = "images/characters/dummy.png"
@@ -22,6 +26,21 @@ label run_declarations:
     image kosuke victoryEyesClosed = "images/characters/dummy.png"
     image kosuke upset = "images/characters/dummy.png"
 
+    image kosuke uniform angry = "images/characters/dummy.png"
+    image kosuke uniform beaming = "images/characters/dummy.png"
+    image kosuke uniform confused = "images/characters/dummy.png"
+    image kosuke uniform embarrassed = "images/characters/dummy.png"
+    image kosuke uniform happy = "images/characters/dummy.png"
+    image kosuke uniform hurt = "images/characters/dummy.png"
+    image kosuke uniform jealous = "images/characters/dummy.png"
+    image kosuke uniform proud = "images/characters/dummy.png"
+    image kosuke uniform puppyEyes = "images/characters/dummy.png"
+    image kosuke uniform normal = "images/characters/dummy.png"
+    image kosuke uniform salute = "images/characters/dummy.png"
+    image kosuke uniform shocked = "images/characters/dummy.png"
+    image kosuke uniform smirk = "images/characters/dummy.png"
+    image kosuke uniform upset = "images/characters/dummy.png"
+
     #Misaki
     image misaki angry = "images/characters/dummy.png"
     image misaki annoyed = "images/characters/dummy.png"
@@ -34,6 +53,13 @@ label run_declarations:
     image misaki smirk = "images/characters/dummy.png"
     image misaki upset = "images/characters/dummy.png"
 
+    image misaki uniform angry = "images/characters/dummy.png"
+    image misaki uniform embarrassed = "images/characters/dummy.png"
+    image misaki uniform happy = "images/characters/dummy.png"
+    image misaki uniform normal = "images/characters/dummy.png"
+    image misaki uniform smirk = "images/characters/dummy.png"
+    image misaki uniform upset = "images/characters/dummy.png"
+
     #Ms. Kasai
     image msKasai happy = "images/characters/dummy.png"
     image msKasai horrified = "images/characters/dummy.png"
@@ -44,7 +70,34 @@ label run_declarations:
     image mrKasai horrified = "images/characters/dummy.png"
     image mrKasai normal = "images/characters/dummy.png"
 
+    #Riku
+    image riku annoyed = "images/characters/dummy.png"
+    image riku defeated = "images/characters/dummy.png"
+    image riku fakeAnnoyed = "images/characters/dummy.png"
+    image riku happy = "images/characters/dummy.png"
+    image riku ill = "images/characters/dummy.png"
+    image riku normal = "images/characters/dummy.png"
+    image riku smirk = "images/characters/dummy.png"
+    image riku smug = "images/characters/dummy.png"
+    image riku surprised = "images/characters/dummy.png"
+    image riku wondering = "images/characters/dummy.png"
+
+    #Megumi
+    image megumi uniform excited = "images/characters/dummy.png"
+    image megumi uniform realization = "images/characters/dummy.png"
+
+    #Yuta
+    image yuta uniform normal = "images/characters/dummy.png"
+    image yuta uniform realization = "images/characters/dummy.png"
+    image yuta uniform sadisticExcitement = "images/characters/dummy.png"
+
+    #Sora
+    image sora uniform excited = "images/characters/dummy.png"
+    image sora uniform mischievous = "images/characters/dummy.png"
+
+    ###################
     # Background images
+    ###################
     image bg darkness = "images/backgrounds/darkness.png"
     image bg field = "images/backgrounds/dummy.png"
 
@@ -64,16 +117,22 @@ label run_declarations:
     image bg cafe inside = "images/backgrounds/dummy.png"
     image bg cafe closet = "images/backgrounds/dummy.png"
 
+    ###################
     # Misc images
+    ###################
     image heart one = "images/misc/heart_grey.png"
     image heart two = "images/misc/heart_blue.png"
     image heart three = "images/misc/heart_purple.png"
     
+    ####################################
     # Character heart meters
+    ####################################
     init python:
         heart_pos = Position(xpos=0.1375, ypos=0.795)
 
+        ###################
         # Kosuke
+        ###################
         kosuke_points = 0
     
         def heart_kosuke(event, interact=True, **kwargs):
@@ -89,7 +148,9 @@ label run_declarations:
                 elif kosuke_points < 3:
                     renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
     
+        ###################
         # Misaki
+        ###################
         misaki_points = 0
     
         def heart_misaki(event, interact=True, **kwargs):
@@ -105,7 +166,9 @@ label run_declarations:
                 elif misaki_points < 3:
                     renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
     
+    ####################################
     # Character declarations
+    ####################################
     define haruki = Character('Haruki', color="#00FF7F")
     define kosuke = Character('Kosuke', color="#40E0D0", callback=heart_kosuke)
     define misaki = Character('Misaki', color="#EE82EE", callback=heart_misaki)
@@ -116,7 +179,9 @@ label run_declarations:
     define msKasai = Character('Ms. Kasai', color="#5F9EA0")
     define mrKasai = Character('Mr. Kasai', color="#5F9EA0")
     
+    ####################################
     # NVL narrator code
+    ####################################
     init:
         $ h = Character(None, kind=nvl) #NVL narrator character
     
