@@ -57,6 +57,7 @@ label run_declarations:
     image misaki uniform embarrassed = "images/characters/dummy.png"
     image misaki uniform happy = "images/characters/dummy.png"
     image misaki uniform normal = "images/characters/dummy.png"
+    image misaki uniform proud = "images/characters/dummy.png"
     image misaki uniform smirk = "images/characters/dummy.png"
     image misaki uniform upset = "images/characters/dummy.png"
 
@@ -189,3 +190,11 @@ label run_declarations:
         config.empty_window = nvl_show_core
         config.window_hide_transition = dissolve
         config.window_show_transition = dissolve
+    
+    ####################################
+    # Screen positions
+    ####################################
+
+    init:
+        $ char_left = Position(xpos=0.15, xanchor="left")
+        $ char_right = Position(xpos=0.85, xanchor="right")
