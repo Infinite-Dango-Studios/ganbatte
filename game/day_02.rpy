@@ -31,8 +31,8 @@ label dayTwo:
     "I am fully conscious now, and I’ve decided that this has gone far enough."
 
     scene bg haruki room
-    show kosuke uniform normal
-    show misaki uniform normal
+    show kosuke uniform normal at char_left
+    show misaki uniform normal at char_right
 
     "I gasp, nearly hitting my head on Kosuke and Misaki, both of whom are leaning over my face. They appear not to have realized I have awoken as both are currently pushing and shoving each other in an attempt to be closer to me."
 
@@ -110,7 +110,8 @@ label dayTwo:
 
     mrKasai "Good luck at work today, tell us how it goes when we get home!"
 
-    show kosuke uniform normal
+    show mrKasai happy at char_left
+    show kosuke uniform normal at char_right
 
     kosuke "We might be home later than usual, I kinda want to show Haruki-kun around Maura."
 
@@ -139,13 +140,16 @@ label dayTwo:
 
     hide mrKasai
 
-    show misaki uniform normal
+    show kosuke uniform happy at char_left
+    show misaki uniform normal at char_right
 
     misaki "Bye~!"
 
     "We exit the house, and Misaki and Kosuke lead me down the path towards the commercial center I had seen yesterday on the way to the Kasai house."
 
     scene bg field
+    show kosuke uniform happy at char_left
+    show misaki uniform normal at char_right
 
     "As we walk, we talk more about Kosuke and Misaki’s parents."
 
@@ -337,7 +341,8 @@ label dayTwo:
 
     misaki "Pretty sweet, huh?"
 
-    show kosuke uniform happy
+    show kosuke uniform happy at char_left
+    show misaki uniform happy at char_right
 
     kosuke "You ok, Haruki-kun? You look like you’re going to have a heart attack!"
 
@@ -362,7 +367,8 @@ label dayTwo:
 
     riku "Hey, who’s that with you? New customer?"
 
-    show kosuke uniform normal
+    show riku normal at char_left
+    show kosuke uniform normal at char_right
 
     kosuke "Riku-san, meet Haruki Nishihara!"
 
@@ -449,6 +455,7 @@ label dayTwo:
     riku "Unnecessary."
 
     hide riku
+    show kosuke uniform happy at center
 
     "Kosuke laughs, and links arms with me. He leads me back behind the counter and into the kitchens. From there we enter a small supply closet with extra male and female uniforms."
 
@@ -585,7 +592,8 @@ label normalUniform:
 
     riku "Alright, from left to right, why don’t you guys introduce yourselves to Haruki Nishihara?"
 
-    show megumi uniform excited
+    show riku normal at char_left
+    show megumi uniform excited at char_right
 
     megumi "Hi! Megumi Ikehara, that’s my name! You can call me Gumi-chan if you want, that’s my stage name! I’m an actress~! I starred in my school’s production of Les Misérables, I was Eponine. I can do some of my lines from that if you’d like...! Um... ♫ On my ownnn~"
 
@@ -601,7 +609,7 @@ label normalUniform:
 
     hide megumi
 
-    show yuta uniform normal
+    show yuta uniform normal at char_right
 
     yuta "Hello. I am Yuta Arakawa. I publish a new installment of my horror dojinshi every month...have you heard of them?"
 
@@ -627,7 +635,7 @@ label normalUniform:
 
     hide yuta
 
-    show sora uniform excited
+    show sora uniform excited at char_right
 
     sora "Hiya~! Sora Takayama, future billionaire! I mean, I’m working here obviously, but just you wait, OK? I’ve got a lot of ideas, I just need the money to put them together!"
 

@@ -27,8 +27,8 @@ label dayOne:
     window hide
     nvl clear
 
-    show kosuke happy
-    show misaki normal
+    show kosuke happy at char_left
+    show misaki normal at char_right
     #music happy
 
     kosuke "HI HARUKI-KUN~! HOW ARE YOU? I HAVEN’T SEEN YOU IN AGES! You still look as handsome as ever, though, wouldn’t you say so, Misaki-chan?"
@@ -238,8 +238,8 @@ label kasaiHouse:
     nvl clear
 
     scene bg kasai house inside
-    show kosuke normal
-    show misaki normal
+    show kosuke normal at char_left
+    show misaki normal at char_right
 
     "They slip on their house slippers, and I slip off my shoes."
 
@@ -251,8 +251,8 @@ label kasaiHouse:
 
     hide kosuke
     hide misaki
-    show msKasai happy
-    show mrKasai normal
+    show msKasai happy at char_left
+    show mrKasai normal at char_right
 
     msKasai "Oh, Haruchan, is that you? You’ve grown up so much since the last time we saw you!"
 
@@ -271,7 +271,7 @@ label kasaiHouse:
     "I open my mouth to answer, but Kosuke cuts me off before I can even get out a syllable."
 
     hide mrKasai
-    show kosuke normal
+    show kosuke normal at char_right
 
     kosuke "Yeah, he is! But he doesn’t have anywhere to stay, so can he stay here?"
 
@@ -281,8 +281,8 @@ label kasaiHouse:
 
     hide msKasai
     hide kosuke
-    show misaki normal
-    show mrKasai normal
+    show misaki normal at char_left
+    show mrKasai normal at char_right
 
     mrKasai "I was just about to start making dinner, you should probably unpack until it’s ready."
 
@@ -308,8 +308,8 @@ label kasaiHouse:
 
     hide misaki
     hide mrKasai
-    show msKasai normal
-    show kosuke normal
+    show msKasai normal at char_left
+    show kosuke normal at char_right
 
     msKasai "Kosuchan, can you help Haruchan unpack?"
 
@@ -385,7 +385,8 @@ label kasaiHouse:
 
     haruki "Yeah, it’s all my favorites! Thank you."
 
-    show kosuke normal
+    show misaki happy at char_left
+    show kosuke normal at char_right
 
     kosuke "Um, hey sis, I’m here too."
 
@@ -431,8 +432,8 @@ label kasaiHouse:
 
     "For a few minutes, the only noises are the cacophony of noises which typically accompany eating. Both Kosuke and Misaki are eating quietly and won’t make eye contact to me. I suppose that they’re guilty about fighting over me. Finally, Mr. Kasai speaks up."
 
-    show mrKasai normal
-    show msKasai normal
+    show mrKasai normal at char_left
+    show msKasai normal at char_right
 
     mrKasai "So, Haruchan, what are your plans for this summer?"
 
@@ -446,8 +447,8 @@ label kasaiHouse:
 
     hide mrKasai
     hide msKasai
-    show kosuke normal
-    show misaki excited
+    show kosuke normal at char_left
+    show misaki excited at char_right
 
     misaki "YOU SHOULD COME WORK AT THE CAFÉ!"
 
@@ -515,11 +516,12 @@ label misakaRoom:
 
     misaki "I AM! RIGHT THIS WAY, HARUKI-KUN!"
 
+    hide kosuke
+    show misaki normal at center
+
     window show
 
     h "Misaki grabs my wrist and pulls me away from the dining room at a run. I’m happy to be spending this time with her, but she practically drags me across the carpet as we tear through the halls. She pulls me up the stairs, and we enter the first room on the left."
-
-    hide kosuke
     hide misaki
     scene bg misaki room
 
@@ -680,8 +682,8 @@ label misakaRoom:
     window hide
     nvl clear
 
-    show misaki normal
-    show msKasai horrified
+    show misaki normal at char_left
+    show msKasai horrified at char_right
 
     msKasai "Do either of you have any idea what time it is!? I thought Haruki went back to his room hours ago!"
 
@@ -742,7 +744,7 @@ label kosukeRoom:
     "Misaki seems too upset to respond, and she storms off muttering something about ‘when a cute girl invites you into her bedroom you shouldn’t say no’."
 
     hide misaki
-    show kosuke smirk
+    show kosuke smirk at center
 
     kosuke "Wow, Misaki-chan’s pretty crazy, right? I wasn’t kidding about those diary entries and pictures you know~!"
 
@@ -952,8 +954,8 @@ label harukiRoom:
     hide misaki
     hide kosuke
 
-    show mrKasai normal
-    show msKasai normal
+    show mrKasai normal at char_left
+    show msKasai normal at char_right
 
     msKasai "It’s perfectly fine, Haru-chan!"
 
@@ -976,8 +978,8 @@ label harukiRoom:
     hide mrKasai
     hide msKasai
 
-    show misaki upset
-    show kosuke upset
+    show misaki upset at char_left
+    show kosuke upset at char_right
 
     kosuke "Sorry about making you feel bad...but we have to hang out tomorrow, OK?"
 
