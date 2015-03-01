@@ -40,8 +40,8 @@ label dayTwo:
 
     "They both immediately stop fighting and look embarrassed."
 
-    show kosuke uniform embarrassed
-    show misaki uniform embarrassed
+    show kosuke uniform blush
+    show misaki uniform blush
 
     misaki "G-good morning, Haruki-kun! I came here to wake you up so I would be the first face you saw when you woke up!"
 
@@ -81,7 +81,7 @@ label dayTwo:
 
     #sound slap
 
-    show kosuke uniform hurt
+    show kosuke uniform upset
 
     kosuke "Ow, geez, can’t take a joke, can you sis?"
 
@@ -165,7 +165,7 @@ label dayTwo:
 
     haruki "Wow, you must be pretty proud of her!"
 
-    show kosuke uniform beaming
+    show kosuke uniform happy
 
     kosuke "I am! It’s my hope that one day..."
 
@@ -221,7 +221,7 @@ label dayTwo:
 
     haruki "Wow, really?"
 
-    show misaki uniform proud
+    show misaki uniform happy
 
     misaki "Yeah! And he’s teaching me! Someday I’ll have to make you a themed bento of your favorite anime!"
 
@@ -243,7 +243,7 @@ label dayTwo:
 
     misaki "I am not in love with Haruki-kun, you idiot. And you act the same way around him, so maybe you’re the one who’s in love with Haruki-kun!"
 
-    show kosuke uniform embarrassed
+    show kosuke uniform blush
 
     kosuke "Shut up, that’s ridiculous. We’re just best friends, that’s all!"
 
@@ -390,7 +390,7 @@ label dayTwo:
 
     kosuke "C’mon, Riku-san! He’s just as hard a worker as me and Misaki!"
 
-    show riku smug
+    show riku smirk
 
     riku "Is that supposed to be a good thing?"
 
@@ -432,7 +432,7 @@ label dayTwo:
 
     kosuke "Riku-san’s got a lot of big plans. They’re all pretty delusional!"
 
-    show riku fakeAnnoyed
+    show riku annoyed
 
     riku "Hey! What kind of treatment of your boss is that!?"
 
@@ -593,7 +593,7 @@ label normalUniform:
     riku "Alright, from left to right, why don’t you guys introduce yourselves to Haruki Nishihara?"
 
     show riku normal at char_left
-    show megumi uniform excited at char_right
+    show megumi uniform happy at char_right
 
     megumi "Hi! Megumi Ikehara, that’s my name! You can call me Gumi-chan if you want, that’s my stage name! I’m an actress~! I starred in my school’s production of Les Misérables, I was Eponine. I can do some of my lines from that if you’d like...! Um... ♫ On my ownnn~"
 
@@ -635,7 +635,7 @@ label normalUniform:
 
     hide yuta
 
-    show sora uniform excited at char_right
+    show sora uniform happy at char_right
 
     sora "Hiya~! Sora Takayama, future billionaire! I mean, I’m working here obviously, but just you wait, OK? I’ve got a lot of ideas, I just need the money to put them together!"
 

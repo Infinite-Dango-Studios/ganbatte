@@ -33,7 +33,7 @@ label dayOne:
 
     kosuke "HI HARUKI-KUN~! HOW ARE YOU? I HAVEN’T SEEN YOU IN AGES! You still look as handsome as ever, though, wouldn’t you say so, Misaki-chan?"
 
-    show misaki embarrassed
+    show misaki blush
 
     misaki "Why would you ask me that!?!"
 
@@ -83,7 +83,7 @@ label introWhere:
 
     haruki "You still do that?"
 
-    show kosuke embarrassed
+    show kosuke blush
 
     kosuke "N-no!"
 
@@ -133,7 +133,7 @@ label introWilling:
 
     kosuke "WHAT!?!!"
 
-    show misaki embarrassed
+    show misaki blush
 
     misaki "I-IDIOT!"
 
@@ -170,7 +170,7 @@ label kasaiHouse:
 
     kosuke "Wow sis, that’s pretty bold. He might see all the pictures you ha—"
 
-    show misaki embarrassed
+    show misaki blush
 
     misaki "THERE ARE NO PICTURES!"
 
@@ -199,7 +199,7 @@ label kasaiHouse:
 
     kosuke "Or, you could stay in Misaki’s room!"
 
-    show misaki embarrassed
+    show misaki blush
 
     misaki "STOP STAYING THINGS LIKE THAT, KOSUKE-KUN!"
 
@@ -286,7 +286,7 @@ label kasaiHouse:
 
     mrKasai "I was just about to start making dinner, you should probably unpack until it’s ready."
 
-    show misaki excited
+    show misaki happy
 
     misaki "OOH, DAD! I WANT TO MAKE DINNER FOR HARUKI-KUN!"
 
@@ -300,7 +300,7 @@ label kasaiHouse:
 
     mrKasai "Fine, you can help."
 
-    show misaki excited
+    show misaki happy
 
     misaki "Yay! It’s going to taste really good, Haruki-kun, I promise!"
 
@@ -345,7 +345,7 @@ label kasaiHouse:
     window hide
     nvl clear
 
-    show kosuke excited
+    show kosuke happy
 
     kosuke "WHOA, NO WAY! YOU READ THIS TOO?"
 
@@ -394,7 +394,7 @@ label kasaiHouse:
 
     misaki "HARUKI-KUN IS THE GUEST!"
 
-    show kosuke smug
+    show kosuke smirk
 
     kosuke "Well, you may have made him dinner, but I played video games with him and he let me borrow all his copies of No. 6."
 
@@ -418,8 +418,8 @@ label kasaiHouse:
 
     "They seem to remember that I’m there, and they both blush."
 
-    show kosuke embarrassed
-    show misaki embarrassed
+    show kosuke blush
+    show misaki blush
 
     kosuke "Oh, haha, sorry, Haruki-kun, I sort of forgot that you were there for a minute."
 
@@ -448,7 +448,7 @@ label kasaiHouse:
     hide mrKasai
     hide msKasai
     show kosuke normal at char_left
-    show misaki excited at char_right
+    show misaki happy at char_right
 
     misaki "YOU SHOULD COME WORK AT THE CAFÉ!"
 
@@ -476,7 +476,7 @@ label kasaiHouse:
 
     haruki "Haha, well...when you put it like that!"
 
-    show kosuke beaming
+    show kosuke happy
 
     kosuke "GREAT! Misaki and I have work tomorrow, so I can introduce you to Riku-san then!"
 
@@ -536,7 +536,7 @@ label misakaRoom:
 
     haruki "Uh...you...uh...drew this?"
 
-    show misaki embarrassed
+    show misaki blush
 
     "I’ve never seen a face go so red so quickly."
 
@@ -550,7 +550,7 @@ label misakaRoom:
 
     haruki "Um, a lot of things...most recently I’ve been reading Tokyo Ghoul."
 
-    show misaki excited
+    show misaki happy
 
     misaki "Ooh, I have all of that, do you need the next book?"
 
@@ -562,7 +562,7 @@ label misakaRoom:
 
     "She pulls the first book in each of these series’ out as she says their names. And then, she gets a devious grin."
 
-    show misaki evil
+    show misaki smirk
 
     misaki "Or maybe, you’re more into this, Haruki-kun?"
 
@@ -595,7 +595,7 @@ label misakaRoom:
 
     haruki "Mhm...suuuuure."
 
-    show misaki embarrassed
+    show misaki blush
 
     misaki "L-LIKE YOU DON’T HAVE SECRET HENTAI. I’M GOING TO COME INTO YOUR ROOM WHEN YOU’RE SLEEPING AND SEARCH IT!"
 
@@ -625,7 +625,7 @@ label misakaRoom:
 
     haruki "That sounds fun...but we can’t play Fruits Basket now...it requires a large group! Even if we could get Kosuke and your parents, we still wouldn’t have enough people for a proper game of it. Maybe in the future, when I have some more friends."
 
-    show misaki excited
+    show misaki happy
 
     misaki "TOTALLY! We could probably get Riku-senpai and Kokona-chan from work to play! Ooh, and Sora-kun and Yuta-kun and Megumi-chan!"
 
@@ -701,7 +701,7 @@ label misakaRoom:
 
     "She smiles slightly, and exits the room with a polite nod."
 
-    show misaki embarrassed
+    show misaki blush
 
     misaki "HOW DID YOU LET IT GET SO LATE, IDIOT?"
 
@@ -737,7 +737,7 @@ label kosukeRoom:
 
     misaki "WHAT AN IDIOTIC CHOICE, HARUKI-KUN!"
 
-    show kosuke smug
+    show kosuke smirk
 
     kosuke "Ha! You’re just mad because he chose me. You made the right choice Haruki-kun~!"
 
@@ -772,7 +772,7 @@ label kosukeRoom:
 
     haruki "Hmmm, not sure..."
 
-    show kosuke fakeserious
+    show kosuke smirk
 
     kosuke "This is serious business, Haruchan. If we play the wrong thing, it could ruin our friendship. FOREVER."
 
@@ -826,9 +826,7 @@ label kosukeRoom:
 
     kosuke "CHALLENGE ACCEPTED!"
 
-    show kosuke victoryEyesClosed
-
-    #wai a few seconds
+    #wait a few seconds
 
     #sound stepsMissed
 
@@ -888,7 +886,7 @@ label kosukeRoom:
 
     kosuke "Huh?"
 
-    show kosuke embarrassed
+    show kosuke blush
 
     kosuke "Oh, no, it’s nothing. Night, Haru-chan."
 
