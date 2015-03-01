@@ -45,6 +45,7 @@ label run_declarations:
     image misaki upset = "images/characters/dummy.png"
 
     image misaki uniform angry = "images/characters/dummy.png"
+    image misaki uniform blush = "images/characters/dummy.png"
     image misaki uniform embarrassed = "images/characters/dummy.png"
     image misaki uniform happy = "images/characters/dummy.png"
     image misaki uniform normal = "images/characters/dummy.png"
@@ -63,6 +64,7 @@ label run_declarations:
 
     #Riku
     image riku annoyed = "images/characters/dummy.png"
+    image riku defeated = "images/characters/dummy.png"
     image riku upset = "images/characters/dummy.png"
     image riku happy = "images/characters/dummy.png"
     image riku ill = "images/characters/dummy.png"
@@ -72,7 +74,7 @@ label run_declarations:
     image riku wondering = "images/characters/dummy.png"
 
     #Megumi
-    image megumi uniform excited = "images/characters/dummy.png"
+    image megumi uniform happy = "images/characters/dummy.png"
     image megumi uniform realization = "images/characters/dummy.png"
 
     #Yuta
@@ -81,7 +83,7 @@ label run_declarations:
     image yuta uniform sadisticExcitement = "images/characters/dummy.png"
 
     #Sora
-    image sora uniform excited = "images/characters/dummy.png"
+    image sora uniform happy = "images/characters/dummy.png"
     image sora uniform mischievous = "images/characters/dummy.png"
 
     ###################
