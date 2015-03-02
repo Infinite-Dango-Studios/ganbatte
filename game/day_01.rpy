@@ -65,18 +65,16 @@ label dayOne:
 #Scene where Haruki answers "W-where’s this coming from?"
 label introWhere:
 
-    #Character points
-    $ kosuke_points += 1
-    $ misaki_points += 1
-
     kosuke "Geez, you’re turning pretty red!"
 
     "I feel a blush beginning to burn on my cheeks, and I know that he is telling the truth."
 
     haruki "W-well, I, um, I mean!"
 
+    $ kosuke_points += 1
     kosuke "Wow, you’re really flustered...You’re worse than me with girls!"
 
+    $ misaki_points += 1
     misaki "Says the man who almost wet himself the last time he talked to a cute girl. My brother the charming lady’s man!"
 
     "Misaki’s laughing now, but Kosuke looks like he wants to evaporate like a water droplet on hot pavement."
@@ -98,10 +96,8 @@ label introWhere:
 #Scene where Haruki answers "NO! NEVER! WHY WOULD YOU EVEN...?"
 label introNo:
 
-    #Character points
-    $ misaki_points -= 1
-
     show misaki angry
+    $ misaki_points -= 1
 
     misaki "NO? NEVER? WHAT THE HELL!?!"
 
@@ -126,9 +122,6 @@ label introNo:
 #Scene where Haruki answers "T-this is all very sudden...but...I’d be willing to try..."
 label introWilling:
 
-    #Character points
-    $ misaki_points += 1
-
     show kosuke surprised
 
     kosuke "WHAT!?!!"
@@ -139,6 +132,7 @@ label introWilling:
 
     "And then, she said quieter"
 
+    $ misaki_points += 1
     misaki "Did you really mean it?"
 
     haruki "Well, I, uh, I mean..."
@@ -326,7 +320,7 @@ label kasaiHouse:
 
     h "Kosuke leads me down the hallway, and we enter the second room to the left."
 
-    #show haruki's room
+    scene bg haruki room
 
     h "It is a small room, decorated comfortably but not particularly uniquely."
 
@@ -501,9 +495,6 @@ label kasaiHouse:
 
 #Scene where Haruki answers "I think it would be fun to hang out with you, Misaki-chan!"
 label misakaRoom:
-
-    #Character points
-    $ misaki_points += 1
 
     show kosuke normal
     show misaki normal
@@ -702,6 +693,7 @@ label misakaRoom:
     "She smiles slightly, and exits the room with a polite nod."
 
     show misaki blush
+    $ misaki_points += 1
 
     misaki "HOW DID YOU LET IT GET SO LATE, IDIOT?"
 
@@ -729,9 +721,6 @@ label misakaRoom:
 
 #Scene where Haruki answers "I think I’d like to play more video games with Kosuke-kun!"
 label kosukeRoom:
-
-    #Character points
-    $ kosuke_points += 1
 
     show misaki angry
 
@@ -880,6 +869,7 @@ label kosukeRoom:
 
     "He pauses before adding"
 
+    $ kosuke_points += 1
     kosuke "Hey, thanks for choosing me over Misaki tonight..."
 
     "This addition surprises me. I know that he and Misaki have some sort of sibling rivalry over me, but it sounds like he would have been legitimately hurt if I had chosen Misaki over him. However, all I can manage in response is"

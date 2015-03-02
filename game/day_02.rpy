@@ -488,6 +488,7 @@ label uniformNo:
 
     show kosuke uniform upset
 
+    $ kosuke_points -= 1
     kosuke "Wow, Haru-chan, it was just a joke."
 
     "I roll my eyes again."
@@ -513,6 +514,7 @@ label uniformYes:
 
     haruki "If you think it’s so cute, let’s see you wear it!"
 
+    $ kosuke_points += 1
     kosuke "Maybe I will!"
 
     "I laugh."
