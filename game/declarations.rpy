@@ -53,38 +53,38 @@ label run_declarations:
     image misaki uniform upset = "images/characters/misaki_normal.png"
 
     #Ms. Kasai
-    image msKasai happy = "images/characters/dummy.png"
-    image msKasai horrified = "images/characters/dummy.png"
-    image msKasai normal = "images/characters/dummy.png"
+    image msKasai happy = "images/characters/mskasai_normal.png"
+    image msKasai horrified = "images/characters/mskasai_normal.png"
+    image msKasai normal = "images/characters/mskasai_normal.png"
 
     #Mr. Kasai
-    image mrKasai happy = "images/characters/dummy.png"
-    image mrKasai horrified = "images/characters/dummy.png"
-    image mrKasai normal = "images/characters/dummy.png"
+    image mrKasai happy = "images/characters/mrkasai_normal.png"
+    image mrKasai horrified = "images/characters/mrkasai_normal.png"
+    image mrKasai normal = "images/characters/mrkasai_normal.png"
 
     #Riku
-    image riku annoyed = "images/characters/dummy.png"
-    image riku defeated = "images/characters/dummy.png"
-    image riku upset = "images/characters/dummy.png"
-    image riku happy = "images/characters/dummy.png"
-    image riku ill = "images/characters/dummy.png"
-    image riku normal = "images/characters/dummy.png"
-    image riku smirk = "images/characters/dummy.png"
-    image riku surprised = "images/characters/dummy.png"
-    image riku wondering = "images/characters/dummy.png"
+    image riku annoyed = "images/characters/riku_normal.png"
+    image riku defeated = "images/characters/riku_normal.png"
+    image riku upset = "images/characters/riku_normal.png"
+    image riku happy = "images/characters/riku_normal.png"
+    image riku ill = "images/characters/riku_normal.png"
+    image riku normal = "images/characters/riku_normal.png"
+    image riku smirk = "images/characters/riku_normal.png"
+    image riku surprised = "images/characters/riku_normal.png"
+    image riku wondering = "images/characters/riku_normal.png"
 
     #Megumi
-    image megumi uniform happy = "images/characters/dummy.png"
-    image megumi uniform realization = "images/characters/dummy.png"
+    image megumi uniform happy = "images/characters/megumi_normal.png"
+    image megumi uniform realization = "images/characters/megumi_normal.png"
 
     #Yuta
-    image yuta uniform normal = "images/characters/dummy.png"
-    image yuta uniform realization = "images/characters/dummy.png"
-    image yuta uniform sadisticExcitement = "images/characters/dummy.png"
+    image yuta uniform normal = "images/characters/yuta_normal.png"
+    image yuta uniform realization = "images/characters/yuta_normal.png"
+    image yuta uniform sadisticExcitement = "images/characters/yuta_normal.png"
 
     #Sora
-    image sora uniform happy = "images/characters/dummy.png"
-    image sora uniform mischievous = "images/characters/dummy.png"
+    image sora uniform happy = "images/characters/sora_normal.png"
+    image sora uniform mischievous = "images/characters/sora_normal.png"
 
     ###################
     # Background images
