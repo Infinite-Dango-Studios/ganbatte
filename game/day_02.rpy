@@ -653,7 +653,7 @@ label normalUniform:
 
     show sora uniform horrified
 
-    sora "No, stop! Don’t tempt me you corporate spy! I’ll never tell you how I plan to…DAMMIT! You almost had me again…damn you’re good…"
+    sora "No, stop! Don’t tempt me you corporate spy! I’ll never tell you how I plan to...DAMMIT! You almost had me again...damn you’re good..."
 
     "He slowly walks back into line, staring nervously into my eyes. Is anyone who works here normal?"
 
@@ -674,17 +674,17 @@ label normalUniform:
 
     "And then, her name registers with me. Kokona. The girl who needs a cure."
 
-    kokona "Hi…my name is Kokona Machida. I’m pleased to meet you, Haruki Nishihara…"
+    kokona "Hi...my name is Kokona Machida. I’m pleased to meet you, Haruki Nishihara..."
 
     "Her voice is very quiet."
 
     haruki "Thank you, pleased to meet you too, Kokona Machida!"
 
-    kokona "You…You may call me Kokona-chan…if you want to. I’m not very formal…"
+    kokona "You...You may call me Kokona-chan...if you want to. I’m not very formal..."
 
     haruki "Ok, Kokona-chan."
 
-    kokona "I, um, I wish I had something interesting to say about myself. I’m not really like Gumi-chan or Yuta-kun or Sora-kun, though…I haven’t really accomplished much and I’m not very interesting. I’m sorry!"
+    kokona "I, um, I wish I had something interesting to say about myself. I’m not really like Gumi-chan or Yuta-kun or Sora-kun, though...I haven’t really accomplished much and I’m not very interesting. I’m sorry!"
 
     "I’m surprised by her apology. She seems so sad about not having anything to say and she seems to believe that she deserves to feel bad about it."
 
@@ -692,7 +692,7 @@ label normalUniform:
 
     show kokona uniform blush
 
-    kokona "Um…thank you…I hope we can talk more."
+    kokona "Um...thank you...I hope we can talk more."
 
     "I smile at her. She seems really sweet, just like everyone said."
 
@@ -709,13 +709,13 @@ label normalUniform:
 
     misaki "Were you just flirting with Kokona-chan?"
 
-    haruki "N-no, that’s…no!"
+    haruki "N-no, that’s...no!"
 
     "I feel my face get red."
 
     misaki "Mhm, sure."
 
-    haruki "I…uh…"
+    haruki "I...uh..."
 
     "Before I can think of a defense, Riku begins to speak. I silently thank him."
 
@@ -759,7 +759,7 @@ label normalUniform:
 
     show riku normal at center
 
-    riku "Alright, have fun! Kokona, Kosuke, you two make sure he stays on track…and make sure Yuta isn’t talking about dismemberment again…"
+    riku "Alright, have fun! Kokona, Kosuke, you two make sure he stays on track...and make sure Yuta isn’t talking about dismemberment again..."
 
     show riku normal at char_left
     show kosuke uniform salute at char_right
@@ -794,7 +794,7 @@ label normalUniform:
 
     show kokona uniform normal
 
-    kokona "Haruki-kun? Is everything alright, you look upset…"
+    kokona "Haruki-kun? Is everything alright, you look upset..."
 
     "I realize that I am showing my concern on my face, and I quickly change my expression."
 
@@ -813,7 +813,7 @@ label normalUniform:
     show kokona uniform normal at char_left
     show yuta uniform normal at char_right
 
-    yuta "…now, I must ask, sir, have you perhaps heard of the dojinshi Mahou Akuma? No? Well, it’s quite good, or so I’ve heard. It’s about these covens of witches who…"
+    yuta "...now, I must ask, sir, have you perhaps heard of the dojinshi Mahou Akuma? No? Well, it’s quite good, or so I’ve heard. It’s about these covens of witches who..."
 
     "Kokona gently taps his shoulder and he turns around."
 
@@ -823,11 +823,11 @@ label normalUniform:
 
     show kokona uniform upset
 
-    kokona "Um…Riku-san said you aren’t supposed to try to sell your dojinshi to customers anymore, Yuta-kun. Please don’t get yourself fired like this, ok?"
+    kokona "Um...Riku-san said you aren’t supposed to try to sell your dojinshi to customers anymore, Yuta-kun. Please don’t get yourself fired like this, ok?"
 
     show yuta uniform realization
 
-    yuta "I wasn’t really selling them… just wondering if they’d read them…"
+    yuta "I wasn’t really selling them... just wondering if they’d read them..."
 
     "Yuta wanders off to the other side of the counter, muttering to himself about how he’ll never get more sales without word of mouth."
 
@@ -841,7 +841,7 @@ label normalUniform:
 
     kosuke "Don’t worry, you’ll get used to all of them."
 
-    haruki "Well, you are the strangest, so if I got used to you…"
+    haruki "Well, you are the strangest, so if I got used to you..."
 
     show kosuke uniform angry
 
@@ -861,12 +861,220 @@ label normalUniform:
 
     "I feel my face blush quicker than I would have thought possible."
 
-    haruki "Kosuke…!"
+    haruki "Kosuke...!"
 
     show kosuke uniform smirk
 
     kosuke "Well it’s true! We used to go swimming a lot when we were kids."
 
     "Kokona is giggling now."
+
+    kokona "You two are pretty funny together!"
+
+    "All at once, however, her laughter stops and her expression changes."
+
+    show kokona uniform upset
+    show kosuke uniform normal
+
+    kokona "I’m kind of jealous of you two..."
+
+    haruki "Jealous of us...why?"
+
+    kokona "I don’t have any friendships like yours...everyone I knew in my childhood is gone now. The longest friendships I’ve had in my life lasted no more than a few months...I’ve always wondered what it’s like to have a best friend that you’ve known forever."
+
+    "I know that I am missing something crucial about this girl. The cure, everyone being “gone”, the sadness in her eyes..."
+
+    menu:
+        "I’ll be your friend":
+            jump beFriend
+        "That’s Really Sad":
+            jump reallySad
+
+    return
+
+#Scene where Haruki chooses "I’ll be your friend"
+label beFriend:
+
+    haruki "I’ll be your friend, Kokona-chan!"
+
+    "I shout it without even realizing what I’m saying."
+
+    haruki "I’ll be your friend OK? So in years and years you can say that you had a best friend! I’ll...I’ll be the childhood friend you never had. I’ll be your friend for the rest of your life."
+
+    "There are tears in my eyes, why are there tears in my eyes? I don’t really feel sad, and I don’t even know where all this is coming from."
+
+    "To my surprise, Kokona appears to have tears in her eyes too."
+
+    show kokona uniform tearful
+
+    $ kokona_points += 1
+
+    kokona "Haruki-kun...you’ve only just met me...and that was one of the sweetest things anyone’s ever said to me. Thank you...thank you so much!"
+
+    "Even Kosuke seems touched by what I said."
+
+    $ kosuke_points += 1
+
+    kosuke "Wow...that was really sweet..."
+
+    haruki "Thank you...but I meant it. I wasn’t trying to be super sweet or anything, I was just saying what I felt."
+
+    show kokona uniform blush
+
+    kokona "Th-thank you!"
+
+    "Kosuke looks like he wants to say something else, but cannot seem to find the words. Finally, he says..."
+
+    kosuke "Hey, looks like we have a customer."
+
+    jump haveCustomer
+
+    return
+
+#Scene where Haruki chooses "That’s Really Sad"
+label reallySad:
+
+    haruki "Wow, Kokona...that’s really, really sad...it’s honestly one of the saddest things I’ve ever heard."
+
+    kokona "Yeah...I guess my life has been pretty awful..."
+
+    show kosuke uniform upset
+
+    kosuke "But it’s better now, right, Kokona-chan? I mean, I’m your friend and Misaki’s your friend. And Gumi-chan, and Yuta and Sora. And I’m sure Haruki-kun will be your friend too! Right?"
+
+    haruki "Of course!"
+
+    show kokona uniform grateful
+
+    kokona "Thank you."
+
+    "Even though she thanks me, she still looks upset. A silence falls over us, and I feel that somehow I botched that response."
+
+    "For a long minute, we all stare at each other, saying nothing. Finally, Kosuke speaks."
+
+    kosuke "Hey, looks like we have a customer."
+
+    jump haveCustomer
+
+    return
+
+#Scene where Haruki finishes his branching interaction with Kosuke and Kokona
+label haveCustomer:
+
+    "I turn to the counter and see that the girl is a few years older than us. I notice that Kosuke is eyeing her nervously, and edging farther and farther from the counter."
+
+    show kosuke uniform awkward
+
+    kosuke "Hey, Haruki...you wanna take this one? She’s pretty cute, a good first customer for you, right?"
+
+    "I notice that all the blood has drained from his face and he looks moments away from passing out. Is his gynophobia really still this bad?"
+
+    haruki "Yeah, I’ve got it."
+
+    "I take her order quickly. She wants three wagashi, a bag on konpeito, and a bubble tea. Kokona makes the bubble tea while I fetch the candy and cakes. We hand them to the customer, and she departs. When she is gone, Kosuke gives me a grateful look."
+
+    show kosuke uniform grateful
+
+    kosuke "Thank you, Haruki-kun...you know how I...you know about my...condition."
+
+    "Apparently his gynophobia is still this bad."
+
+    haruki "Yeah, no problem."
+
+    kosuke "Thanks again!"
+
+    "He gives me a grateful smile, and we slowly drift off to separate activities as more customers arrive. For the most part, Kosuke and Yuta handle drinks while Kokona and I are in charge of distributing the pastries."
+
+    hide kosuke
+
+    show kokona uniform normal at center
+
+    "Kokona and I do not talk much; Ganbatte seems to have a pretty steady flow of customers. We take our lunch break at around twelve thirty, leaving the counter in Yuta and Kosuke’s hands, and that is when I have my next chance to speak to Kokona."
+
+    "I take out my bag of onigiri, and she takes out a small pink bento. We go over to an empty booth and sit across from each other."
+
+    haruki "So, when you guys were introducing yourselves to me, you said there wasn’t anything special or interesting about you."
+
+    show kokona uniform blush
+
+    kokona "Yes...I guess I did say that, didn’t I?"
+
+    haruki "But, that can’t possibly be true, can it?"
+
+    show kokona uniform surprised
+
+    kokona "Why not?"
+
+    "I laugh as I take a large bite out of one of my onigiri."
+
+    haruki "Because everyone has something that makes them special."
+
+    show kokona uniform blush
+
+    kokona "Thank you, Haruki-kun...that’s very nice of you to say. But really, it’s true, there’s nothing interesting about me."
+
+    haruki "What’s your favorite color?"
+
+    kokona "I really like orange...and gold. Those colors are pretty."
+
+    haruki "That’s something interesting about you!"
+
+    kokona "No way! Plenty of people like orange and gold."
+
+    haruki "Maybe, but it still makes you a more interesting individual. If, say, we all split into factions based on favorite color, I know now that you would go with orange or gold. Which is interesting."
+
+    show kokona uniform happy
+
+    kokona "Well, I mean, when you put it like that..."
+
+    haruki "So, what about activities outside of work?"
+
+    show kokona uniform troubled
+
+    kokona "Ummm, I don’t know, I don’t leave home very often...I really like watching movies, though. I like the Ghibli movies a lot...I watched them all the time when I was younger."
+
+    haruki "Kosuke, Misaki and I used to watch those movies all the time! Which one is your favorite?"
+
+    show kokona uniform happy
+
+    kokona "I really liked My Neighbor Totoro. I still watch it all the time. Ooh, but I also like Spirited Away! And Kiki’s Delivery Service!"
+
+    "She giggles."
+
+    kokona "I guess I like a lot of them!"
+
+    "I smile as I eat my last onigiri. Kokona is about halfway through her bento."
+
+    haruki "See!? You really are interesting! You like orange and gold and you love Ghibli films. You’ve never had a childhood friend, and you eat pink bento boxes with onigiri shaped like Totoro."
+
+    "Kokona giggles again."
+
+    kokona "It’s not always Totoro. Yesterday it was No Face. Before that was Jiji. I once even had one of the robots from Castle in the Sky."
+
+    haruki "See? You are interesting. You don’t need to be an actress or billionaire-to-be or horror writer...it’s the small things that make people truly interesting."
+
+    show kokona uniform blush
+
+    kokona "Thank you, Haruki-kun. You’re so sweet."
+
+    "I return her smile, and I take the kamaboko out of my onigiri bag. I see her looking at it but she says nothing. I smile."
+
+    haruki "Do you want some of this?"
+
+    "I break the kamaboko in half."
+
+    kokona "Oh, no, I couldn’t...it’s yours."
+
+    haruki "I insist! Really, I want you to have it. To commemorate our friendship!"
+
+    "I hold out the unbitten half of the kamaboko, and reluctantly she takes it. We eat it together."
+
+    show kokona uniform happy
+
+    kokona "That was really good, Haruki-kun! Thank you so much. Here...you shared your food with me, have some of mine!"
+
+    "Smiling, Kokona extracts a tempura from her bento box and holds it out."
+
+    kokona "Lean in please!"
 
     return
