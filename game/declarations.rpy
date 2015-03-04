@@ -22,8 +22,10 @@ label run_declarations:
     image kosuke upset = "images/characters/kosuke_normal.png"
 
     image kosuke uniform angry = "images/characters/kosuke_normal.png"
+    image kosuke uniform awkward = "images/characters/kosuke_normal.png"
     image kosuke uniform confused = "images/characters/kosuke_normal.png"
     image kosuke uniform blush = "images/characters/kosuke_normal.png"
+    image kosuke uniform grateful = "images/characters/kosuke_normal.png"
     image kosuke uniform happy = "images/characters/kosuke_normal.png"
     image kosuke uniform jealous = "images/characters/kosuke_normal.png"
     image kosuke uniform puppyEyes = "images/characters/kosuke_normal.png"
@@ -90,8 +92,12 @@ label run_declarations:
 
     #Kokona
     image kokona uniform blush = "images/characters/dummy.png"
+    image kokona uniform grateful = "images/characters/dummy.png"
     image kokona uniform happy = "images/characters/dummy.png"
     image kokona uniform normal = "images/characters/dummy.png"
+    image kokona uniform surprised = "images/characters/dummy.png"
+    image kokona uniform tearful = "images/characters/dummy.png"
+    image kokona uniform troubled = "images/characters/dummy.png"
     image kokona uniform upset = "images/characters/dummy.png"
 
     ###################
