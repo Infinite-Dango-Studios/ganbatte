@@ -81,10 +81,18 @@ label run_declarations:
     image yuta uniform normal = "images/characters/yuta_normal.png"
     image yuta uniform realization = "images/characters/yuta_normal.png"
     image yuta uniform sadisticExcitement = "images/characters/yuta_normal.png"
+    image yuta uniform surprised = "images/characters/yuta_normal.png"
 
     #Sora
     image sora uniform happy = "images/characters/sora_normal.png"
+    image sora uniform horrified = "images/characters/sora_normal.png"
     image sora uniform mischievous = "images/characters/sora_normal.png"
+
+    #Kokona
+    image kokona uniform blush = "images/characters/dummy.png"
+    image kokona uniform happy = "images/characters/dummy.png"
+    image kokona uniform normal = "images/characters/dummy.png"
+    image kokona uniform upset = "images/characters/dummy.png"
 
     ###################
     # Background images
@@ -119,7 +127,7 @@ label run_declarations:
     # Character heart meters
     ####################################
     init python:
-        heart_pos = Position(xpos=0.1375, ypos=0.81)
+        heart_pos = Position(xpos=0.148, ypos=0.81)
 
         ###################
         # Kosuke
@@ -157,6 +165,24 @@ label run_declarations:
                 elif misaki_points < 3:
                     renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
     
+        ###################
+        # Kokona
+        ###################
+        kokona_points = 0
+    
+        def heart_kokona(event, interact=True, **kwargs):
+            if not interact:
+                return
+
+            #Display heart image dependant on the character's heart level
+            if event == "begin":
+                if kokona_points < 1:
+                    renpy.show(name="heart one", layer="overlay", at_list=[heart_pos])
+                elif kokona_points < 2:
+                    renpy.show(name="heart two", layer="overlay", at_list=[heart_pos])
+                elif kokona_points < 3:
+                    renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
+    
     ####################################
     # Character declarations
     ####################################
@@ -167,6 +193,7 @@ label run_declarations:
     define sora = Character('Sora', color="#87CEEB")
     define megumi = Character('Megumi', color="#FFC0CB")
     define yuta = Character('Yuta', color="#FF0000")
+    define kokona = Character('Kokona', color="#FF00FF", callback=heart_kokona)
     define msKasai = Character('Ms. Kasai', color="#5F9EA0")
     define mrKasai = Character('Mr. Kasai', color="#5F9EA0")
     
