@@ -39,44 +39,44 @@ init -1 python hide:
     ## The theme function takes a number of parameters that can
     ## customize the color scheme.
 
-    theme.threeD(
-        ## Theme: 3D
-        ## Color scheme: Basic Blue
+    theme.diamond(
+        ## Theme: Diamond
+        ## Color scheme: White Chocolate
 
         ## The color of an idle widget face.
-        widget = "#003c78",
+        widget = "#33271C",
 
         ## The color of a focused widget face.
-        widget_hover = "#0050a0",
+        widget_hover = "#ECE7C4",
 
         ## The color of the text in a widget.
-        widget_text = "#c8ffff",
+        widget_text = "#B99D83",
 
         ## The color of the text in a selected widget. (For
         ## example, the current value of a preference.)
-        widget_selected = "#ffffc8",
+        widget_selected = "#ffffff",
 
         ## The color of a disabled widget face.
-        disabled = "#404040",
+        disabled = "#614D3A",
 
         ## The color of disabled widget text.
-        disabled_text = "#c8c8c8",
+        disabled_text = "#80654D",
 
         ## The color of informational labels.
-        label = "#ffffff",
+        label = "#F1EBE5",
 
         ## The color of a frame containing widgets.
-        frame = "#6496c8",
+        frame = "#926841",
 
         ## The background of the main menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        mm_root = "#dcebff",
+        mm_root = "#FBF9EA",
 
         ## The background of the game menu. This can be a color
         ## beginning with '#', or an image filename. The latter
         ## should take up the full height and width of the screen.
-        gm_root = "#dcebff",
+        gm_root = "#FBF9EA",
 
         ## If this is True, the in-game window is rounded. If False,
         ## the in-game window is square.
@@ -96,7 +96,34 @@ init -1 python hide:
     ## are the size of the left/right and top/bottom borders,
     ## respectively.
 
-    # style.window.background = Frame("frame.png", 12, 12)
+    #Regular text box
+
+    style.window.background = Frame("images/misc/box_border.png", 16, 16)
+
+    style.window.left_padding = 16
+    style.window.right_padding = 16
+    style.window.top_padding = 16
+    style.window.bottom_padding = 16
+
+    #Buttons main style
+
+    style.button.background = Frame("images/misc/box_border.png", 16, 16)
+    style.button.hover_background = Frame("images/misc/box_border_hover.png", 16, 16)
+
+    style.button.left_padding = 16
+    style.button.right_padding = 16
+    style.button.top_padding = 6
+    style.button.bottom_padding = 6
+
+    #Choice buttons
+
+    style.menu_choice_button.background = Frame("images/misc/box_border.png", 16, 16)
+    style.menu_choice_button.hover_background = Frame("images/misc/box_border_hover.png", 16, 16)
+
+    style.menu_choice_button.left_padding = 16
+    style.menu_choice_button.right_padding = 16
+    style.menu_choice_button.top_padding = 8
+    style.menu_choice_button.bottom_padding = 8
 
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
@@ -145,11 +172,13 @@ init -1 python hide:
 
     ## The file containing the default font.
 
-    # style.default.font = "DejaVuSans.ttf"
+    style.default.font = "DejaVuSans.ttf"
+    style.default.size = 22
+    style.default.color = "#27120F"
 
-    ## The default size of text.
-
-    # style.default.size = 22
+    style.nvl_dialogue.color = "#FFFFFF"
+    style.title_text.color = "#FFFFFF"
+    style.title_text.size = 40
 
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.

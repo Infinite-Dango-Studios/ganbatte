@@ -119,7 +119,7 @@ label run_declarations:
     # Character heart meters
     ####################################
     init python:
-        heart_pos = Position(xpos=0.1375, ypos=0.795)
+        heart_pos = Position(xpos=0.1375, ypos=0.81)
 
         ###################
         # Kosuke

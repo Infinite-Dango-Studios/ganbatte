@@ -3,7 +3,7 @@ label splashscreen:
 
     #Title text
     $ middle = Position(xpos=0.5, xanchor=0.5, ypos = 0.5, yanchor=0.5)
-    image title text = Text("Ganbatte", size=40)
+    image title text = Text("Ganbatte", style="title_text")
 
     scene bg darkness
     with Pause(0.8)
