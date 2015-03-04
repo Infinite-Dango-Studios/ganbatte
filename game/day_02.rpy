@@ -649,4 +649,224 @@ label normalUniform:
 
     sora "I mean, how do I know that you’re not some corporate spy from one of the big companies, here to find out the secret to my...Oh, wow, you’re good. You almost got me to admit my ideas to you!"
 
+    haruki "I didn’t say a..."
+
+    show sora uniform horrified
+
+    sora "No, stop! Don’t tempt me you corporate spy! I’ll never tell you how I plan to…DAMMIT! You almost had me again…damn you’re good…"
+
+    "He slowly walks back into line, staring nervously into my eyes. Is anyone who works here normal?"
+
+    hide sora
+
+    show riku ill at center
+
+    riku "Alright, Kokona, your turn."
+
+    "The final worker steps forward, another girl."
+
+    hide riku
+    show kokona uniform normal
+
+    "She is very pretty, but there also seems to be something off about her. She’s extremely pale. More than just your standard ashen, though, a truly unhealthy pale."
+
+    "Her eyes are kind and yet also tired, and they seem to hold some sort of latent sadness in them. Sadness which must have been felt years ago yet still lingers."
+
+    "And then, her name registers with me. Kokona. The girl who needs a cure."
+
+    kokona "Hi…my name is Kokona Machida. I’m pleased to meet you, Haruki Nishihara…"
+
+    "Her voice is very quiet."
+
+    haruki "Thank you, pleased to meet you too, Kokona Machida!"
+
+    kokona "You…You may call me Kokona-chan…if you want to. I’m not very formal…"
+
+    haruki "Ok, Kokona-chan."
+
+    kokona "I, um, I wish I had something interesting to say about myself. I’m not really like Gumi-chan or Yuta-kun or Sora-kun, though…I haven’t really accomplished much and I’m not very interesting. I’m sorry!"
+
+    "I’m surprised by her apology. She seems so sad about not having anything to say and she seems to believe that she deserves to feel bad about it."
+
+    haruki "It’s ok, really! I’m sure you’re really interesting!"
+
+    show kokona uniform blush
+
+    kokona "Um…thank you…I hope we can talk more."
+
+    "I smile at her. She seems really sweet, just like everyone said."
+
+    haruki "I do too."
+
+    "Kokona smiles at me and then returns to the line."
+
+    hide kokona
+
+    "A moment later I feel a gentle punch on my arm."
+
+    show kosuke uniform smirk at char_left
+    show misaki uniform smirk at char_right
+
+    misaki "Were you just flirting with Kokona-chan?"
+
+    haruki "N-no, that’s…no!"
+
+    "I feel my face get red."
+
+    misaki "Mhm, sure."
+
+    haruki "I…uh…"
+
+    "Before I can think of a defense, Riku begins to speak. I silently thank him."
+
+    hide kosuke
+    hide misaki
+
+    show riku normal
+
+    riku "Alright, that’s everyone! I hope you enjoy working here, Haruki. Speaking of work, I think we should be getting back to it? If we want to make any money."
+
+    "Sora, Yuta and Megumi nod their agreement and drift off, Megumi and Sora going to the kitchens while Yuta takes the counter. Somehow I wonder if Yuta’s the best choice for the person giving food to the customers."
+
+    riku "Alright, Haruki, since it’s your first day, I’ll let you work the counter. It’s easier than the kitchens, and more fun. You’ll work with Kokona, Kosuke and Yuta. Sora, Megumi, Misaki, you three take the kitchens."
+
+    show riku smirk
+
+    riku "Try not to set any more fires, OK, Misaki?"
+
+    show riku smirk at char_left
+    show misaki uniform angry at char_right
+
+    misaki "That was one time!"
+
+    show riku defeated
+
+    riku "Sixteen. Sixteen times."
+
+    show misaki uniform normal
+
+    misaki "One time, sixteen times, who’s really counting?"
+
+    riku "The fire department. They have our pictures at the fire station."
+
+    misaki "Dad says that learning to cook is a process!"
+
+    riku "Well, most of the time, this learning process doesn’t get you on the “most likely to commit arson” watch-list."
+
+    "Misaki laughs in response, and disappears into the kitchens."
+
+    hide misaki
+
+    show riku normal at center
+
+    riku "Alright, have fun! Kokona, Kosuke, you two make sure he stays on track…and make sure Yuta isn’t talking about dismemberment again…"
+
+    show riku normal at char_left
+    show kosuke uniform salute at char_right
+
+    kosuke "Yes, sir, Riku-sama, sir!"
+
+    show riku defeated
+
+    "Riku rolls his eyes, and gives me a look."
+
+    riku "You’re mocking me again."
+
+    kosuke "Yes, sir, Riku-sama, sir!"
+
+    riku "Why did I even hire you? And, more importantly, why have I not fired you yet?"
+
+    show kosuke uniform happy
+
+    kosuke "Because I’m too lovable!"
+
+    "Riku rolls his eyes and Kosuke winks at him before heading over to the counter to take the order of a teenage boy standing at the counter."
+
+    hide kosuke
+
+    show riku defeated at center
+
+    riku "Good luck out there, with coworkers like these, you’re gonna need it!"
+
+    "He laughs, and drifts away, disappearing into the kitchens."
+
+    hide riku
+
+    show kokona uniform normal
+
+    kokona "Haruki-kun? Is everything alright, you look upset…"
+
+    "I realize that I am showing my concern on my face, and I quickly change my expression."
+
+    haruki "No, I’m fine, it’s nothing. I was just thinking about something."
+
+    kokona "Oh, ok! Well, do you want me to teach you about the counter now? It would be my pleasure."
+
+    haruki "Oh, um, sure, thank you!"
+
+    show kokona uniform happy
+
+    kokona "Ok! Follow me~!"
+
+    "She offers me her hand, and I take it. It feels fragile, as if it will come apart in my grip. Kokona leads me over to the counter, where Kosuke and Yuta are serving a couple of men in their mid-forties who appear to be picking up some anpan before arriving at a business meeting."
+
+    show kokona uniform normal at char_left
+    show yuta uniform normal at char_right
+
+    yuta "…now, I must ask, sir, have you perhaps heard of the dojinshi Mahou Akuma? No? Well, it’s quite good, or so I’ve heard. It’s about these covens of witches who…"
+
+    "Kokona gently taps his shoulder and he turns around."
+
+    show yuta uniform surprised
+
+    yuta "Yes?"
+
+    show kokona uniform upset
+
+    kokona "Um…Riku-san said you aren’t supposed to try to sell your dojinshi to customers anymore, Yuta-kun. Please don’t get yourself fired like this, ok?"
+
+    show yuta uniform realization
+
+    yuta "I wasn’t really selling them… just wondering if they’d read them…"
+
+    "Yuta wanders off to the other side of the counter, muttering to himself about how he’ll never get more sales without word of mouth."
+
+    hide yuta
+
+    show kosuke uniform happy at char_right
+
+    kosuke "Having fun yet, Haruki-kun?"
+
+    haruki "Yeah! Everyone seems really nice and interesting!"
+
+    kosuke "Don’t worry, you’ll get used to all of them."
+
+    haruki "Well, you are the strangest, so if I got used to you…"
+
+    show kosuke uniform angry
+
+    kosuke "Hey!"
+
+    show kokona uniform happy
+
+    kokona "Do you and Kosuke-kun always tease each other like this?"
+
+    show kosuke uniform happy
+
+    kosuke "Hell yeah!"
+
+    "He puts his arm around my shoulders."
+
+    kosuke "Haruki-kun and I go way back! We’ve even seen each other naked!"
+
+    "I feel my face blush quicker than I would have thought possible."
+
+    haruki "Kosuke…!"
+
+    show kosuke uniform smirk
+
+    kosuke "Well it’s true! We used to go swimming a lot when we were kids."
+
+    "Kokona is giggling now."
+
     return
