@@ -76,21 +76,30 @@ label run_declarations:
     image riku wondering = "images/characters/riku_normal.png"
 
     #Megumi
+    image megumi happy = "images/characters/megumi_normal.png"
+
     image megumi uniform happy = "images/characters/megumi_normal.png"
     image megumi uniform realization = "images/characters/megumi_normal.png"
 
     #Yuta
+    image yuta normal = "images/characters/yuta_normal.png"
+
     image yuta uniform normal = "images/characters/yuta_normal.png"
     image yuta uniform realization = "images/characters/yuta_normal.png"
     image yuta uniform sadisticExcitement = "images/characters/yuta_normal.png"
     image yuta uniform surprised = "images/characters/yuta_normal.png"
 
     #Sora
+    image sora happy = "images/characters/sora_normal.png"
+
     image sora uniform happy = "images/characters/sora_normal.png"
     image sora uniform horrified = "images/characters/sora_normal.png"
     image sora uniform mischievous = "images/characters/sora_normal.png"
 
     #Kokona
+    image kokona happy = "images/characters/dummy.png"
+    image kokona normal = "images/characters/dummy.png"
+
     image kokona uniform blush = "images/characters/dummy.png"
     image kokona uniform grateful = "images/characters/dummy.png"
     image kokona uniform happy = "images/characters/dummy.png"
