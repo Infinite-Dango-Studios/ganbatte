@@ -1077,4 +1077,229 @@ label haveCustomer:
 
     kokona "Lean in please!"
 
+    "I do, and she puts the tempura in my mouth for me."
+
+    haruki "Thanks, Kokona-chan!"
+
+    "I hear a slightly unsettling giggle next to the table and I turn to look at the source. At some point, Yuta had arrived at the table without us knowing."
+
+    show kokona uniform happy at char_left
+    show yuta uniform normal at char_right
+
+    yuta "Oh...am I interrupting something? I’ve been watching for a few minutes actually. From a little ways away. Kosuke said that I should take my lunch break. I don’t get what the problem was, I was just educating the customer on gangrene..."
+
+    "Yuta sits down next to Kokona, eating a taiyaki."
+
+    yuta "It was cute dialogue though. Really, I should use something like that in my next chapter. It can be how the head of the Bakeneko coven, Neko Kirisama, lures her next victim for the Neko-Ningen Program arc of Mahou Akuma!"
+
+    "Kokona and I exchange a slightly horrified glance, and then we both laugh a little."
+
+    haruki "Damn, Yuta, you’ve exposed my plan! Now I’ll never be able to lure Kokona-chan into my satanic rituals!"
+
+    "Kokona is laughing a lot now."
+
+    kokona "Oh...Haruki-kun! Were you only pretending to be nice to me so you could use me for your evil purposes!?"
+
+    "I place my hand over my heart, feigning defeat."
+
+    haruki "I would have gotten away with it too, if not for Yuta Arakawa!"
+
+    "We all laugh. Kokona puts away her empty bento box, and stands up."
+
+    show kokona uniform normal
+
+    kokona "I think our lunch break is over, Haruki-kun. It would be rude to leave Kosuke all alone at the counter for too long."
+
+    haruki "Yeah, you’re right."
+
+    "We exit the booth and say goodbye to Yuta. He waves at us distractedly, sketching a witch in a small notebook while working on his second taiyaki."
+
+    hide yuta
+
+    show kokona at center
+
+    "We walk back over to the counter, where Kosuke is handing a twenty-something man a few sticks of dango. The man leaves as we join Kosuke behind the counter."
+
+    show kokona at char_left
+    show kosuke uniform smirk at char_right
+
+    kosuke "Back from your little date?"
+
+    haruki "I-It wasn’t a date!"
+
+    kosuke "It sure looked like one! Be careful, Haru-chan, you might make someone jealous!"
+
+    "I laugh."
+
+    haruki "Like who, you?"
+
+    show kosuke uniform happy
+
+    kosuke "As if!"
+
+    "We laugh, and get back to work."
+
+    hide kokona
+    hide kosuke
+
+    window show
+
+    h "The rest of the work day passes quickly."
+
+    h "Yuta comes back to the counter almost an hour later, and once again he is relegated to the drinks machine. Kosuke chooses not to take a lunch break, and eats his onigiri at the counter between customers. When he’s finished with the onigiri, he steals four wagashi, saving one for himself and giving the other three to Kokona, Yuta and me."
+
+    h "Riku comes out of the kitchen just as he’s doing this, catching Kosuke in the act, but Kosuke shoves an orange wagashi in Riku’s mouth before he can object. He chews it slowly before shrugging and walking back into the kitchen."
+
+    h "Kokona and I do not have another real conversation for the rest of the day."
+
+    h "At two thirty, Misaki exits the kitchen, Gumi-chan and Sora with her. I notice that seven more workers have entered the café, although none of them acknowledge me."
+
+    window hide
+    nvl clear
+
+    show megumi happy at char_left
+    show sora happy at char_right
+
+    megumi "Bye everyone~! ♪ Gumi-chan is out~!! ♫"
+
+    sora "Bye guys! ...I wonder if I could...no, I can’t plan here...I need to get home, draw diagrams, plan it out..."
+
+    "Gumi-chan puts in a set of earbuds and skips out singing to herself. Sora follows not far after her, typing into his phone and not really watching where he’s walking. He almost runs into the doorframe."
+
+    hide megumi
+    hide sora
+
+    show yuta normal
+
+    yuta "Ah, it seems our shift is up. Goodbye everyone, thank you for once again providing me ample material for Mahou Akuma."
+
+    "Yuta giggles to himself and walks out with a slight wave."
+
+    hide yuta
+
+    show misaki normal at char_left
+    show kokona normal at char_right
+
+    "I once again feel Misaki’s light punch in my arm. It is soft and friendly this time. She must no longer be mad at me."
+
+    show misaki smirk
+
+    misaki "Hey, Haruki-kun. Shift’s up. How was your date with Kokona-chan?"
+
+    haruki "It wasn’t a date!"
+
+    misaki "Whatever you say~! But I hope you’re not tired because you’re about to go on a tour of Maura with me and Kosuke! And you’re not getting out of it!"
+
+    haruki "I wouldn’t even try to."
+
+    show misaki happy
+
+    misaki "Good~! Kosuke and I will be waiting by the door. Don’t try anything with Kokona-chan, OK?"
+
+    show misaki yandere
+
+    misaki "Or else."
+
+    "I gasp and give her a look but she merely laughs and walks off with Kosuke. They wave at me from the door, and I turn back to Kokona."
+
+    hide misaki
+    show kokona happy at center
+
+    kokona "Misaki-chan is pretty funny!"
+
+    "I give Misaki a sidelong glance."
+
+    haruki "Yeah, she’s pretty interesting."
+
+    kokona "So, I’ll see you tomorrow, right?"
+
+    haruki "Of course!"
+
+    kokona "I’m looking forward to it! Bye, Haruki-kun!"
+
+    "She waves with a small gesture and walks away."
+
+    hide kokona
+
+    "I go over to Kosuke and Misaki, and we go out into the street."
+
+    scene bg commercialCenter
+
+    "They are busy, even more so than this morning. I see Gumi-chan, Yuta and Sora all walking off in one direction, and Kokona in the other. In a few seconds, both groups become part of the crowd and I lose them."
+
+    "Without warning, Kosuke runs to the edge of the sidewalk and spins around, teetering on the edge and dangerously close to falling into the street."
+
+    show kosuke happy
+
+    kosuke "Welcome to Maura!"
+
+    "He grabs my hand, and pulls me out into the street with him. A car passes us, and he pulls me out of the way just in time."
+
+    #sound carHorn
+
+    haruki "Kosuke-kun! Be careful, we almost died!"
+
+    kosuke "Maura has so much to do, Haru-chan! I don’t even know where to take you!"
+
+    "He seems completely unfazed by almost being hit by a car. Unbelievable."
+
+    haruki "Well, I don’t really know anything here besides Ganbatte and your house."
+
+    show kosuke at char_left
+    show misaki happy at char_right
+
+    misaki "There’s tons of stuff here! The arcade, a bunch of cool restaurants, this awesome art museum, the bookstore, the theater, the athletic center, the hospital..."
+
+    "Kosuke shoots her a look."
+
+    show kosuke confused
+
+    kosuke "Why would Haru-chan want to visit the hospital?"
+
+    show misaki angry
+
+    misaki "I was just informing him that we have one! What if he gets injured, idiot, what then?"
+
+    show kosuke normal
+
+    kosuke "Well, I thought we were discussing fun places to show him...speaking of which..."
+
+    show kosuke happy
+
+    kosuke "Why don’t we take him to the square? It’s a summer weekday, so the market stalls will be up!"
+
+    haruki "That sounds like fun!"
+
+    kosuke "It will be!"
+
+    show misaki smirk
+
+    misaki "And I’ll show you around!"
+
+    "Misaki grabs my hand and starts running off in the direction I saw Gumi-chan, Yuta and Sora go."
+
+    show kosuke upset
+
+    kosuke "Hey! Where are you going with Haru-chan! I’m going to lead him around!"
+
+    "Kosuke runs after us and ends up grabbing my other hand. They pull me forward as I struggle to keep up with them."
+
+    window show
+
+    h "They pull me through the crowded sidewalks, attracting several disgruntled stares from those we pass. The buildings are all so lively. We pass store after store, filled with clothes and anime merchandise, bento boxes, electronics retailers, bars, bookstores, antiques shops, music stores with huge banners announcing the newest vocaloid programs and Kyary Pamyu Pamyu."
+
+    h "This place is so different from our hometown. It was a small village, with only a few houses, a school, and some family owned businesses. Maura may be far from a sprawling urban social epicenter like Tokyo or even Osaka or Nagoya, but it is giant compared to my hometown."
+
+    h "In a few minutes, we have arrived in the town square. Just as Misaki and Kosuke promised, numerous stalls dot the square selling all manner of colorful goods."
+
+    h "Some sell stuffed animals, other sell small accessories. One sells posters. Another, marked “Ashiteru Hon” appears to be selling classic literature from all across the globe. Countless others sell candies, baked goods, and other snack foods. The air here is filled with frenetic chatter as countless shoppers move from stand to stand, purchasing goods."
+
+    window hide
+    nvl clear
+
+    "Kosuke lets go of my hand, and once again spins in a circle."
+
+    show kosuke happy at char_left
+    show misaki happy at char_right
+
     return
