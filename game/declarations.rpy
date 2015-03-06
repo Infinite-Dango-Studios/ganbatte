@@ -9,6 +9,7 @@ label run_declarations:
 
     #Kosuke
     image kosuke angry = "images/characters/kosuke_normal.png"
+    image kosuke annoyed = "images/characters/kosuke_normal.png"
     image kosuke confused = "images/characters/kosuke_normal.png"
     image kosuke blush = "images/characters/kosuke_normal.png"       
     image kosuke happy = "images/characters/kosuke_normal.png"
@@ -109,6 +110,15 @@ label run_declarations:
     image kokona uniform troubled = "images/characters/dummy.png"
     image kokona uniform upset = "images/characters/dummy.png"
 
+    #Yuuki
+    image yuuki evil = "images/characters/dummy.png"
+    image yuuki happy = "images/characters/dummy.png"
+    image yuuki normal = "images/characters/dummy.png"
+
+    #Momoko
+    image momoko happy = "images/characters/dummy.png"
+    image momoko normal = "images/characters/dummy.png"
+
     ###################
     # Background images
     ###################
@@ -127,6 +137,8 @@ label run_declarations:
     image bg haruki room night = "images/backgrounds/dummy.png"
 
     image bg commercialCenter = "images/backgrounds/dummy.png"
+    image bg market = "images/backgrounds/dummy.png"
+    image bg market bookCart = "images/backgrounds/dummy.png"
     image bg cafe outside = "images/backgrounds/dummy.png"
     image bg cafe inside = "images/backgrounds/dummy.png"
     image bg cafe closet = "images/backgrounds/dummy.png"
@@ -198,6 +210,42 @@ label run_declarations:
                 elif kokona_points < 3:
                     renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
     
+        ###################
+        # Yuuki
+        ###################
+        yuuki_points = 0
+    
+        def heart_yuuki(event, interact=True, **kwargs):
+            if not interact:
+                return
+
+            #Display heart image dependant on the character's heart level
+            if event == "begin":
+                if yuuki_points < 1:
+                    renpy.show(name="heart one", layer="overlay", at_list=[heart_pos])
+                elif yuuki_points < 2:
+                    renpy.show(name="heart two", layer="overlay", at_list=[heart_pos])
+                elif yuuki_points < 3:
+                    renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
+    
+        ###################
+        # Momoko
+        ###################
+        momoko_points = 0
+    
+        def heart_momoko(event, interact=True, **kwargs):
+            if not interact:
+                return
+
+            #Display heart image dependant on the character's heart level
+            if event == "begin":
+                if momoko_points < 1:
+                    renpy.show(name="heart one", layer="overlay", at_list=[heart_pos])
+                elif momoko_points < 2:
+                    renpy.show(name="heart two", layer="overlay", at_list=[heart_pos])
+                elif momoko_points < 3:
+                    renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
+    
     ####################################
     # Character declarations
     ####################################
@@ -211,6 +259,10 @@ label run_declarations:
     define kokona = Character('Kokona', color="#FF00FF", callback=heart_kokona)
     define msKasai = Character('Ms. Kasai', color="#5F9EA0")
     define mrKasai = Character('Mr. Kasai', color="#5F9EA0")
+
+    #Characters that start out as "???"
+    define yuuki = DynamicCharacter("yuuki_name", color="#FF8C00", callback=heart_yuuki)
+    define momoko = DynamicCharacter("momoko_name", color="#FF69B4", callback=heart_momoko)
     
     ####################################
     # NVL narrator code
