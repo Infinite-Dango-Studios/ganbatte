@@ -1302,4 +1302,282 @@ label haveCustomer:
     show kosuke happy at char_left
     show misaki happy at char_right
 
+    kosuke "Take it all in, Haru-chan! Isn’t it wonderful?"
+
+    "I let go of Misaki’s hand so I can walk freely."
+
+    haruki "It’s...it’s amazing. I don’t even know where to go first!"
+
+    show misaki smirk
+
+    misaki "There’s a hostess club right over there, Haruki-kun. Want to go there?"
+
+    "I look where she is pointing. There is a hostess club called the Hana Shoujo. I notice the girl who was eating daifuku and playing a handheld at Ganbatte is standing just outside the doorway."
+
+    "I notice now that her hair is dyed blonde, and her clothes are revealing. She appears to be cajoling men into entering the club. I guess that she works there."
+
+    show kosuke smirk
+
+    kosuke "Why don’t you go there, Misaki, while Haru-chan and I go shopping!"
+
+    misaki "Well, I know you can’t go in there, Kosuke-kun. You’d piss yourself out of fear."
+
+    show kosuke angry
+
+    "Kosuke glares at Misaki, and I can feel the fire burning in his eyes. His fingers are twitching. She hit a nerve."
+
+    menu:
+        "Side with Misaki":
+            jump sideMisaki
+        "Side with Kosuke":
+            jump sideKosuke
+
+    return
+
+#Scene where Haruki chooses "Side with Misaki"
+label sideMisaki:
+
+    haruki "It was just a joke, Kosuke, you shouldn’t take it so seriously."
+
+    kosuke "Well, I didn’t find it funny. It offended me."
+
+    misaki "Gynophobia isn’t even real. Maybe you should learn to take a joke, seeing as your condition is one."
+
+    show kosuke upset
+
+    kosuke "I do not like this fight, and Kosuke seems upset. I do not know why Misaki is being so cruel to him. I sigh."
+
+    haruki "...Well, I mean...it was just a joke, Kosuke."
+
+    "Misaki grabs my hand and pulls me close to her. I go along, but I won’t meet Kosuke’s begging gaze. This is not how this afternoon should have gone."
+
+    $ misaki_points += 1
+    misaki "See? Even Haruki-kun agrees with me."
+
+    kosuke "You’re right. It was just a joke. I’m fine..."
+
+    show kosuke happy
+
+    kosuke "I’m fine, see? Now let’s go have some fun, ok?"
+
+    jump goShopping
+
+    return
+
+#Scene where Haruki chooses "Side with Kosuke"
+label sideKosuke:
+
+    haruki "That was a little rude, Misaki."
+
+    show misaki surprised
+
+    misaki "Why’s that? It was just a joke."
+
+    haruki "Well, clearly you offended him."
+
+    show misaki angry
+
+    misaki "Whatever. You idiots just don’t understand my humor."
+
+    "I walk over to Kosuke and I put my hand on his shoulder."
+
+    haruki "Hey, calm down, OK? Let’s all just have fun shopping."
+
+    show kosuke normal
+
+    $ kosuke_points += 2
+    kosuke "Yeah...thanks for standing up for me, Haru-chan."
+
+    "I turn back to Misaki."
+
+    haruki "Don’t hold this against me, OK?"
+
+    show misaki normal
+
+    misaki "I could never hold anything against you, Haruki-kun."
+
+    show kosuke smirk
+
+    kosuke "Because you’re in love with him."
+
+    show misaki angry
+
+    $ misaki_points += 1
+    misaki "I am not in love with him, you idiot!"
+
+    "She looks for a moment like she’s going to slap him, but we all end up laughing instead. I think I handled this situation pretty well, and we all seem to be happy enough."
+
+    jump goShopping
+
+    return
+
+#Scene where Haruki finishes his branching interaction with Kosuke and Misaki
+label goShopping:
+
+    haruki "Alright, let’s put this behind us and have fun shopping, OK?"
+
+    show kosuke normal
+    show misaki normal
+
+    "They both nod their agreement."
+
+    scene bg market
+    show kosuke normal
+    show misaki normal
+
+    window show
+
+    h "We move from stand to stand, trying to take in as much as possible. We each buy yakitori and snack on it as we look at jewelry and hair accessories."
+
+    h "Misaki buys a lime green bow with a cat face as the center. Kosuke buys matching pink bows when Misaki is distracted by necklaces and he thinks I am not looking. I wonder if they are for him; I do not think he has a girlfriend, with his gynophobia."
+
+    h "Next, Kosuke and Misaki wander over to a stand selling phone cases, and I walk over to the stuffed animals."
+
+    hide kosuke
+    hide misaki
+
+    nvl clear
+
+    h "I am admiring a giraffe when a running man bumps into me. Struggling to maintain my balance, I run into another person looking at stuffed animals."
+
+    h "I turn to face her. She does not look like the kind of person who would be looking at stuffed animals, and yet she is staring intently at a small chartreuse bunny. Her hair is red and black, and round green glasses obscure her face. Clutched in her hands is a book decorated with a star. No, it is not a star...a pentagram."
+
+    window hide
+    nvl clear
+
+    #Set Yuuki's name to "???"
+    $ yuuki_name = "???"
+
+    show yuuki normal
+
+    yuuki "You ran into me."
+
+    "I am taken aback by how deadpan her tone is. She says it as if she’s reading from a manual on how to operate agricultural irrigation."
+
+    haruki "Sorry! It was an accident, I didn’t mean to..."
+
+    show yuuki evil
+
+    yuuki "I’m going to lay a curse on you for that! I was talking to usa-chan and you interrupted me."
+
+    "She flips open her book and begins chanting words I do not recognize or understand."
+
+    yuuki "Reddam tibi...lepus diabolus...interno cruentamque! Cruentis ab oculis tuis! MORS!!!"
+
+    "She screams the last word of her ‘curse’ so loudly that it attracts the attention of everyone in the square, including Kosuke and Misaki who rush to my side."
+
+    show yuuki happy
+
+    yuuki "That was fun, I love cursing people! Good luck with what time you have left!"
+
+    "She closes her pentagram book and gives a short wave. Giggling, she pays for the stuffed bunny and skips away with it under one arm and the book under the other."
+
+    hide yuuki
+
+    show kosuke surprised at char_left
+    show misaki normal at char_right
+
+    kosuke "What was that all about!?!"
+
+    misaki "Yeah, who was that girl?"
+
+    show misaki yandere
+
+    misaki "Your secret girlfriend?"
+
+    show kosuke annoyed
+
+    kosuke "Misaki...he’s been in Maura for two days, one of which he spent entirely with us. Plus she screamed ‘Mors’. That means ‘death’!"
+
+    haruki "How do you know that, Kosuke-kun?"
+
+    show kosuke happy
+
+    kosuke "It was Latin! I recognize mors from Yuta-kun’s dojinshi. It was inscribed over the entrance to the headquarters of the Teke Teke coven."
+
+    "I shudder at the mention of Teke Teke, that legend has always freaked me out."
+
+    show misaki angry
+
+    misaki "She sounds pretty pissed then, what’d you do?"
+
+    haruki "Hey! Who says that I Finally, we stop at Ashiteru Hon, the only place in the market that we have not spent time at yet.did something!?"
+
+    misaki "You probably did some stupid thing to get her pissed enough to scream death at you in Latin."
+
+    haruki "It wasn’t my fault! This man ran into me so I bumped into her and she laid a curse on me!"
+
+    show kosuke smirk
+
+    kosuke "A curse?"
+
+    haruki "Well...I mean...she opened her book and started muttering in Latin..."
+
+    show misaki smirk
+
+    misaki "Sounds like some kind of pathetic chuunibyo to me."
+
+    "I laugh at the mention of chuunibyos, I have not heard anyone use that term since grade school."
+
+    kosuke "Yeah, she’s totally the evil eye chuunibyo type. I wouldn’t worry about her little ‘curse’!"
+
+    haruki "I wasn’t worried, just surprised."
+
+    window show
+
+    h "Kosuke and Misaki exchange a glance and shrug. My encounter with the strange girl over, we resume shopping."
+
+    h "We stop at a stand selling Vocaloid merchandise. Kosuke buys chibi figures of Rin and Len Kagamine, and he buys me a chibi figure of Megurine Luka. Before I can stop her, Misaki buys me a chibi figure of Gumi, asserting that if Kosuke can buy me a figure she should be able to as well."
+
+    h "I feel a little guilty letting them buy these gifts for me, but they insist that they are happy to do so."
+
+    h "Finally, we stop at Ashiteru Hon, the only place in the market that we have not spent time at yet."
+
+    window hide
+    nvl clear
+
+    scene bg market bookCart
+
+    "There is one other customer at the cart when we arrive. She has a childlike face, with enormous pigtails sprouting from each side of her head. She is talking to the bookseller."
+
+    #Set Momoko's name to "???"
+    $ momoko_name = "???"
+
+    show momoko normal
+
+    momoko "Umm....hmmm...I’ll take Titus Andronicus, The Iliad, The Silmarillion, and...umm...Finnegan’s Wake. Tehe, that’s four books~!"
+
+    "She breaks into childish giggles and I seriously wonder if she can comprehend even a sentence from even one of the books she selected. Even so, she pays for the books and takes all four of them. When she turns to leave the stand, she notices us and giggles again."
+
+    momoko "Oh, Hi~!"
+
+    "For someone who I have never met before, she’s surprisingly friendly. I guess she does not just look childish, she has the practical intelligence of one."
+
+    haruki "Hello."
+
+    momoko "Tehe, I love books~! Do you love books too?"
+
+    haruki "Um, yes, I do."
+
+    "Her entire face lights up, and she begins to bounce up and down excitedly."
+
+    show momoko happy
+
+    momoko "Yay~! Book friends~!"
+
+    "She giggles excitedly and performs a childish curtsy."
+
+    momoko "My name is Momoko Kawai~!"
+
+    #Set Momoko's name to "Momoko"
+    $ momoko_name = "Momoko"
+
+    haruki "Kawaii? As in ‘cute’?"
+
+    momoko "Nuh-uh! Only one i~! K-A-W-A-I! But I am cute, though, tehe!"
+
+    "She breaks into another set of childish giggles and twirls around. I exchange a glance with Misaki and Kosuke, both of whom seem as confused as me."
+
+    haruki "Um...nice to meet you, Momoko. I am Haruki Nishihara."
+
     return
