@@ -105,6 +105,15 @@ init -1 python hide:
     style.window.top_padding = 16
     style.window.bottom_padding = 16
 
+    #Character name box
+
+    style.say_who_window.background = Frame("images/misc/box_border.png", 16, 16)
+
+    style.say_who_window.left_padding = 16
+    style.say_who_window.right_padding = 16
+    style.say_who_window.top_padding = 12
+    style.say_who_window.bottom_padding = 12
+
     #Buttons main style
 
     style.button.background = Frame("images/misc/box_border.png", 16, 16)

@@ -154,7 +154,7 @@ label run_declarations:
     # Character heart meters
     ####################################
     init python:
-        heart_pos = Position(xpos=0.148, ypos=0.81)
+        heart_pos = Position(xpos=0.22, ypos=0.724)
 
         ###################
         # Kosuke
@@ -249,20 +249,20 @@ label run_declarations:
     ####################################
     # Character declarations
     ####################################
-    define haruki = Character('Haruki', color="#00FF7F")
-    define kosuke = Character('Kosuke', color="#40E0D0", callback=heart_kosuke)
-    define misaki = Character('Misaki', color="#EE82EE", callback=heart_misaki)
-    define riku = Character('Riku', color="#2E8B57")
-    define sora = Character('Sora', color="#87CEEB")
-    define megumi = Character('Megumi', color="#FFC0CB")
-    define yuta = Character('Yuta', color="#FF0000")
-    define kokona = Character('Kokona', color="#FF00FF", callback=heart_kokona)
-    define msKasai = Character('Ms. Kasai', color="#5F9EA0")
-    define mrKasai = Character('Mr. Kasai', color="#5F9EA0")
+    define haruki = Character('Haruki', color="#00FF7F", show_two_window="true")
+    define kosuke = Character('Kosuke', color="#40E0D0", show_two_window="true", callback=heart_kosuke)
+    define misaki = Character('Misaki', color="#EE82EE", show_two_window="true", callback=heart_misaki)
+    define riku = Character('Riku', color="#2E8B57", show_two_window="true")
+    define sora = Character('Sora', color="#87CEEB", show_two_window="true")
+    define megumi = Character('Megumi', color="#FFC0CB", show_two_window="true")
+    define yuta = Character('Yuta', color="#FF0000", show_two_window="true")
+    define kokona = Character('Kokona', color="#FF00FF", show_two_window="true", callback=heart_kokona)
+    define msKasai = Character('Ms. Kasai', color="#5F9EA0", show_two_window="true")
+    define mrKasai = Character('Mr. Kasai', color="#5F9EA0", show_two_window="true")
 
     #Characters that start out as "???"
-    define yuuki = DynamicCharacter("yuuki_name", color="#FF8C00", callback=heart_yuuki)
-    define momoko = DynamicCharacter("momoko_name", color="#FF69B4", callback=heart_momoko)
+    define yuuki = DynamicCharacter("yuuki_name", color="#FF8C00", show_two_window="true", callback=heart_yuuki)
+    define momoko = DynamicCharacter("momoko_name", color="#FF69B4", show_two_window="true", callback=heart_momoko)
     
     ####################################
     # NVL narrator code
