@@ -1458,7 +1458,7 @@ label goShopping:
 
     show yuuki evil
 
-    yuuki "I’m going to lay a curse on you for that! I was talking to usa-chan and you interrupted me."
+    yuuki "I’m going to lay a curse on you for that! I was talking to Usa-chan and you interrupted me."
 
     "She flips open her book and begins chanting words I do not recognize or understand."
 
