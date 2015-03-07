@@ -1501,7 +1501,7 @@ label goShopping:
 
     misaki "She sounds pretty pissed then, what’d you do?"
 
-    haruki "Hey! Who says that I Finally, we stop at Ashiteru Hon, the only place in the market that we have not spent time at yet.did something!?"
+    haruki "Hey! Who says that I did something!?"
 
     misaki "You probably did some stupid thing to get her pissed enough to scream death at you in Latin."
 
