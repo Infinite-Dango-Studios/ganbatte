@@ -45,6 +45,7 @@ label run_declarations:
     image misaki horrified = "images/characters/misaki_normal.png"
     image misaki normal = "images/characters/misaki_normal.png"
     image misaki smirk = "images/characters/misaki_normal.png"
+    image misaki surprised = "images/characters/misaki_normal.png"
     image misaki upset = "images/characters/misaki_normal.png"
 
     image misaki uniform angry = "images/characters/misaki_normal.png"
