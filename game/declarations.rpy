@@ -149,6 +149,20 @@ label run_declarations:
     image heart one = "images/misc/heart_grey.png"
     image heart two = "images/misc/heart_blue.png"
     image heart three = "images/misc/heart_purple.png"
+
+    #Click to continue icon
+    $ ctc_pos = Position(xpos=0.97, ypos=0.97)
+
+    image ctc_animation:
+        xpos 0.97 ypos 0.97
+        xanchor 1.0 yanchor 1.0
+        "images/misc/ctc_icon.png"
+
+        #Image changes opacities to simulate fading in and out
+        alpha 0.3
+        linear 1.0 alpha 1.0
+        linear 1.0 alpha 0.3
+        repeat
     
     ####################################
     # Character heart meters
@@ -172,7 +186,7 @@ label run_declarations:
                     #Do nothing
                     return
                 elif kosuke_points < 3:
-                    renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
     
         ###################
         # Misaki
@@ -186,11 +200,11 @@ label run_declarations:
             #Display heart image dependant on the character's heart level
             if event == "begin":
                 if misaki_points < 1:
-                    renpy.show(name="heart one", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
                 elif misaki_points < 2:
-                    renpy.show(name="heart two", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
                 elif misaki_points < 3:
-                    renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
     
         ###################
         # Kokona
@@ -204,11 +218,11 @@ label run_declarations:
             #Display heart image dependant on the character's heart level
             if event == "begin":
                 if kokona_points < 1:
-                    renpy.show(name="heart one", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
                 elif kokona_points < 2:
-                    renpy.show(name="heart two", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
                 elif kokona_points < 3:
-                    renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
     
         ###################
         # Yuuki
@@ -222,11 +236,11 @@ label run_declarations:
             #Display heart image dependant on the character's heart level
             if event == "begin":
                 if yuuki_points < 1:
-                    renpy.show(name="heart one", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
                 elif yuuki_points < 2:
-                    renpy.show(name="heart two", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
                 elif yuuki_points < 3:
-                    renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
     
         ###################
         # Momoko
@@ -240,29 +254,32 @@ label run_declarations:
             #Display heart image dependant on the character's heart level
             if event == "begin":
                 if momoko_points < 1:
-                    renpy.show(name="heart one", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
                 elif momoko_points < 2:
-                    renpy.show(name="heart two", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
                 elif momoko_points < 3:
-                    renpy.show(name="heart three", layer="overlay", at_list=[heart_pos])
+                    renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
     
     ####################################
     # Character declarations
     ####################################
-    define haruki = Character('Haruki', color="#00FF7F", show_two_window="true")
-    define kosuke = Character('Kosuke', color="#40E0D0", show_two_window="true", callback=heart_kosuke)
-    define misaki = Character('Misaki', color="#EE82EE", show_two_window="true", callback=heart_misaki)
-    define riku = Character('Riku', color="#2E8B57", show_two_window="true")
-    define sora = Character('Sora', color="#87CEEB", show_two_window="true")
-    define megumi = Character('Megumi', color="#FFC0CB", show_two_window="true")
-    define yuta = Character('Yuta', color="#FF0000", show_two_window="true")
-    define kokona = Character('Kokona', color="#FF00FF", show_two_window="true", callback=heart_kokona)
-    define msKasai = Character('Ms. Kasai', color="#5F9EA0", show_two_window="true")
-    define mrKasai = Character('Mr. Kasai', color="#5F9EA0", show_two_window="true")
+    define haruki = Character('Haruki', color="#00FF7F", ctc="ctc_animation", ctc_position="fixed", show_two_window="true")
+    define kosuke = Character('Kosuke', color="#40E0D0", ctc="ctc_animation", ctc_position="fixed", show_two_window="true", callback=heart_kosuke)
+    define misaki = Character('Misaki', color="#EE82EE", ctc="ctc_animation", ctc_position="fixed", show_two_window="true", callback=heart_misaki)
+    define riku = Character('Riku', color="#2E8B57", ctc="ctc_animation", ctc_position="fixed", show_two_window="true")
+    define sora = Character('Sora', color="#87CEEB", ctc="ctc_animation", ctc_position="fixed", show_two_window="true")
+    define megumi = Character('Megumi', color="#FFC0CB", ctc="ctc_animation", ctc_position="fixed", show_two_window="true")
+    define yuta = Character('Yuta', color="#FF0000", ctc="ctc_animation", ctc_position="fixed", show_two_window="true")
+    define kokona = Character('Kokona', color="#FF00FF", ctc="ctc_animation", ctc_position="fixed", show_two_window="true", callback=heart_kokona)
+    define msKasai = Character('Ms. Kasai', color="#5F9EA0", ctc="ctc_animation", ctc_position="fixed", show_two_window="true")
+    define mrKasai = Character('Mr. Kasai', color="#5F9EA0", ctc="ctc_animation", ctc_position="fixed", show_two_window="true")
 
     #Characters that start out as "???"
     define yuuki = DynamicCharacter("yuuki_name", color="#FF8C00", show_two_window="true", callback=heart_yuuki)
     define momoko = DynamicCharacter("momoko_name", color="#FF69B4", show_two_window="true", callback=heart_momoko)
+
+    #Narrator character
+    define narrator = Character(None, ctc="ctc_animation", ctc_position="fixed")
     
     ####################################
     # NVL narrator code

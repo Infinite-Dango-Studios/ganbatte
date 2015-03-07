@@ -316,7 +316,7 @@ init -1 python hide:
 
     ## The default text speed in characters per second. 0 is infinite.
 
-    config.default_text_cps = 0
+    config.default_text_cps = 40
 
     ## The default auto-forward time setting.
 
@@ -324,3 +324,11 @@ init -1 python hide:
 
     #########################################
     ## More customizations can go here.
+
+    #Layer customization
+
+    #Add layer for heart meters called "icons"
+    config.layers = [ 'master', 'transient', 'screens', 'icons', 'overlay' ]
+
+    #Setting "icons" layer to be a transient layer so that it is cleared after the character's dialogue line is over
+    config.transient_layers = [ 'transient', 'icons' ]
