@@ -99,26 +99,26 @@ label run_declarations:
     image sora uniform mischievous = "images/characters/sora_normal.png"
 
     #Kokona
-    image kokona happy = "images/characters/dummy.png"
-    image kokona normal = "images/characters/dummy.png"
+    image kokona happy = "images/characters/kokona_normal.png"
+    image kokona normal = "images/characters/kokona_normal.png"
 
-    image kokona uniform blush = "images/characters/dummy.png"
-    image kokona uniform grateful = "images/characters/dummy.png"
-    image kokona uniform happy = "images/characters/dummy.png"
-    image kokona uniform normal = "images/characters/dummy.png"
-    image kokona uniform surprised = "images/characters/dummy.png"
-    image kokona uniform tearful = "images/characters/dummy.png"
-    image kokona uniform troubled = "images/characters/dummy.png"
-    image kokona uniform upset = "images/characters/dummy.png"
+    image kokona uniform blush = "images/characters/kokona_normal.png"
+    image kokona uniform grateful = "images/characters/kokona_normal.png"
+    image kokona uniform happy = "images/characters/kokona_normal.png"
+    image kokona uniform normal = "images/characters/kokona_normal.png"
+    image kokona uniform surprised = "images/characters/kokona_normal.png"
+    image kokona uniform tearful = "images/characters/kokona_normal.png"
+    image kokona uniform troubled = "images/characters/kokona_normal.png"
+    image kokona uniform upset = "images/characters/kokona_normal.png"
 
     #Yuuki
-    image yuuki evil = "images/characters/dummy.png"
-    image yuuki happy = "images/characters/dummy.png"
-    image yuuki normal = "images/characters/dummy.png"
+    image yuuki evil = "images/characters/yuuki_normal.png"
+    image yuuki happy = "images/characters/yuuki_normal.png"
+    image yuuki normal = "images/characters/yuuki_normal.png"
 
     #Momoko
-    image momoko happy = "images/characters/dummy.png"
-    image momoko normal = "images/characters/dummy.png"
+    image momoko happy = "images/characters/momoko_normal.png"
+    image momoko normal = "images/characters/momoko_normal.png"
 
     ###################
     # Background images
