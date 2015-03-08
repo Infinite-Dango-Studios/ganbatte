@@ -379,7 +379,7 @@ label kasaiHouse:
 
     haruki "Yeah, it’s all my favorites! Thank you."
 
-    show misaki happy at char_left
+    show misaki happy at char_left with move
     show kosuke normal at char_right
 
     kosuke "Um, hey sis, I’m here too."
@@ -507,13 +507,12 @@ label misakaRoom:
 
     misaki "I AM! RIGHT THIS WAY, HARUKI-KUN!"
 
-    hide kosuke
-    show misaki normal at center
+    hide kosuke with moveoutleft
+    show misaki normal at center with move
 
     window show
 
     h "Misaki grabs my wrist and pulls me away from the dining room at a run. I’m happy to be spending this time with her, but she practically drags me across the carpet as we tear through the halls. She pulls me up the stairs, and we enter the first room on the left."
-    hide misaki
     scene bg misaki room
 
     h "Her room is nice, if a little messy. It’s a lot like my room, although more personalized. Her bed is covered in bright purple sheets, and a little stuffed turtle sits atop them. Pictures cover her walls, mostly of her, Kosuke and her parents. A few pictures depict me and Misaki and a few others are just me."
@@ -527,7 +526,7 @@ label misakaRoom:
 
     haruki "Uh...you...uh...drew this?"
 
-    show misaki blush
+    show misaki blush with moveinleft
 
     "I’ve never seen a face go so red so quickly."
 
@@ -665,6 +664,7 @@ label misakaRoom:
     h "She takes Finny, I take Meyrin and Baldo. She gets Madam Red and Lau, I get Grell. In the end, it’s a lot of fun."
 
     scene bg misaki room night
+    show misaki happy
 
     h "Soon, it is pitch black outside her window."
 
@@ -673,7 +673,7 @@ label misakaRoom:
     window hide
     nvl clear
 
-    show misaki normal at char_left
+    show misaki normal at char_left with move
     show msKasai horrified at char_right
 
     msKasai "Do either of you have any idea what time it is!? I thought Haruki went back to his room hours ago!"
@@ -732,8 +732,8 @@ label kosukeRoom:
 
     "Misaki seems too upset to respond, and she storms off muttering something about ‘when a cute girl invites you into her bedroom you shouldn’t say no’."
 
-    hide misaki
-    show kosuke smirk at center
+    hide misaki with moveoutright
+    show kosuke smirk at center with move
 
     kosuke "Wow, Misaki-chan’s pretty crazy, right? I wasn’t kidding about those diary entries and pictures you know~!"
 
@@ -756,6 +756,7 @@ label kosukeRoom:
     "Shaking out of my pensive daze, I follow after him. We return to his room, and he walks over to his game shelf."
 
     scene bg kosuke room
+    show kosuke happy
 
     kosuke "What do you want to play?"
 
@@ -838,6 +839,7 @@ label kosukeRoom:
     #sound musicSounds
 
     scene bg kosuke room night
+    show kosuke happy
 
     "We play DDR for hours, until we are both out of breath and sweating through our clothes. Kosuke makes me play Suki Melo over twenty times in a row until I finally sang along. By the end, we are both dancing around and acting like pop stars, screaming lyrics in falsetto at the top of our lungs. When Kosuke finally turns off the console, I collapse on his floor."
 
@@ -966,8 +968,8 @@ label harukiRoom:
     hide mrKasai
     hide msKasai
 
-    show misaki upset at char_left
-    show kosuke upset at char_right
+    show kosuke upset at char_left
+    show misaki upset at char_right
 
     kosuke "Sorry about making you feel bad...but we have to hang out tomorrow, OK?"
 

@@ -110,7 +110,7 @@ label dayTwo:
 
     mrKasai "Good luck at work today, tell us how it goes when we get home!"
 
-    show mrKasai happy at char_left
+    show mrKasai happy at char_left with move
     show kosuke uniform normal at char_right
 
     kosuke "We might be home later than usual, I kinda want to show Haruki-kun around Maura."
@@ -119,7 +119,7 @@ label dayTwo:
 
     haruki "Thanks, Kasai-san! Thank you again for letting me stay here, too!"
 
-    kosuke "It’s our pleasure! You’re practically our favorite child!"
+    mrKasai "It’s our pleasure! You’re practically our favorite child!"
 
     show kosuke uniform shocked
 
@@ -138,9 +138,9 @@ label dayTwo:
 
     kosuke "Bye dad!"
 
-    hide mrKasai
+    hide mrKasai with moveoutleft
 
-    show kosuke uniform happy at char_left
+    show kosuke uniform happy at char_left with move
     show misaki uniform normal at char_right
 
     misaki "Bye~!"
@@ -341,8 +341,8 @@ label dayTwo:
 
     misaki "Pretty sweet, huh?"
 
+    show misaki uniform happy at char_right with move
     show kosuke uniform happy at char_left
-    show misaki uniform happy at char_right
 
     kosuke "You ok, Haruki-kun? You look like you’re going to have a heart attack!"
 
@@ -367,7 +367,7 @@ label dayTwo:
 
     riku "Hey, who’s that with you? New customer?"
 
-    show riku normal at char_left
+    show riku normal at char_left with move
     show kosuke uniform normal at char_right
 
     kosuke "Riku-san, meet Haruki Nishihara!"
@@ -454,12 +454,13 @@ label dayTwo:
 
     riku "Unnecessary."
 
-    hide riku
-    show kosuke uniform happy at center
+    hide riku with moveoutleft
+    show kosuke uniform happy at center with move
 
     "Kosuke laughs, and links arms with me. He leads me back behind the counter and into the kitchens. From there we enter a small supply closet with extra male and female uniforms."
 
     scene bg cafe closet
+    show kosuke uniform happy
 
     "Kosuke pulls one of the female uniforms off the shelf."
 
@@ -594,7 +595,7 @@ label normalUniform:
 
     riku "Alright, from left to right, why don’t you guys introduce yourselves to Haruki Nishihara?"
 
-    show riku normal at char_left
+    show riku normal at char_left with move
     show megumi uniform happy at char_right
 
     megumi "Hi! Megumi Ikehara, that’s my name! You can call me Gumi-chan if you want, that’s my stage name! I’m an actress~! I starred in my school’s production of Les Misérables, I was Eponine. I can do some of my lines from that if you’d like...! Um... ♫ On my ownnn~"
@@ -609,9 +610,9 @@ label normalUniform:
 
     megumi "Right! Sorry, Riku~!"
 
-    hide megumi
+    hide megumi with moveoutright
 
-    show yuta uniform normal at char_right
+    show yuta uniform normal at char_right with moveinright
 
     yuta "Hello. I am Yuta Arakawa. I publish a new installment of my horror dojinshi every month...have you heard of them?"
 
@@ -635,9 +636,9 @@ label normalUniform:
 
     "Yuta seems ashamed and he steps silently back into line."
 
-    hide yuta
+    hide yuta with moveoutright
 
-    show sora uniform happy at char_right
+    show sora uniform happy at char_right with moveinright
 
     sora "Hiya~! Sora Takayama, future billionaire! I mean, I’m working here obviously, but just you wait, OK? I’ve got a lot of ideas, I just need the money to put them together!"
 
@@ -734,7 +735,7 @@ label normalUniform:
 
     riku "Try not to set any more fires, OK, Misaki?"
 
-    show riku smirk at char_left
+    show riku smirk at char_left with move
     show misaki uniform angry at char_right
 
     misaki "That was one time!"
@@ -755,14 +756,14 @@ label normalUniform:
 
     "Misaki laughs in response, and disappears into the kitchens."
 
-    hide misaki
+    hide misaki with moveoutright
 
-    show riku normal at center
+    show riku normal at center with move
 
     riku "Alright, have fun! Kokona, Kosuke, you two make sure he stays on track...and make sure Yuta isn’t talking about dismemberment again..."
 
-    show riku normal at char_left
-    show kosuke uniform salute at char_right
+    show riku normal at char_left with move
+    show kosuke uniform salute at char_right with moveinright
 
     kosuke "Yes, sir, Riku-sama, sir!"
 
@@ -782,9 +783,9 @@ label normalUniform:
 
     "Riku rolls his eyes and Kosuke winks at him before heading over to the counter to take the order of a teenage boy standing at the counter."
 
-    hide kosuke
+    hide kosuke with moveoutright
 
-    show riku defeated at center
+    show riku defeated at center with move
 
     riku "Good luck out there, with coworkers like these, you’re gonna need it!"
 
@@ -810,7 +811,7 @@ label normalUniform:
 
     "She offers me her hand, and I take it. It feels fragile, as if it will come apart in my grip. Kokona leads me over to the counter, where Kosuke and Yuta are serving a couple of men in their mid-forties who appear to be picking up some anpan before arriving at a business meeting."
 
-    show kokona uniform normal at char_left
+    show kokona uniform normal at char_left with move
     show yuta uniform normal at char_right
 
     yuta "...now, I must ask, sir, have you perhaps heard of the dojinshi Mahou Akuma? No? Well, it’s quite good, or so I’ve heard. It’s about these covens of witches who..."
@@ -831,9 +832,9 @@ label normalUniform:
 
     "Yuta wanders off to the other side of the counter, muttering to himself about how he’ll never get more sales without word of mouth."
 
-    hide yuta
+    hide yuta with moveoutright
 
-    show kosuke uniform happy at char_right
+    show kosuke uniform happy at char_right with moveinright
 
     kosuke "Having fun yet, Haruki-kun?"
 
@@ -985,9 +986,9 @@ label haveCustomer:
 
     "He gives me a grateful smile, and we slowly drift off to separate activities as more customers arrive. For the most part, Kosuke and Yuta handle drinks while Kokona and I are in charge of distributing the pastries."
 
-    hide kosuke
+    hide kosuke with moveoutright
 
-    show kokona uniform normal at center
+    show kokona uniform normal at center with move
 
     "Kokona and I do not talk much; Ganbatte seems to have a pretty steady flow of customers. We take our lunch break at around twelve thirty, leaving the counter in Yuta and Kosuke’s hands, and that is when I have my next chance to speak to Kokona."
 
@@ -1083,8 +1084,8 @@ label haveCustomer:
 
     "I hear a slightly unsettling giggle next to the table and I turn to look at the source. At some point, Yuta had arrived at the table without us knowing."
 
-    show kokona uniform happy at char_left
-    show yuta uniform normal at char_right
+    show kokona uniform happy at char_left with move
+    show yuta uniform normal at char_right with moveinright
 
     yuta "Oh...am I interrupting something? I’ve been watching for a few minutes actually. From a little ways away. Kosuke said that I should take my lunch break. I don’t get what the problem was, I was just educating the customer on gangrene..."
 
@@ -1114,14 +1115,14 @@ label haveCustomer:
 
     "We exit the booth and say goodbye to Yuta. He waves at us distractedly, sketching a witch in a small notebook while working on his second taiyaki."
 
-    hide yuta
+    hide yuta with moveoutright
 
-    show kokona at center
+    show kokona at center with move
 
     "We walk back over to the counter, where Kosuke is handing a twenty-something man a few sticks of dango. The man leaves as we join Kosuke behind the counter."
 
-    show kokona at char_left
-    show kosuke uniform smirk at char_right
+    show kokona at char_left with move
+    show kosuke uniform smirk at char_right with moveinright
 
     kosuke "Back from your little date?"
 
@@ -1202,8 +1203,8 @@ label haveCustomer:
 
     "I gasp and give her a look but she merely laughs and walks off with Kosuke. They wave at me from the door, and I turn back to Kokona."
 
-    hide misaki
-    show kokona happy at center
+    hide misaki with moveoutleft
+    show kokona happy at center with move
 
     kokona "Misaki-chan is pretty funny!"
 
@@ -1245,8 +1246,8 @@ label haveCustomer:
 
     haruki "Well, I don’t really know anything here besides Ganbatte and your house."
 
-    show kosuke at char_left
-    show misaki happy at char_right
+    show kosuke at char_left with move
+    show misaki happy at char_right with moveinright
 
     misaki "There’s tons of stuff here! The arcade, a bunch of cool restaurants, this awesome art museum, the bookstore, the theater, the athletic center, the hospital..."
 
@@ -1416,14 +1417,14 @@ label goShopping:
 
     haruki "Alright, let’s put this behind us and have fun shopping, OK?"
 
-    show kosuke normal
-    show misaki normal
+    show kosuke normal at char_left
+    show misaki normal at char_right
 
     "They both nod their agreement."
 
     scene bg market
-    show kosuke normal
-    show misaki normal
+    show kosuke normal at char_left
+    show misaki normal at char_right
 
     window show
 
