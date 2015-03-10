@@ -207,8 +207,8 @@ label kasaiHouse:
 
     "He says nothing in response, but merely smirks and gestures for me to join him and Misaki as they walk up the road into Maura."
 
-    hide kosuke
-    hide misaki
+    hide misaki with moveoutright
+    hide kosuke with moveoutright
 
     window show
 
