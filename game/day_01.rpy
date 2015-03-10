@@ -1023,6 +1023,8 @@ label harukiRoom:
     window hide
     nvl clear
 
+    call dayChange
+
     jump dayTwo
 
     return
