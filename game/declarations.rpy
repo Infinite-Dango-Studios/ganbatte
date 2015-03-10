@@ -164,6 +164,15 @@ label run_declarations:
         linear 1.0 alpha 1.0
         linear 1.0 alpha 0.3
         repeat
+
+    #Day change animation
+    image day_change:
+        xpos 0.5 ypos 0.8
+        "images/misc/moon.png"
+
+        time 2.0
+
+        "images/misc/sun.png" with Dissolve(2.0, alpha=True)
     
     ####################################
     # Character heart meters
