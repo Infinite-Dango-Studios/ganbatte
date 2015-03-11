@@ -25,3 +25,8 @@ The following is a list of the staff members of the team developing Ganbatte:
 - juanitaylor - Artist
 - ChocoTacoKitty - Artist
 - boxesofflowers - Artist
+
+##GitHub Repo
+Ganbatte's source code is hosted in a GitHub repo located at the following location:
+
+- https://github.com/ExcaliburZero/ganbatte
