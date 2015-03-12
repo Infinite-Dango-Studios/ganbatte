@@ -50,7 +50,7 @@ init -1 python hide:
         widget_hover = "#ECE7C4",
 
         ## The color of the text in a widget.
-        widget_text = "#B99D83",
+        widget_text = "#CAB097", #"#B99D83",
 
         ## The color of the text in a selected widget. (For
         ## example, the current value of a preference.)
@@ -60,7 +60,7 @@ init -1 python hide:
         disabled = "#614D3A",
 
         ## The color of disabled widget text.
-        disabled_text = "#80654D",
+        disabled_text = "#926F4E", #"#80654D",
 
         ## The color of informational labels.
         label = "#F1EBE5",
