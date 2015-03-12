@@ -1,11 +1,5 @@
-﻿## This file contains some of the options that can be changed to customize
-## your Ren'Py game. It only contains the most common options... there
-## is quite a bit more customization you can do.
+## This file contains many of the customization settings for Ganbatte.
 ##
-## Lines beginning with two '#' marks are comments, and you shouldn't
-## uncomment them. Lines beginning with a single '#' mark are
-## commented-out code, and you may want to uncomment them when
-## appropriate.
 
 init -1 python hide:
 
