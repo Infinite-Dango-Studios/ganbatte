@@ -1,6 +1,3 @@
-﻿# This file is in the public domain. Feel free to modify it as a basis
-# for your own screens.
-
 # Note that many of these screens may be given additional arguments in the
 # future. The use of **kwargs in the parameter list ensures your code will
 # work in the future.
@@ -195,6 +192,7 @@ screen main_menu():
         textbutton _("Load Game") action ShowMenu("load")
         textbutton _("Preferences") action ShowMenu("preferences")
         textbutton _("Help") action Help()
+        textbutton _("Credits") action ShowMenu("credits")
         textbutton _("Quit") action Quit(confirm=False)
 
 init -2:
@@ -559,3 +557,93 @@ init -2:
         selected_hover_color "#cc0"
         insensitive_color "#4448"
 
+
+##############################################################################
+# Credits
+#
+# A screen that's used to display basic information about the game and its makers
+screen credits():
+
+    # This ensures that any other menu screen is replaced.
+    tag menu
+
+    # The background of the game menu.
+    window:
+        style "gm_root"
+
+        use navigation
+
+    grid 1 1:
+        style_group "staffBox"
+
+        # The center column.
+        vbox:
+            frame:
+                has vbox
+                style_group "staffList"
+                xfill True
+
+                label _("Staff")
+
+                frame:
+                    has vbox
+                    xfill True
+
+                    grid 2 1:
+                        vbox:
+                            style_group "staffListHeading"
+                            text "Coders"
+                        vbox:
+                            style_group "staffListItems"
+                            text ""
+                            text "ExcaliburZero   "
+
+                frame:
+                    has vbox
+                    xfill True
+
+                    grid 2 1:
+                        vbox:
+                            style_group "staffListHeading"
+                            text "Writers"
+                        vbox:
+                            style_group "staffListItems"
+                            text ""
+                            text "Sabre-Hecate   "
+
+                frame:
+                    has vbox
+                    xfill True
+
+                    grid 2 1:
+                        vbox:
+                            style_group "staffListHeading"
+                            text "Artists"
+                        vbox:
+                            style_group "staffListItems"
+                            text ""
+                            text "juanitaylor"
+                            text "ChocoTacoKitty"
+                            text "boxesofflowers"
+init -2:
+    style staffBox_frame:
+        top_margin 50
+        bottom_margin 50
+        left_margin 50
+        right_margin 200
+
+    style staffList_frame:
+        top_margin 5
+        bottom_margin 5
+        left_margin 50
+        right_margin 50
+
+    style staffListHeading_text:
+        size 20
+
+    style staffListHeading_vbox:
+        left_margin 200
+
+    style staffListItems_text:
+        size 16
+        left_margin 200
