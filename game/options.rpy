@@ -183,6 +183,9 @@ init -1 python hide:
     style.title_text.color = "#FFFFFF"
     style.title_text.size = 40
 
+    style.hyperlink_text.color = "#926F4E"
+    style.hyperlink_text.hover_color = "#CAB097"
+
     ## Note that these only change the size of some of the text. Other
     ## buttons have their own styles.
 

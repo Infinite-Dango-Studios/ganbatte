@@ -573,10 +573,10 @@ screen credits():
 
         use navigation
 
-    grid 1 1:
-        style_group "staffBox"
+    grid 1 2:
+        style_group "creditsBox"
 
-        # The center column.
+        # The left column.
         vbox:
             frame:
                 has vbox
@@ -625,8 +625,20 @@ screen credits():
                             text "juanitaylor"
                             text "ChocoTacoKitty"
                             text "boxesofflowers"
+
+        vbox:
+            frame:
+                has vbox
+                style_group "githubRepo"
+                xfill True
+
+                label _("GitHub Repository")
+
+                text ""
+                text "    {a=https://github.com/ExcaliburZero/ganbatte}https://github.com/ExcaliburZero/ganbatte{/a}"
+
 init -2:
-    style staffBox_frame:
+    style creditsBox_frame:
         top_margin 50
         bottom_margin 50
         left_margin 50
@@ -647,3 +659,12 @@ init -2:
     style staffListItems_text:
         size 16
         left_margin 200
+
+    style githubRepo_frame:
+        top_margin 5
+        bottom_margin 5
+        left_margin 50
+        right_margin 50
+
+    style githubRepo_text:
+        size 16
