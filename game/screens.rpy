@@ -180,6 +180,9 @@ screen main_menu():
     window:
         style "mm_root"
 
+    # Main menu logo
+    add "images/misc/logo.png" xalign 0.55 yalign 0.3
+
     # The main menu buttons.
     frame:
         style_group "mm"

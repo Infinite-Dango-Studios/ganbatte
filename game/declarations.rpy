@@ -147,6 +147,11 @@ label run_declarations:
     ###################
     # Misc images
     ###################
+
+    #Logo
+    #Logo on main menu is defined in screens file
+
+    #Heart Icons
     image heart one = "images/misc/heart_grey.png"
     image heart two = "images/misc/heart_blue.png"
     image heart three = "images/misc/heart_purple.png"
