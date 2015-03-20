@@ -237,6 +237,8 @@ init -1 python hide:
     ## - None, to disable help.
     config.help = "HELP.html"
 
+    config.window_icon = "images/misc/game_icon.png"
+
 
     #########################################
     ## Transitions.
