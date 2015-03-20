@@ -181,7 +181,7 @@ screen main_menu():
         style "mm_root"
 
     # Main menu logo
-    add "images/misc/logo.png" xalign 0.55 yalign 0.3
+    add "images/misc/logo.png" xalign 0.50 yalign 0.3
 
     # The main menu buttons.
     frame:
