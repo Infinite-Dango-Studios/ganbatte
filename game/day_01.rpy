@@ -484,7 +484,7 @@ label kasaiHouse:
 
     menu:
         "I think it would be fun to hang out with you, Misaki-chan!":
-            jump misakaRoom
+            jump misakiRoom
         "I think I’d like to play more video games with Kosuke-kun!":
             jump kosukeRoom
         "Actually, I’m kinda tired. And tomorrow’s going to be busy. I’m just going to go to bed.":
@@ -494,7 +494,7 @@ label kasaiHouse:
 
 
 #Scene where Haruki answers "I think it would be fun to hang out with you, Misaki-chan!"
-label misakaRoom:
+label misakiRoom:
 
     show kosuke normal
     show misaki normal
