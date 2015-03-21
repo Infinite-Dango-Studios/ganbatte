@@ -638,7 +638,7 @@ screen credits():
                 label _("GitHub Repository")
 
                 text ""
-                text "    {a=https://github.com/ExcaliburZero/ganbatte}https://github.com/ExcaliburZero/ganbatte{/a}"
+                text "    {a=https://github.com/Infinite-Dango-Studios/ganbatte}https://github.com/Infinite-Dango-Studios/ganbatte{/a}"
 
 init -2:
     style creditsBox_frame:
