@@ -715,6 +715,8 @@ label misakaRoom:
 
     "In my room, I place my newly acquired books on the bedside table. I yawn, and decide that it is too late to start the series tonight. Turning off the light, I climb into bed and fall asleep."
 
+    call dayChange
+
     jump dayTwo
 
     return
@@ -909,6 +911,8 @@ label kosukeRoom:
     "I guess Misaki left these here for me to read. I’ve been wanting to read this series, I wonder how she knew."
 
     "I yawn yet again. Turning off the light, I fall asleep the second my head hits the pillow."
+
+    call dayChange
 
     jump dayTwo
 
