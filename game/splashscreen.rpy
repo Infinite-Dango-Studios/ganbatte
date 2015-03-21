@@ -1,17 +1,17 @@
 #Scene/animation that is shown when the game is started
 label splashscreen:
 
-    #Title text
+    #Studio Logo
     $ middle = Position(xpos=0.5, xanchor=0.5, ypos = 0.5, yanchor=0.5)
-    image title text = Text("Ganbatte", style="title_text")
+    image studio logo = im.Scale("images/misc/studio_logo.png", 500, 267)
 
     scene bg darkness
     with Pause(0.8)
 
-    show title text at middle with dissolve
-    with Pause(3)
+    show studio logo at middle with dissolve
+    with Pause(4.5)
 
-    hide text with dissolve
+    hide studio logo with dissolve
     with Pause(1)
 
     return

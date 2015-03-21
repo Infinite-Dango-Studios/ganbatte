@@ -148,8 +148,11 @@ label run_declarations:
     # Misc images
     ###################
 
-    #Logo
-    #Logo on main menu is defined in screens file
+    #Game Logo
+    #Game Logo on main menu is defined in screens file
+
+    #Studio Logo
+    #Studio Logo in splash screen is defined in the splashscreen file
 
     #Heart Icons
     image heart one = "images/misc/heart_grey.png"

@@ -180,8 +180,6 @@ init -1 python hide:
     style.default.color = "#27120F"
 
     style.nvl_dialogue.color = "#FFFFFF"
-    style.title_text.color = "#FFFFFF"
-    style.title_text.size = 40
 
     style.hyperlink_text.color = "#926F4E"
     style.hyperlink_text.hover_color = "#CAB097"
