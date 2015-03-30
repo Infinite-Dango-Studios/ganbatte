@@ -4,10 +4,11 @@ python:
   - "2.7"
 # command to install dependencies
 install:
+  - cd ..
   - wget http://www.renpy.org/dl/6.99.1/renpy-6.99.1-sdk.tar.bz2
   - tar xf renpy-6.99.1-sdk.tar.bz2
   - rm renpy-6.99.1-sdk.tar.bz2
   - mv renpy-6.99.1-sdk renpy
   - cd renpy
 # command to run tests
-script: renpy.sh "ganbatte" lint
+script: ./renpy.sh "/Infinite-Dango-Studios/ganbatte/" lint
