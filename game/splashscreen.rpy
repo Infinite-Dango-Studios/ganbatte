@@ -2,13 +2,15 @@
 label splashscreen:
 
     #Studio Logo
-    $ middle = Position(xpos=0.5, xanchor=0.5, ypos = 0.5, yanchor=0.5)
+    init:
+        $ mid = Position(xpos=0.5, xanchor=0.5, ypos = 0.5, yanchor=0.5)
+
     image studio logo = im.Scale("images/misc/studio_logo.png", 500, 267)
 
     scene bg darkness
     with Pause(0.8)
 
-    show studio logo at middle with dissolve
+    show studio logo at mid with dissolve
     with Pause(4.5)
 
     hide studio logo with dissolve
