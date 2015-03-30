@@ -2,14 +2,8 @@ sudo: required
 language: python
 python:
   - "2.7"
-  # does not have headers provided, please ask https://launchpad.net/~pypy/+archive/ppa
-  # maintainers to fix their pypy-dev package.
-  - "pypy"
 # command to install dependencies
 install:
-  - sudo apt-get install python-dev python-pygame libavcodec-dev libavformat-dev
-  - sudo apt-get install python-pip
-  - sudo pip install -U cython
   - wget http://www.renpy.org/dl/6.99.1/renpy-6.99.1-sdk.tar.bz2
   - tar xf renpy-6.99.1-sdk.tar.bz2
   - rm renpy-6.99.1-sdk.tar.bz2
