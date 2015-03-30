@@ -7,7 +7,7 @@ install:
   - wget http://www.renpy.org/dl/6.99.1/renpy-6.99.1-sdk.tar.bz2
   - tar xf renpy-6.99.1-sdk.tar.bz2
   - rm renpy-6.99.1-sdk.tar.bz2
-  - mv renpy-6.99.1-source renpy
+  - mv renpy-6.99.1-sdk renpy
   - cd renpy
 # command to run tests
 script: renpy.sh "ganbatte" lint
