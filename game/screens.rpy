@@ -576,7 +576,7 @@ screen credits():
 
         use navigation
 
-    grid 1 2:
+    grid 1 1:
         style_group "creditsBox"
 
         # The left column.
@@ -585,8 +585,16 @@ screen credits():
                 has vbox
                 style_group "staffList"
                 xfill True
+                yfill True
 
-                label _("Staff")
+                label _("Credits")
+
+                frame:
+                    has vbox
+                    xfill True
+
+                    style_group "creditsStudioLogo"
+                    imagebutton idle im.Scale("images/misc/studio_logo.png", 428, 228) hover im.Scale(im.Grayscale("images/misc/studio_logo.png"), 428, 228) action OpenURL("https://infinite-dango-studios.github.io/")
 
                 frame:
                     has vbox
@@ -629,17 +637,6 @@ screen credits():
                             text "ChocoTacoKitty"
                             text "boxesofflowers"
 
-        vbox:
-            frame:
-                has vbox
-                style_group "githubRepo"
-                xfill True
-
-                label _("GitHub Repository")
-
-                text ""
-                text "    {a=https://github.com/Infinite-Dango-Studios/ganbatte}https://github.com/Infinite-Dango-Studios/ganbatte{/a}"
-
 init -2:
     style creditsBox_frame:
         top_margin 50
@@ -662,12 +659,3 @@ init -2:
     style staffListItems_text:
         size 16
         left_margin 200
-
-    style githubRepo_frame:
-        top_margin 5
-        bottom_margin 5
-        left_margin 50
-        right_margin 50
-
-    style githubRepo_text:
-        size 16
