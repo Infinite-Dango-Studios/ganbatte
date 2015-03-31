@@ -2,7 +2,7 @@
 A visual novel, dating sim game that follows the story of Haruki's summer in Maura after he graduates high school. It was created using the visual novel engine Ren'Py. It is compatible with Windows, Mac, and Linux.
 
 ##Repository Info
-[![Stories in Ready](https://badge.waffle.io/Infinite-Dango-Studios/ganbatte.png?label=ready&title=Ready)](http://waffle.io/Infinite-Dango-Studios/ganbatte)
+[![Build Status](https://travis-ci.org/Infinite-Dango-Studios/ganbatte.png)](https://travis-ci.org/Infinite-Dango-Studios/ganbatte)[![Stories in Ready](https://badge.waffle.io/Infinite-Dango-Studios/ganbatte.png?label=ready&title=Ready)](http://waffle.io/Infinite-Dango-Studios/ganbatte)
 
 ## Licensing
 The licensing of Ganbatte consists of several different licenses which apply to different assets included in the visual novel and its source code.
