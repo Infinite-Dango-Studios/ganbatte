@@ -10,4 +10,4 @@ install:
   - mv renpy-6.99.1-sdk renpy
   - cd renpy
 # command to run tests
-script: ./renpy.sh "../ganbatte/" lint && renpy.sh launcher distribute "../ganbatte/"
+script: ./renpy.sh "../ganbatte/" lint && ./renpy.sh launcher distribute "../ganbatte/"
