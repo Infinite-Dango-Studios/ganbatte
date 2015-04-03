@@ -1,6 +1,9 @@
 label devEnd:
 
     scene bg darkness
+    with Pause(0.5)
+
+    show studio logo at mid with dissolve
 
     window show
 
