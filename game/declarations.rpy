@@ -7,7 +7,7 @@ label run_declarations:
     # Character images
     ###################
 
-    #Kosuke
+    # Kosuke
     image kosuke angry = "images/characters/kosuke_normal.png"
     image kosuke annoyed = "images/characters/kosuke_normal.png"
     image kosuke confused = "images/characters/kosuke_normal.png"
@@ -36,7 +36,7 @@ label run_declarations:
     image kosuke uniform smirk = "images/characters/kosuke_normal.png"
     image kosuke uniform upset = "images/characters/kosuke_normal.png"
 
-    #Misaki
+    # Misaki
     image misaki angry = "images/characters/misaki_normal.png"
     image misaki annoyed = "images/characters/misaki_normal.png"
     image misaki blush = "images/characters/misaki_normal.png"
@@ -56,17 +56,17 @@ label run_declarations:
     image misaki uniform smirk = "images/characters/misaki_normal.png"
     image misaki uniform upset = "images/characters/misaki_normal.png"
 
-    #Ms. Kasai
+    # Ms. Kasai
     image msKasai happy = "images/characters/mskasai_normal.png"
     image msKasai horrified = "images/characters/mskasai_normal.png"
     image msKasai normal = "images/characters/mskasai_normal.png"
 
-    #Mr. Kasai
+    # Mr. Kasai
     image mrKasai happy = "images/characters/mrkasai_normal.png"
     image mrKasai horrified = "images/characters/mrkasai_normal.png"
     image mrKasai normal = "images/characters/mrkasai_normal.png"
 
-    #Riku
+    # Riku
     image riku annoyed = "images/characters/riku_normal.png"
     image riku defeated = "images/characters/riku_normal.png"
     image riku upset = "images/characters/riku_normal.png"
@@ -77,13 +77,13 @@ label run_declarations:
     image riku surprised = "images/characters/riku_normal.png"
     image riku wondering = "images/characters/riku_normal.png"
 
-    #Megumi
+    # Megumi
     image megumi happy = "images/characters/megumi_normal.png"
 
     image megumi uniform happy = "images/characters/megumi_normal.png"
     image megumi uniform realization = "images/characters/megumi_normal.png"
 
-    #Yuta
+    # Yuta
     image yuta normal = "images/characters/yuta_normal.png"
 
     image yuta uniform normal = "images/characters/yuta_normal.png"
@@ -91,14 +91,14 @@ label run_declarations:
     image yuta uniform sadisticExcitement = "images/characters/yuta_normal.png"
     image yuta uniform surprised = "images/characters/yuta_normal.png"
 
-    #Sora
+    # Sora
     image sora happy = "images/characters/sora_normal.png"
 
     image sora uniform happy = "images/characters/sora_normal.png"
     image sora uniform horrified = "images/characters/sora_normal.png"
     image sora uniform mischievous = "images/characters/sora_normal.png"
 
-    #Kokona
+    # Kokona
     image kokona happy = "images/characters/kokona_normal.png"
     image kokona normal = "images/characters/kokona_normal.png"
 
@@ -111,12 +111,12 @@ label run_declarations:
     image kokona uniform troubled = "images/characters/kokona_normal.png"
     image kokona uniform upset = "images/characters/kokona_normal.png"
 
-    #Yuuki
+    # Yuuki
     image yuuki evil = "images/characters/yuuki_normal.png"
     image yuuki happy = "images/characters/yuuki_normal.png"
     image yuuki normal = "images/characters/yuuki_normal.png"
 
-    #Momoko
+    # Momoko
     image momoko happy = "images/characters/momoko_normal.png"
     image momoko normal = "images/characters/momoko_normal.png"
 
@@ -148,18 +148,18 @@ label run_declarations:
     # Misc images
     ###################
 
-    #Game Logo
-    #Game Logo on main menu is defined in screens file
+    # Game Logo
+    # Game Logo on main menu is defined in screens file
 
-    #Studio Logo
-    #Studio Logo in splash screen is defined in the splashscreen file
+    # Studio Logo
+    # Studio Logo in splash screen is defined in the splashscreen file
 
-    #Heart Icons
+    # Heart Icons
     image heart one = "images/misc/heart_grey.png"
     image heart two = "images/misc/heart_blue.png"
     image heart three = "images/misc/heart_purple.png"
 
-    #Click to continue icon
+    # Click to continue icon
     $ ctc_pos = Position(xpos=0.97, ypos=0.97)
 
     image ctc_animation:
@@ -167,13 +167,13 @@ label run_declarations:
         xanchor 1.0 yanchor 1.0
         "images/misc/ctc_icon.png"
 
-        #Image changes opacities to simulate fading in and out
+        # Image changes opacities to simulate fading in and out
         alpha 0.3
         linear 1.0 alpha 1.0
         linear 1.0 alpha 0.3
         repeat
 
-    #Day change animation
+    # Day change animation
     image day_change:
         xpos 0.5 ypos 0.8
         "images/misc/moon.png"
@@ -192,104 +192,95 @@ label run_declarations:
         # Kosuke
         ###################
         kosuke_points = 0
-        kosuke_heart_one = 2
-        kosuke_heart_two = 3
+        kosuke_heart_levels = [2, 3]
 
         def heart_kosuke(event, interact=True, **kwargs):
             if not interact:
                 return
 
-            #Display heart image dependant on the character's heart level
-            # Only show Kosuke's heart meter if it is high enough
+            # Display heart image dependant on the character's heart level
             if event == "begin":
-                if kosuke_points < kosuke_heart_one:
-                    #Do nothing
+                # Only show Kosuke's heart meter if it is high enough
+                if kosuke_points < kosuke_heart_levels[0]:
+                    # Do nothing
                     return
-                elif kosuke_points < kosuke_heart_two:
+                elif kosuke_points < kosuke_heart_levels[1]:
                     renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
 
         ###################
         # Misaki
         ###################
         misaki_points = 0
-        misaki_heart_one = 1
-        misaki_heart_two = 2
-        misaki_heart_three = 3
+        misaki_heart_levels = [1, 2, 3]
 
         def heart_misaki(event, interact=True, **kwargs):
             if not interact:
                 return
 
-            #Display heart image dependant on the character's heart level
+            # Display heart image dependant on the character's heart level
             if event == "begin":
-                if misaki_points < misaki_heart_one:
+                if misaki_points < misaki_heart_levels[0]:
                     renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
-                elif misaki_points < misaki_heart_two:
+                elif misaki_points < misaki_heart_levels[1]:
                     renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
-                elif misaki_points < misaki_heart_three:
+                elif misaki_points < misaki_heart_levels[2]:
                     renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
 
         ###################
         # Kokona
         ###################
         kokona_points = 0
-        kokona_heart_one = 1
-        kokona_heart_two = 2
-        kokona_heart_three = 3
+        kokona_heart_levels = [1, 2, 3]
 
         def heart_kokona(event, interact=True, **kwargs):
             if not interact:
                 return
 
-            #Display heart image dependant on the character's heart level
+            # Display heart image dependant on the character's heart level
             if event == "begin":
-                if kokona_points < kokona_heart_one:
+                if kokona_points < kokona_heart_levels[0]:
                     renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
-                elif kokona_points < kokona_heart_two:
+                elif kokona_points < kokona_heart_levels[1]:
                     renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
-                elif kokona_points < kokona_heart_three:
+                elif kokona_points < kokona_heart_levels[2]:
                     renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
 
         ###################
         # Yuuki
         ###################
         yuuki_points = 0
-        yuuki_heart_one = 1
-        yuuki_heart_two = 2
-        yuuki_heart_three = 3
+        yuuki_heart_levels = [1, 2, 3]
 
         def heart_yuuki(event, interact=True, **kwargs):
             if not interact:
                 return
 
-            #Display heart image dependant on the character's heart level
+            # Display heart image dependant on the character's heart level
             if event == "begin":
-                if yuuki_points < yuuki_heart_one:
+                if yuuki_points < yuuki_heart_levels[0]:
                     renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
-                elif yuuki_points < yuuki_heart_two:
+                elif yuuki_points < yuuki_heart_levels[1]:
                     renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
-                elif yuuki_points < yuuki_heart_three:
+                elif yuuki_points < yuuki_heart_levels[2]:
                     renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
 
         ###################
         # Momoko
         ###################
         momoko_points = 0
-        momoko_heart_one = 1
-        momoko_heart_two = 2
-        momoko_heart_three = 3
+        momoko_heart_levels = [1, 2, 3]
 
         def heart_momoko(event, interact=True, **kwargs):
             if not interact:
                 return
 
-            #Display heart image dependant on the character's heart level
+            # Display heart image dependant on the character's heart level
             if event == "begin":
-                if momoko_points < momoko_heart_one:
+                if momoko_points < momoko_heart_levels[0]:
                     renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
-                elif momoko_points < momoko_heart_two:
+                elif momoko_points < momoko_heart_levels[1]:
                     renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
-                elif momoko_points < momoko_heart_three:
+                elif momoko_points < momoko_heart_levels[2]:
                     renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
 
     ####################################
@@ -306,18 +297,18 @@ label run_declarations:
     define msKasai = Character('Ms. Kasai', color="#5F9EA0", ctc="ctc_animation", ctc_position="fixed", show_two_window="true")
     define mrKasai = Character('Mr. Kasai', color="#5F9EA0", ctc="ctc_animation", ctc_position="fixed", show_two_window="true")
 
-    #Characters that start out as "???"
+    # Characters that start out as "???"
     define yuuki = DynamicCharacter("yuuki_name", color="#FF8C00", show_two_window="true", callback=heart_yuuki)
     define momoko = DynamicCharacter("momoko_name", color="#FF69B4", show_two_window="true", callback=heart_momoko)
 
-    #Narrator character
+    # Narrator character
     define narrator = Character(None, ctc="ctc_animation", ctc_position="fixed")
 
     ####################################
     # NVL narrator code
     ####################################
     init:
-        $ h = Character(None, kind=nvl) #NVL narrator character
+        $ h = Character(None, kind=nvl) # NVL narrator character
 
     init python:
         config.empty_window = nvl_show_core
