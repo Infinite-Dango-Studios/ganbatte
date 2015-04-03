@@ -11,7 +11,7 @@ label run_declarations:
     image kosuke angry = "images/characters/kosuke_normal.png"
     image kosuke annoyed = "images/characters/kosuke_normal.png"
     image kosuke confused = "images/characters/kosuke_normal.png"
-    image kosuke blush = "images/characters/kosuke_normal.png"       
+    image kosuke blush = "images/characters/kosuke_normal.png"
     image kosuke happy = "images/characters/kosuke_normal.png"
     image kosuke horrified = "images/characters/kosuke_normal.png"
     image kosuke innocent = "images/characters/kosuke_normal.png"
@@ -181,7 +181,7 @@ label run_declarations:
         time 2.0
 
         "images/misc/sun.png" with Dissolve(2.0, alpha=True)
-    
+
     ####################################
     # Character heart meters
     ####################################
@@ -192,7 +192,9 @@ label run_declarations:
         # Kosuke
         ###################
         kosuke_points = 0
-    
+        kosuke_heart_one = 2
+        kosuke_heart_two = 3
+
         def heart_kosuke(event, interact=True, **kwargs):
             if not interact:
                 return
@@ -200,84 +202,96 @@ label run_declarations:
             #Display heart image dependant on the character's heart level
             # Only show Kosuke's heart meter if it is high enough
             if event == "begin":
-                if kosuke_points < 2:
+                if kosuke_points < kosuke_heart_one:
                     #Do nothing
                     return
-                elif kosuke_points < 3:
+                elif kosuke_points < kosuke_heart_two:
                     renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
-    
+
         ###################
         # Misaki
         ###################
         misaki_points = 0
-    
+        misaki_heart_one = 1
+        misaki_heart_two = 2
+        misaki_heart_three = 3
+
         def heart_misaki(event, interact=True, **kwargs):
             if not interact:
                 return
 
             #Display heart image dependant on the character's heart level
             if event == "begin":
-                if misaki_points < 1:
+                if misaki_points < misaki_heart_one:
                     renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
-                elif misaki_points < 2:
+                elif misaki_points < misaki_heart_two:
                     renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
-                elif misaki_points < 3:
+                elif misaki_points < misaki_heart_three:
                     renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
-    
+
         ###################
         # Kokona
         ###################
         kokona_points = 0
-    
+        kokona_heart_one = 1
+        kokona_heart_two = 2
+        kokona_heart_three = 3
+
         def heart_kokona(event, interact=True, **kwargs):
             if not interact:
                 return
 
             #Display heart image dependant on the character's heart level
             if event == "begin":
-                if kokona_points < 1:
+                if kokona_points < kokona_heart_one:
                     renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
-                elif kokona_points < 2:
+                elif kokona_points < kokona_heart_two:
                     renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
-                elif kokona_points < 3:
+                elif kokona_points < kokona_heart_three:
                     renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
-    
+
         ###################
         # Yuuki
         ###################
         yuuki_points = 0
-    
+        yuuki_heart_one = 1
+        yuuki_heart_two = 2
+        yuuki_heart_three = 3
+
         def heart_yuuki(event, interact=True, **kwargs):
             if not interact:
                 return
 
             #Display heart image dependant on the character's heart level
             if event == "begin":
-                if yuuki_points < 1:
+                if yuuki_points < yuuki_heart_one:
                     renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
-                elif yuuki_points < 2:
+                elif yuuki_points < yuuki_heart_two:
                     renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
-                elif yuuki_points < 3:
+                elif yuuki_points < yuuki_heart_three:
                     renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
-    
+
         ###################
         # Momoko
         ###################
         momoko_points = 0
-    
+        momoko_heart_one = 1
+        momoko_heart_two = 2
+        momoko_heart_three = 3
+
         def heart_momoko(event, interact=True, **kwargs):
             if not interact:
                 return
 
             #Display heart image dependant on the character's heart level
             if event == "begin":
-                if momoko_points < 1:
+                if momoko_points < momoko_heart_one:
                     renpy.show(name="heart one", layer="icons", at_list=[heart_pos])
-                elif momoko_points < 2:
+                elif momoko_points < momoko_heart_two:
                     renpy.show(name="heart two", layer="icons", at_list=[heart_pos])
-                elif momoko_points < 3:
+                elif momoko_points < momoko_heart_three:
                     renpy.show(name="heart three", layer="icons", at_list=[heart_pos])
-    
+
     ####################################
     # Character declarations
     ####################################
@@ -298,18 +312,18 @@ label run_declarations:
 
     #Narrator character
     define narrator = Character(None, ctc="ctc_animation", ctc_position="fixed")
-    
+
     ####################################
     # NVL narrator code
     ####################################
     init:
         $ h = Character(None, kind=nvl) #NVL narrator character
-    
+
     init python:
         config.empty_window = nvl_show_core
         config.window_hide_transition = dissolve
         config.window_show_transition = dissolve
-    
+
     ####################################
     # Screen positions
     ####################################
