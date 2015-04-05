@@ -23,11 +23,11 @@ The writing, music, art, and other parts of the visual novel not defined earlier
 ##Staff
 The following is a list of the staff members of the team developing Ganbatte:
 
-- ExcaliburZero - Coder
-- Sabre-Hecate - Writer
-- juanitaylor - Artist
-- ChocoTacoKitty - Artist
-- boxesofflowers - Artist
+- [ExcaliburZero](https://github.com/ExcaliburZero) - Coder
+- [Sabre-Hecate](https://github.com/Sabre-Hecate) - Writer
+- [juanitaylor](https://github.com/juanitaylor) - Artist
+- [ChocoTacoKitty](https://github.com/ChocoTacoKitty) - Artist
+- [boxesofflowers](https://github.com/boxesofflowers) - Artist
 
 ##GitHub Repo
 Ganbatte's source code is hosted in a GitHub repo located at the following location:
