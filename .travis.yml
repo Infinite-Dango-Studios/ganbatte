@@ -9,9 +9,9 @@ install:
   - rm renpy-6.99.1-sdk.tar.bz2
   - mv renpy-6.99.1-sdk renpy
   - cd renpy
-  - pip install -e . --use-mirrors
+  - pip install -e .
 before_script:
-  - pip install -r test_requirements.txt --use-mirrors
+  - pip install -r test_requirements.txt
   - git clone https://github.com/z4r/python-coveralls-example.git
   - cd python-coveralls-example
   - git checkout -qf 17b8119796516195527dcb4f454a2ebd41d60244
