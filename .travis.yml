@@ -1,7 +1,7 @@
 language: python
 python:
   - "2.7"
-# command to install dependencies
+# commands to install dependencies
 install:
   - cd ..
   - wget http://www.renpy.org/dl/6.99.1/renpy-6.99.1-sdk.tar.bz2
@@ -9,5 +9,17 @@ install:
   - rm renpy-6.99.1-sdk.tar.bz2
   - mv renpy-6.99.1-sdk renpy
   - cd renpy
+  - pip install -e . --use-mirrors
+ before_script:
+  - pip install -r test_requirements.txt --use-mirrors
+  - git clone https://github.com/z4r/python-coveralls-example.git
+  - cd python-coveralls-example
+  - git checkout -qf 17b8119796516195527dcb4f454a2ebd41d60244
+  - py.test example/tests.py --cov=example
+  - cd -
 # command to run tests
-script: ./renpy.sh "../ganbatte/" lint && ./renpy.sh launcher distribute "../ganbatte/"
+script:
+  - ./renpy.sh "../ganbatte/" lint && ./renpy.sh launcher distribute "../ganbatte/"
+  - py.test coveralls/tests.py --doctest-modules --pep8 coveralls -v --cov coveralls --cov-report term-missing
+after_success:
+  - coveralls
