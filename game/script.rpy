@@ -7,6 +7,7 @@ label start:
     # Stop main menu music
     stop music
 
+    # Start game from first scripting page
     jump dayOne
 
     return
