@@ -784,7 +784,7 @@ label kosukeRoom:
 
     "Without waiting for my response, Kosuke puts the disc into his game console and pulls out the two DDR mats. Flashing me a bright smile, he turns on the game console and gestures for me to take my place beside him."
 
-    #wait a few seconds
+    $ renpy.pause(2.0)
 
     kosuke "YOU CAN DO BETTER THAN THAT, HARUCHAN!"
 
@@ -794,7 +794,7 @@ label kosukeRoom:
 
     haruki "I’m....TRYING~!"
 
-    #wait a few seconds
+    $ renpy.pause(2.0)
 
     kosuke "Wow, you just missed ten steps in a row!"
 
@@ -802,7 +802,7 @@ label kosukeRoom:
 
     haruki "SHOULDN’T YOU BE FOCUSING ON YOUR OWN DANCE MOVES!?!"
 
-    #show kosuke smirk
+    show kosuke smirk
 
     kosuke "I don’t need to! At this rate, I could beat you with my eyes closed!"
 
@@ -818,7 +818,7 @@ label kosukeRoom:
 
     kosuke "CHALLENGE ACCEPTED!"
 
-    #wait a few seconds
+    $ renpy.pause(2.0)
 
     #sound stepsMissed
 
@@ -836,7 +836,7 @@ label kosukeRoom:
 
     kosuke "YOU’D BETTER SING ALONG THIS TIME, HARUCHAN!"
 
-    #wait a few seconds
+    $ renpy.pause(2.0)
 
     #sound musicSounds
 
