@@ -32,15 +32,15 @@ label endCredits:
         credits_text = addSection(credits_text, "Artists", artists)
 
         # Text for coders credits
-        coders = ["Christopher Wells [ExcaliburZero]"]
+        coders = ["Christopher Wells (ExcaliburZero)"]
         credits_text = addSection(credits_text, "Coders", coders)
 
         # Text for writers credits
-        writers = ["Stephen Sesonske [Sabre-Heacte]"]
+        writers = ["Stephen Sesonske (Sabre-Heacte)"]
         credits_text = addSection(credits_text, "Writers", writers)
 
         # Text for resource credits
-        resources = ["Jeremy Winter (Music)"]
+        resources = ["Jeremy Winter - Music"]
         credits_text = addSection(credits_text, "Resources", resources)
 
         # Add note to Ren'Py
