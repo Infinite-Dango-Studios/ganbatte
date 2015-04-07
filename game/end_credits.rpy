@@ -3,7 +3,7 @@ label endCredits:
     scene bg darkness
 
     # Prepair the credits
-    python:
+    init python:
         # Variables to control and setup the credits text
         credits_duration = 16.0
         credits_text = ""
