@@ -2,5 +2,6 @@
 
 label in_game_menu:
     python:
-        ui.text("This is a test", text_align=0.5, xalign=0.5, yalign=0.5, size=18)
+        # Import navigation buttons from options file
+        layout.navigation("in_game_menu")
         ui.interact()

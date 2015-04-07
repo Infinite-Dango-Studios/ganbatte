@@ -341,6 +341,11 @@ init -2:
 # Screen that allows the user to change the preferences.
 # http://www.renpy.org/doc/html/screen_special.html#prefereces
 
+# Label to allow calling of the preferences screen
+label prefs_screen:
+    call screen preferences
+    return
+
 screen preferences():
 
     tag menu

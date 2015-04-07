@@ -292,13 +292,42 @@ init -1 python hide:
     ## Used when the image is changed by a say statement with image attributes.
     config.say_attribute_transition = None
 
+    #########################################
+    ## In-game Menu styling
+
+    # Remove background from in-game menu, so game screen can be seen underneath
+    style.gm_root.background = Solid("#0000007F")
+
+    # Set position of in-game menu
+    style.gm_nav_frame.xalign = 0.5
+    style.gm_nav_frame.yalign = 0.5
+
+    # Set size of frame of in-game menu
+    style.gm_nav_frame.xminimum = 200
+    style.gm_nav_frame.yminimum = 300
+
+    # Center buttons on in-game menu
+    style.gm_nav_box.xalign = 0.5
+    style.gm_nav_box.yalign = 0.5
+
+## Configure in-game menu
 init python:
     _game_menu_screen = "in_game_menu"
 
-    #########################################
-    ## This is the name of the directory where the game's data is
-    ## stored. (It needs to be set early, before any other init code
-    ## is run, so the persistent information can be found by the init code.)
+    # Setup the buttons that are used in the in-game menu
+    config.game_menu = [
+        ("return", "Return", ui.jumps("_return"), True),
+        ("skipping", "Skip", ui.jumps("_return_skipping"), True),
+        ("prefs", "Preferences", ui.jumps("prefs_screen"), True),
+        ("save", "Save", ui.jumps("save_screen"), True),
+        ("load", "Load", ui.jumps("load_screen"), True),
+        ("mainmenu", "Main Menu", ui.jumps("main_menu_screen"), True),
+    ]
+
+#########################################
+## This is the name of the directory where the game's data is
+## stored. (It needs to be set early, before any other init code
+## is run, so the persistent information can be found by the init code.)
 python early:
     config.save_directory = "Ganbatte-1422409807"
 
