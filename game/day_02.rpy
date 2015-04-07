@@ -1581,6 +1581,6 @@ label goShopping:
 
     haruki "Um...nice to meet you, Momoko. I am Haruki Nishihara."
 
-    jump devEnd
+    jump endCredits
 
     return
