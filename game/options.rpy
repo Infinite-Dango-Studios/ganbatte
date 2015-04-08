@@ -128,9 +128,6 @@ init -1 python hide:
     style.menu_choice_button.top_padding = 8
     style.menu_choice_button.bottom_padding = 8
 
-    # Basic menu background
-    style.basic_menu_root.background = "images/misc/game_menu_background.png"
-
     ## Margin is space surrounding the window, where the background
     ## is not drawn.
 
@@ -298,17 +295,6 @@ init -1 python hide:
 ## Configure in-game menu
 init python:
     _game_menu_screen = "game_menu"
-
-    # Setup the buttons that are used in the in-game menu
-    config.game_menu = [
-        ("return", "Return", ui.jumps("_return"), True),
-        ("skipping", "Skip", ui.jumps("_return_skipping"), True),
-        ("prefs", "Preferences", ui.jumps("prefs_screen"), True),
-        ("save", "Save", ui.jumps("save_screen"), True),
-        ("load", "Load", ui.jumps("load_screen"), True),
-        ("mainmenu", "Main Menu", MainMenu(), True),
-        ("quit", "Quit", Quit(), True),
-    ]
 
 #########################################
 ## This is the name of the directory where the game's data is

@@ -1,11 +1,4 @@
 # Create menu used in the game
-
-label in_game_menu:
-    python:
-        # Import navigation buttons from options file
-        layout.navigation("in_game_menu")
-        ui.interact()
-
 screen game_menu:
     tag menu
 
@@ -22,3 +15,8 @@ screen game_menu:
         textbutton _("Main Menu") action MainMenu()
         textbutton _("Help") action Help()
         textbutton _("Quit") action Quit()
+
+init -2:
+    style game_menu_vbox:
+        xalign 0.5
+        yalign 0.5
