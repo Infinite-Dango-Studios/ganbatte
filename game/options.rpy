@@ -325,6 +325,7 @@ init python:
         ("save", "Save", ui.jumps("save_screen"), True),
         ("load", "Load", ui.jumps("load_screen"), True),
         ("mainmenu", "Main Menu", MainMenu(), True),
+        ("quit", "Quit", Quit(), True),
     ]
 
 #########################################
