@@ -254,10 +254,6 @@ init -2:
 
 screen file_picker():
 
-    # The background of the menu.
-    #window:
-    #    style "basic_menu_root"
-
     frame:
         style "file_picker_frame"
 
@@ -320,6 +316,10 @@ screen save():
     # This ensures that any other menu screen is replaced.
     tag menu
 
+    # The background of the menu.
+    window:
+        style "basic_menu_root"
+
     use navigation
     use file_picker
 
@@ -327,6 +327,10 @@ screen load():
 
     # This ensures that any other menu screen is replaced.
     tag menu
+
+    # The background of the menu.
+    window:
+        style "basic_menu_root"
 
     use navigation
     use file_picker
