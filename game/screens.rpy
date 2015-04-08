@@ -52,7 +52,7 @@ screen say(who, what, side_image=None, two_window=False):
         add SideImage() xalign 0.0 yalign 1.0
 
     # Use the quick menu.
-    use quick_menu
+    #use quick_menu
 
 
 ##############################################################################
@@ -112,7 +112,7 @@ screen input(prompt):
         text prompt style "input_prompt"
         input id "input" style "input_text"
 
-    use quick_menu
+    #use quick_menu
 
 ##############################################################################
 # Nvl
@@ -163,7 +163,7 @@ screen nvl(dialogue, items=None):
 
     add SideImage() xalign 0.0 yalign 1.0
 
-    use quick_menu
+    #use quick_menu
 
 ##############################################################################
 # Main Menu
