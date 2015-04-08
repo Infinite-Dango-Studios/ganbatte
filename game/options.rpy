@@ -315,7 +315,7 @@ init -1 python hide:
 
 ## Configure in-game menu
 init python:
-    _game_menu_screen = "in_game_menu"
+    _game_menu_screen = "game_menu"
 
     # Setup the buttons that are used in the in-game menu
     config.game_menu = [
