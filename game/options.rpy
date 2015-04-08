@@ -306,8 +306,8 @@ init -1 python hide:
     style.gm_nav_frame.yalign = 0.5
 
     # Set size of frame of in-game menu
-    style.gm_nav_frame.xminimum = 200
-    style.gm_nav_frame.yminimum = 300
+    #style.gm_nav_frame.xminimum = 200
+    #style.gm_nav_frame.yminimum = 300
 
     # Center buttons on in-game menu
     style.gm_nav_box.xalign = 0.5
