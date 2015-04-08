@@ -299,7 +299,7 @@ init -1 python hide:
     ## In-game Menu styling
 
     # Remove background from in-game menu, so game screen can be seen underneath
-    style.gm_root.background = Solid("#0000007F")
+    style.gm_root.background = Solid("#00000000")
 
     # Set position of in-game menu
     style.gm_nav_frame.xalign = 0.5
