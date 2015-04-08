@@ -1,4 +1,8 @@
 label character_declarations:
+
+    # Run character heart meter declarations
+    call heart_meter_declarations
+
     ####################################
     # Character declarations
     ####################################
