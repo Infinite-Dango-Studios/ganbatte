@@ -254,6 +254,10 @@ init -2:
 
 screen file_picker():
 
+    # The background of the menu.
+    window:
+        style "basic_menu_root"
+
     frame:
         style "file_picker_frame"
 
@@ -347,6 +351,10 @@ label prefs_screen:
     return
 
 screen preferences():
+
+    # The background of the menu.
+    window:
+        style "basic_menu_root"
 
     tag menu
 
@@ -575,9 +583,9 @@ screen credits():
     # This ensures that any other menu screen is replaced.
     tag menu
 
-    # The background of the game menu.
+    # The background of the menu.
     window:
-        style "gm_root"
+        style "basic_menu_root"
 
         use navigation
 
