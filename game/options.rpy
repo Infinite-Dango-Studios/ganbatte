@@ -90,7 +90,7 @@ init -1 python hide:
     ## are the size of the left/right and top/bottom borders,
     ## respectively.
 
-    #Regular text box
+    # Regular text box
 
     style.window.background = Frame("images/misc/box_border.png", 16, 16)
 
@@ -99,7 +99,7 @@ init -1 python hide:
     style.window.top_padding = 16
     style.window.bottom_padding = 16
 
-    #Character name box
+    # Character name box
 
     style.say_who_window.background = Frame("images/misc/box_border.png", 16, 16)
 
@@ -108,7 +108,7 @@ init -1 python hide:
     style.say_who_window.top_padding = 12
     style.say_who_window.bottom_padding = 12
 
-    #Buttons main style
+    # Buttons main style
 
     style.button.background = Frame("images/misc/box_border.png", 16, 16)
     style.button.hover_background = Frame("images/misc/box_border_hover.png", 16, 16)
@@ -118,7 +118,7 @@ init -1 python hide:
     style.button.top_padding = 6
     style.button.bottom_padding = 6
 
-    #Choice buttons
+    # Choice buttons
 
     style.menu_choice_button.background = Frame("images/misc/box_border.png", 16, 16)
     style.menu_choice_button.hover_background = Frame("images/misc/box_border_hover.png", 16, 16)
@@ -127,6 +127,9 @@ init -1 python hide:
     style.menu_choice_button.right_padding = 16
     style.menu_choice_button.top_padding = 8
     style.menu_choice_button.bottom_padding = 8
+
+    # Basic menu background
+    style.basic_menu_root.background = "images/misc/game_menu_background.png"
 
     ## Margin is space surrounding the window, where the background
     ## is not drawn.

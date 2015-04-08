@@ -255,8 +255,8 @@ init -2:
 screen file_picker():
 
     # The background of the menu.
-    window:
-        style "basic_menu_root"
+    #window:
+    #    style "basic_menu_root"
 
     frame:
         style "file_picker_frame"
