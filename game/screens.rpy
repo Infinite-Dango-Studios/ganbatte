@@ -318,7 +318,7 @@ screen save():
 
     # The background of the menu.
     window:
-        style "basic_menu_root"
+        style "gm_root"
 
     use navigation
     use file_picker
@@ -330,7 +330,7 @@ screen load():
 
     # The background of the menu.
     window:
-        style "basic_menu_root"
+        style "gm_root"
 
     use navigation
     use file_picker
@@ -358,7 +358,7 @@ screen preferences():
 
     # The background of the menu.
     window:
-        style "basic_menu_root"
+        style "gm_root"
 
     tag menu
 
@@ -589,7 +589,7 @@ screen credits():
 
     # The background of the menu.
     window:
-        style "basic_menu_root"
+        style "gm_root"
 
         use navigation
 

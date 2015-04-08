@@ -295,24 +295,6 @@ init -1 python hide:
     ## Used when the image is changed by a say statement with image attributes.
     config.say_attribute_transition = None
 
-    #########################################
-    ## In-game Menu styling
-
-    # Remove background from in-game menu, so game screen can be seen underneath
-    style.gm_root.background = Solid("#00000000")
-
-    # Set position of in-game menu
-    style.gm_nav_frame.xalign = 0.5
-    style.gm_nav_frame.yalign = 0.5
-
-    # Set size of frame of in-game menu
-    #style.gm_nav_frame.xminimum = 200
-    #style.gm_nav_frame.yminimum = 300
-
-    # Center buttons on in-game menu
-    style.gm_nav_box.xalign = 0.5
-    style.gm_nav_box.yalign = 0.5
-
 ## Configure in-game menu
 init python:
     _game_menu_screen = "game_menu"
