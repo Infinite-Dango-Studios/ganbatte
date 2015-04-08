@@ -14,7 +14,8 @@ screen game_menu:
     vbox:
         pos (0.5, 0.5)
         anchor (0.5, 0.5)
-        textbutton _("Continue") action Return()
+        textbutton _("Return") action Return()
+        textbutton _("Skip") action Skip()
         textbutton _("Save Game") action ShowMenu("save")
         textbutton _("Load Game") action ShowMenu("load")
         textbutton _("Preferences") action ShowMenu("preferences")
