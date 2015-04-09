@@ -326,12 +326,12 @@ init -1 python hide:
     #########################################
     ## More customizations can go here.
 
-    #Layer customization
+    # Layer customization
 
-    #Add layer for heart meters called "icons"
+    # Add layer for heart meters called "icons"
     config.layers = [ 'master', 'transient', 'screens', 'icons', 'overlay' ]
 
-    #Setting "icons" layer to be a transient layer so that it is cleared after the character's dialogue line is over
+    # Setting "icons" layer to be a transient layer so that it is cleared after the character's dialogue line is over
     config.transient_layers = [ 'transient', 'icons' ]
 
 
@@ -397,3 +397,4 @@ init python:
 
     build.documentation('*.html')
     build.documentation('*.txt')
+    build.documentation('*.md')
