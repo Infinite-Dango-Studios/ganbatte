@@ -35,6 +35,7 @@ The following is a list of the staff members of the team developing Ganbatte:
 - [juanitaylor](https://github.com/juanitaylor) - Artist
 - [ChocoTacoKitty](https://github.com/ChocoTacoKitty) - Artist
 - [boxesofflowers](https://github.com/boxesofflowers) - Artist
+- [TheStoryLord](https://github.com/TheStoryLord) - Helper
 
 ##GitHub Repo
 Ganbatte's source code is hosted in a GitHub repo located at the following location:
