@@ -39,6 +39,10 @@ label endCredits:
         writers = ["Stephen Sesonske (Sabre-Heacte)"]
         credits_text = addSection(credits_text, "Writers", writers)
 
+        # Text for helpers credits
+        helpers = ["Jarred Fink (TheStoryLord)"]
+        credits_text = addSection(credits_text, "Helpers", helpers)
+
         # Text for resource credits
         resources = ["Jeremy Winter - Music"]
         credits_text = addSection(credits_text, "Resources", resources)

@@ -74,6 +74,19 @@ screen credits():
                             text "ChocoTacoKitty"
                             text "boxesofflowers"
 
+                frame:
+                    has vbox
+                    xfill True
+
+                    grid 2 1:
+                        vbox:
+                            style_group "staffListHeading"
+                            text "Helpers"
+                        vbox:
+                            style_group "staffListItems"
+                            text ""
+                            text "TheStoryLord   "
+
 init -2:
     style creditsBox_frame:
         top_margin 50
