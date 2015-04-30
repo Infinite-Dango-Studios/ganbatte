@@ -128,7 +128,9 @@ label image_declarations:
     image bg field = "images/backgrounds/dummy.png"
 
     image bg kasai house outside = "images/backgrounds/dummy.png"
+    image bg kasai house outside night = "images/backgrounds/dummy.png"
     image bg kasai house inside = "images/backgrounds/dummy.png"
+    image bg kasai house inside night = "images/backgrounds/dummy.png"
     image bg kasai house hallway = "images/backgrounds/dummy.png"
     image bg kasai house hallway night = "images/backgrounds/dummy.png"
     image bg misaki room = "images/backgrounds/dummy.png"

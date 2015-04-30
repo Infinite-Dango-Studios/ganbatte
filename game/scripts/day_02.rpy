@@ -1581,6 +1581,61 @@ label goShopping:
 
     haruki "Um...nice to meet you, Momoko. I am Haruki Nishihara."
 
+    momoko "Nice to meet you, Haru-chan~! We’re going to be best, best, bestest friends~! We need to meet really, really soon, OK?"
+
+    show momoko sad
+
+    momoko "Or I’ll be really sad, OK~!? And me being sad is not OK!"
+
+    "Before I can say anything she giggles again, curtsies and runs away with the books in her arms."
+
+    hide momoko
+
+    show kosuke normal at char_left
+    show misaki normal at char_right
+
+    misaki "What is with the people here today?"
+
+    haruki "The residents of this place seem pretty strange..."
+
+    show kosuke smirk
+
+    kosuke "I told you you’d have fun this summer!"
+
+    "Kosuke laughs, and we resume shopping. At Ashiteru Hon, I purchase a copy of Kokoro and Battle Royale. Kosuke purchases The Phantom of the Opera. Misaki does not purchase a book, but forces Kosuke to promise that he will share Phantom with him."
+
+    "After we purchase our books, we leave the market. Kosuke and Misaki take me on a quick tour around Maura, showing me a few other places such as the hospital, Ms. Kasai’s workplace, the athletics center, the library and the theater. By the time we begin to head home, it is already beginning to get dark."
+
+    scene bg kasai house outside night
+
+    show kosuke normal
+
+    kosuke "Wow, it got late pretty quickly...mom and dad are gonna be pissed."
+
+    show misaki happy
+
+    misaki "It’s worth it for a fun afternoon with Haruki-kun!"
+
+    haruki "Yeah, I had fun today too!"
+
+    "We enter the Kasai household, and we find Mr. and Ms. Kasai waiting for us."
+
+    show bg kasai house inside night
+
+    hide kosuke
+    hide misaki
+
+    show mrKasai normal at char_left
+    show msKasai normal at char_right
+
+    msKasai "You three are late!"
+
+    mrKasai "It’s practically time to eat."
+
+    show msKasai happy
+
+    msKasai "Did you have a good day out, Haru-chan?"
+
     jump endCredits
 
     return
