@@ -1,13 +1,16 @@
 language: python
 python:
   - "2.7"
+# set different builds using different version of Ren'Py
+env:
+  - renpy_version=6993
+  - renpy_version=6991
+  - renpy_version=6183
 # command to install dependencies
 install:
-  - cd ..
-  - wget http://www.renpy.org/dl/6.99.1/renpy-6.99.1-sdk.tar.bz2
-  - tar xf renpy-6.99.1-sdk.tar.bz2
-  - rm renpy-6.99.1-sdk.tar.bz2
-  - mv renpy-6.99.1-sdk renpy
-  - cd renpy
+  - ./travis.sh
 # command to run tests
-script: ./renpy.sh "../ganbatte/" lint && ./renpy.sh launcher distribute "../ganbatte/" && ./renpy.sh launcher distribute "../ganbatte/" --package=android
+script:
+    - cd ..
+    - cd renpy
+    - ./renpy.sh "../ganbatte/" lint && ./renpy.sh launcher distribute "../ganbatte/" && ./renpy.sh launcher distribute "../ganbatte/" --package=android
