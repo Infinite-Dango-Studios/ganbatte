@@ -1,5 +1,13 @@
 #!/bin/bash
-set -x #echo on
+##########
+# This file is used by Travis CI in order to install different versions of Ren'Py.
+# It is called through the ".travis.yml" file.
+#
+# This script installs the version of Ren'Py specified by the renpy_version environmental variable.
+##########
+
+# Print out the commands that are run to the terminal for logging purposes
+set -x
 
 # Install version 6.99.3 of Ren'Py
 if [ "$renpy_version" = "6993" ]
