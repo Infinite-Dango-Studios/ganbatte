@@ -476,7 +476,7 @@ label dayTwo:
 
     return
 
-#Scene where Haruki chooses "Get Offended"
+# Scene where Haruki chooses "Get Offended"
 label uniformNo:
 
     haruki "That’s the girl’s uniform, Kosuke."
@@ -500,7 +500,7 @@ label uniformNo:
 
     return
 
-#Scene where Haruki chooses "Play Along"
+# Scene where Haruki chooses "Play Along"
 label uniformYes:
 
     haruki "Oh really?"
@@ -530,7 +530,7 @@ label uniformYes:
 
     return
 
-#Scene where Haruki finishes his interaction with Kosuke with the female uniform
+# Scene where Haruki finishes his interaction with Kosuke with the female uniform
 label normalUniform:
 
     kosuke "Anyway, here’s your actual uniform."
@@ -893,7 +893,7 @@ label normalUniform:
 
     return
 
-#Scene where Haruki chooses "I’ll be your friend"
+# Scene where Haruki chooses "I’ll be your friend"
 label beFriend:
 
     haruki "I’ll be your friend, Kokona-chan!"
@@ -932,7 +932,7 @@ label beFriend:
 
     return
 
-#Scene where Haruki chooses "That’s Really Sad"
+# Scene where Haruki chooses "That’s Really Sad"
 label reallySad:
 
     haruki "Wow, Kokona...that’s really, really sad...it’s honestly one of the saddest things I’ve ever heard."
@@ -959,7 +959,7 @@ label reallySad:
 
     return
 
-#Scene where Haruki finishes his branching interaction with Kosuke and Kokona
+# Scene where Haruki finishes his branching interaction with Kosuke and Kokona
 label haveCustomer:
 
     "I turn to the counter and see that the girl is a few years older than us. I notice that Kosuke is eyeing her nervously, and edging farther and farther from the counter."
@@ -1335,7 +1335,7 @@ label haveCustomer:
 
     return
 
-#Scene where Haruki chooses "Side with Misaki"
+# Scene where Haruki chooses "Side with Misaki"
 label sideMisaki:
 
     haruki "It was just a joke, Kosuke, you shouldn’t take it so seriously."
@@ -1365,7 +1365,7 @@ label sideMisaki:
 
     return
 
-#Scene where Haruki chooses "Side with Kosuke"
+# Scene where Haruki chooses "Side with Kosuke"
 label sideKosuke:
 
     haruki "That was a little rude, Misaki."
@@ -1412,7 +1412,7 @@ label sideKosuke:
 
     return
 
-#Scene where Haruki finishes his branching interaction with Kosuke and Misaki
+# Scene where Haruki finishes his branching interaction with Kosuke and Misaki
 label goShopping:
 
     haruki "Alright, let’s put this behind us and have fun shopping, OK?"
@@ -1446,7 +1446,7 @@ label goShopping:
     window hide
     nvl clear
 
-    #Set Yuuki's name to "???"
+    # Set Yuuki's name to "???"
     $ yuuki_name = "???"
 
     show yuuki normal
@@ -1541,7 +1541,7 @@ label goShopping:
 
     "There is one other customer at the cart when we arrive. She has a childlike face, with enormous pigtails sprouting from each side of her head. She is talking to the bookseller."
 
-    #Set Momoko's name to "???"
+    # Set Momoko's name to "???"
     $ momoko_name = "???"
 
     show momoko normal
@@ -1570,7 +1570,7 @@ label goShopping:
 
     momoko "My name is Momoko Kawai~!"
 
-    #Set Momoko's name to "Momoko"
+    # Set Momoko's name to "Momoko"
     $ momoko_name = "Momoko"
 
     haruki "Kawaii? As in ‘cute’?"
@@ -1635,6 +1635,164 @@ label goShopping:
     show msKasai happy
 
     msKasai "Did you have a good day out, Haru-chan?"
+
+    haruki "Yes, Ms. Kasai! Sorry for being out so late, there was so much to do and see."
+
+    show mrKasai happy
+
+    mrKasai "It’s alright, you said you would be late! Dinner’s about to be served, so just drop your stuff in your room and then we can eat."
+
+    hide mrKasai
+    hide msKasai
+
+    scene bg haruki room night
+
+    "I nod, and Misaki, Kosuke and I go to our rooms. I place the Luka and Gumi figures on my desk, and the books on my bookshelf. They add more character to my room."
+
+    scene bg kasai house inside night
+
+    "Returning to the dining room, we eat ochazuke and somen noodles. We discuss my first day at work, primarily, with both Mr. and Ms. Kasai inquiring about my experiences so far in Maura. I talk about Momoko and the chuunibyo girl. Both Mr. and Ms. Kasai laugh, and Kosuke and Misaki add supplemental details."
+
+    "When dinner is over, Misaki, Kosuke and I move into the living room. A board game is lying out, Shadow Hunters."
+
+    show msKasai happy
+
+    msKasai "I figured it might be fun to play a game together tonight. I’m not sure what game you’d prefer, but I know Kosuke and Misaki like Shadow Hunters. Have you ever played it?"
+
+    haruki "It’s one of my favorites."
+
+    "Back in high school, I had been part of a club that hosted Shadow Hunters tournaments. I had often participated."
+
+    msKasai "Great! May Mr. Kasai and I join you?"
+
+    haruki "Sure, it’s more fun with more people!"
+
+    hide msKasai
+
+    window show
+
+    h "We get out the game, and Misaki and Kosuke help me set it up. Once the board is laid out, we choose our colors. I take green, and Kosuke takes purple. Misaki takes yellow. Mr. Kasai takes red and Ms. Kasai takes blue."
+
+    h "The pieces placed on the HP path, the character cards are shuffled and distributed. I discreetly look at mine. Emi, Hunter Class, Teleport ability. 10 HP. Win conditions: All Shadow Class players are dead."
+
+    h "I glance up at the faces of Misaki, Kosuke and their parents. I try to read their faces, but I cannot manage to determine what card they have been given, or even what faction they are a part of."
+
+    nvl clear
+
+    h "The game begins, me immediately starting at a disadvantage as I have my turn last. As the turns progress, slowly the identities of the other players become clear to me. Ms. Kasai got Franklin, she uses his lightning ability on Kosuke during the second turn. During the next turn, I learn that Kosuke is Allie. He uses her “mother’s love” ability to heal his nearly depleted HP. Turn after turn, however, Misaki and Mr. Kasai’s characters remain secret. As does mine."
+
+    h "Through the Hermit’s Cabin, I learn that Mr. Kasai at least is almost certainly Shadow Class. In another turn, I realize that he is using the “deceit” ability to dodge the Hermit’s Cabin cards. This means he has to be Unknown. I’ll have to kill him if I’m going to win the game."
+
+    h "More turns pass. Kosuke is the first out of the game, Allie being killed by Misaki’s player. I think she uses the “suck blood” ability when she kills him, but I cannot be sure."
+
+    h "Finally, I decide it’s time to take real action. I am at risk for an attack by Misaki, but out of range for Mr. and Ms. Kasai. I can teleport to a different area, but it will expose me as Emi. I look over the board, trying to decide what to do."
+
+    window hide
+    nvl clear
+
+    menu:
+        "Teleport":
+            jump teleport
+        "Take a gamble with the dice roll":
+            jump diceRoll
+
+    return
+
+# Scene where Haruki chooses "Teleport"
+label teleport:
+
+    "I decide that teleporting myself out of danger will ultimately benefit me more, so I do so."
+
+    show misaki smirk
+
+    misaki "Now I know who you are. You’re Emi."
+
+    "I do not really see the point in denying it. Not once I’ve used her exclusive special ability."
+
+    haruki "Yeah, I am. And, if I observed your attack on Kosuke properly...you’re Vampire."
+
+    show misaki horrified
+
+    misaki "What!? How...!?"
+
+    haruki "You healed two HP after attacking him...that’s Suck Blood. The exclusive power of Vampire. At any rate, now you know my character."
+
+    hide misaki
+
+    window show
+
+    h "I move my teleported piece into the Weird Woods area, and I deal two HP of damage to Misaki. In the next turn, Ms. Kasai also attacks Misaki. Franklin is also hunter class. Misaki and Mr. Kasai team up against Ms. Kasai, and Franklin is killed and removed from the game."
+
+    h "I beat Misaki in the next turn, getting a lucky dice roll and eliminating her remaining HP. Only Mr. Kasai and I remain after that. Unknown vs Emi. Although Unknown has the raw advantage in HP points, Mr. Kasai is only at about half-health due to an attack by Ms. Kasai in an earlier turn. I, however, still have full HP."
+
+    h "In only two more turns, I win. I use teleport once more to get out of his range, landing in the cemetery. I damage him with the black card awarded by the area, taking away most of his HP. He must be desperate, because he attacks me. He rolls an unlucky number, however, and I take only two HP points of damage. In the next turn, he is killed."
+
+    h "Emi’s victory conditions fulfilled, I become the winner."
+
+    window hide
+    nvl clear
+
+    show mrKasai surprised at char_left
+    show msKasai normal at char_right
+
+    mrKasai "That was extremely impressive!"
+
+    msKasai "You said this game was one of your favorites? You’re clearly very good at it, Haru-chan."
+
+    hide mrKasai
+    hide msKasai
+
+    show kosuke happy at char_left
+    show misaki angry at char_right
+
+    kosuke "Wow, Haru-chan, that was amazing! I can’t believe I died so quickly. I definitely want to get better. So you should be my teacher! We can have one-on-one Shadow Hunters teaching sessions every night!"
+
+    misaki "Hey! I lost too! I want Haruki-kun to teach me. He likes me more anyway, he can teach me in my room every night!"
+
+    "They are both glaring at each other and look like they’re ready to have a fist fight over who gets to have private lessons with me."
+
+    haruki "I could always just teach both of you..."
+
+    "They immediately stop exchanging death glares."
+
+    show misaki annoyed
+
+    misaki "Oh. Right. Yeah. Why didn’t I think of that?"
+
+    show kosuke normal
+
+    kosuke "Yeah, true, that’ll be fun. I guess."
+
+    "I laugh a little to myself. Of course the entire thing was just a scheme to spend more time with me. These two are unbelievable."
+
+    jump shadowHuntersOver
+
+    return
+
+# Scene where Haruki chooses "Take a gamble with the dice roll"
+label diceRoll:
+
+    window show
+
+    h "I decide that exposing my character’s identity at this point would be foolish, so I roll the dice. It is a decent roll, but it puts me right in the range of Misaki’s piece. I attack, but my roll is so-so and she only loses 4 HP. She turns around and attacks me on the next turn, taking away almost all of my HP and healing away half of her damage."
+
+    h "I furrow my brow, not teleporting may have been a mistake. Sure enough, I am dead after Mr. Kasai’s turn."
+
+    h "The game progresses quickly after that, Misaki and Mr. Kasai teaming up to defeat Ms. Kasai. Seeing as Misaki and Mr. Kasai are the Vampire and Unknown, they win the game. Their victory conditions described that they would win if all the hunters were dead. Franklin and Emi were the only hunters in the game."
+
+    window hide
+    nvl clear
+
+    show misaki smirk
+
+    misaki "Looks like I beat you, Haruki-kun!"
+
+    jump shadowHuntersOver
+
+    return
+
+# Scene after the game of Shadow Hunters is over
+label shadowHuntersOver:
 
     jump endCredits
 

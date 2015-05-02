@@ -120,6 +120,7 @@ label image_declarations:
     # Momoko
     image momoko happy = "images/characters/momoko_normal.png"
     image momoko normal = "images/characters/momoko_normal.png"
+    image momoko sad = "images/characters/momoko_normal.png"
 
     ###################
     # Background images
